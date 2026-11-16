@@ -1,0 +1,5 @@
+{
+  "benchmark_sha256": "a08313c0be07401b10847b16981a9a6015245a0de45cee24fe52be44559b344c",
+  "frozen_at_utc": "2026-11-15T17:49:10+00:00",
+  "note": "Benchmark v3: split test = 30 câu t3_* mới; test_v1 (ts_*) và test_v2 (tv2_*) đã dùng, chỉ giữ để truy vết; +4 câu dev (dv_img6-9). Chốt trước mọi lần chạy lên test_v3."
+}

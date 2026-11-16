@@ -1,0 +1,332 @@
+[
+ {
+  "query_id": "ts_tab1",
+  "group": "table",
+  "pass": true,
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng và đủ; citation đúng trang/vùng; đã đối chiếu ảnh/text gốc",
+  "labeler": "agent"
+ },
+ {
+  "query_id": "ts_tab2",
+  "group": "table",
+  "pass": true,
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng và đủ; citation đúng trang/vùng; đã đối chiếu ảnh/text gốc",
+  "labeler": "agent"
+ },
+ {
+  "query_id": "ts_tab3",
+  "group": "table",
+  "pass": true,
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng và đủ; citation đúng trang/vùng; đã đối chiếu ảnh/text gốc",
+  "labeler": "agent"
+ },
+ {
+  "query_id": "ts_tab4",
+  "group": "table",
+  "pass": true,
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng và đủ; citation đúng trang/vùng; đã đối chiếu ảnh/text gốc",
+  "labeler": "agent"
+ },
+ {
+  "query_id": "ts_tab5",
+  "group": "table",
+  "pass": true,
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng và đủ; citation đúng trang/vùng; đã đối chiếu ảnh/text gốc",
+  "labeler": "agent"
+ },
+ {
+  "query_id": "ts_tab6",
+  "group": "table",
+  "pass": true,
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng và đủ; citation đúng trang/vùng; đã đối chiếu ảnh/text gốc",
+  "labeler": "agent"
+ },
+ {
+  "query_id": "ts_img1",
+  "group": "image",
+  "pass": true,
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng và đủ; citation đúng trang/vùng; đã đối chiếu ảnh/text gốc",
+  "labeler": "agent"
+ },
+ {
+  "query_id": "ts_img2",
+  "group": "image",
+  "pass": true,
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng và đủ; citation đúng trang/vùng; đã đối chiếu ảnh/text gốc",
+  "labeler": "agent"
+ },
+ {
+  "query_id": "ts_img3",
+  "group": "image",
+  "pass": false,
+  "answer_grade": 1,
+  "citation_support": [
+   true
+  ],
+  "reason": "Trả lời 'TIME' (tên tạp chí) thay vì tiêu đề 'THE 100 MOST INFLUENTIAL PEOPLE IN THE WORLD'. Câu hỏi 'dòng tiêu đề lớn' mơ hồ (lỗi viết benchmark) – vẫn tính không đạt.",
+  "labeler": "agent"
+ },
+ {
+  "query_id": "ts_img4",
+  "group": "image",
+  "pass": true,
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng và đủ; citation đúng trang/vùng; đã đối chiếu ảnh/text gốc",
+  "labeler": "agent"
+ },
+ {
+  "query_id": "ts_img5",
+  "group": "image",
+  "pass": true,
+  "answer_grade": 2,
+  "citation_support": [
+   true,
+   true
+  ],
+  "reason": "Đúng và đủ; citation đúng trang/vùng; đã đối chiếu ảnh/text gốc",
+  "labeler": "agent"
+ },
+ {
+  "query_id": "ts_ch1",
+  "group": "chart",
+  "pass": true,
+  "answer_grade": 2,
+  "citation_support": [
+   true,
+   true
+  ],
+  "reason": "Đúng và đủ; citation đúng trang/vùng; đã đối chiếu ảnh/text gốc",
+  "labeler": "agent"
+ },
+ {
+  "query_id": "ts_ch2",
+  "group": "chart",
+  "pass": true,
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng và đủ; citation đúng trang/vùng; đã đối chiếu ảnh/text gốc",
+  "labeler": "agent"
+ },
+ {
+  "query_id": "ts_ch3",
+  "group": "chart",
+  "pass": false,
+  "answer_grade": 0,
+  "citation_support": [
+   true
+  ],
+  "reason": "Sai: '5 chấm, 4 tô xanh'; ảnh gốc p160 có 6 chấm, 5 tô xanh. Nguyên nhân: mô tả vision sai (lỗi trích xuất đã biết trước khi chạy test).",
+  "labeler": "agent"
+ },
+ {
+  "query_id": "ts_ch4",
+  "group": "chart",
+  "pass": true,
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng và đủ; citation đúng trang/vùng; đã đối chiếu ảnh/text gốc",
+  "labeler": "agent"
+ },
+ {
+  "query_id": "ts_ch5",
+  "group": "chart",
+  "pass": false,
+  "answer_grade": 1,
+  "citation_support": [
+   true,
+   true,
+   true,
+   true
+  ],
+  "reason": "Nêu đủ 4 loại biểu đồ nhưng kèm chi tiết sai 'dãy 5 chấm' (ảnh gốc 6 chấm) – cùng lỗi vision p160.",
+  "labeler": "agent"
+ },
+ {
+  "query_id": "ts_mh1",
+  "group": "multihop",
+  "pass": true,
+  "answer_grade": 2,
+  "citation_support": [
+   true,
+   true
+  ],
+  "reason": "Đúng và đủ; citation đúng trang/vùng; đã đối chiếu ảnh/text gốc",
+  "labeler": "agent"
+ },
+ {
+  "query_id": "ts_mh2",
+  "group": "multihop",
+  "pass": true,
+  "answer_grade": 2,
+  "citation_support": [
+   true,
+   true
+  ],
+  "reason": "Đúng và đủ; citation đúng trang/vùng; đã đối chiếu ảnh/text gốc",
+  "labeler": "agent"
+ },
+ {
+  "query_id": "ts_mh3",
+  "group": "multihop",
+  "pass": true,
+  "answer_grade": 2,
+  "citation_support": [
+   true,
+   true
+  ],
+  "reason": "Đúng và đủ; citation đúng trang/vùng; đã đối chiếu ảnh/text gốc",
+  "labeler": "agent"
+ },
+ {
+  "query_id": "ts_mh4",
+  "group": "multihop",
+  "pass": true,
+  "answer_grade": 2,
+  "citation_support": [
+   true,
+   true
+  ],
+  "reason": "Đúng và đủ; citation đúng trang/vùng; đã đối chiếu ảnh/text gốc",
+  "labeler": "agent"
+ },
+ {
+  "query_id": "ts_tx1",
+  "group": "text",
+  "pass": true,
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng và đủ; citation đúng trang/vùng; đã đối chiếu ảnh/text gốc",
+  "labeler": "agent"
+ },
+ {
+  "query_id": "ts_tx2",
+  "group": "text",
+  "pass": true,
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng và đủ; citation đúng trang/vùng; đã đối chiếu ảnh/text gốc",
+  "labeler": "agent"
+ },
+ {
+  "query_id": "ts_tx3",
+  "group": "text",
+  "pass": true,
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng và đủ; citation đúng trang/vùng; đã đối chiếu ảnh/text gốc",
+  "labeler": "agent"
+ },
+ {
+  "query_id": "ts_tx4",
+  "group": "text",
+  "pass": true,
+  "answer_grade": 2,
+  "citation_support": [
+   true,
+   true
+  ],
+  "reason": "Đúng và đủ; citation đúng trang/vùng; đã đối chiếu ảnh/text gốc",
+  "labeler": "agent"
+ },
+ {
+  "query_id": "ts_un1",
+  "group": "unanswerable",
+  "pass": true,
+  "abstention_correct": true,
+  "citation_support": [],
+  "reason": "Từ chối rõ ràng, không khẳng định thêm",
+  "labeler": "agent"
+ },
+ {
+  "query_id": "ts_un2",
+  "group": "unanswerable",
+  "pass": true,
+  "abstention_correct": true,
+  "citation_support": [],
+  "reason": "Từ chối rõ ràng, không khẳng định thêm",
+  "labeler": "agent"
+ },
+ {
+  "query_id": "ts_un3",
+  "group": "unanswerable",
+  "pass": true,
+  "abstention_correct": true,
+  "citation_support": [],
+  "reason": "Từ chối rõ ràng, không khẳng định thêm",
+  "labeler": "agent"
+ },
+ {
+  "query_id": "ts_un4",
+  "group": "unanswerable",
+  "pass": true,
+  "abstention_correct": true,
+  "citation_support": [],
+  "reason": "Từ chối rõ ràng, không khẳng định thêm",
+  "labeler": "agent"
+ },
+ {
+  "query_id": "ts_un5",
+  "group": "unanswerable",
+  "pass": false,
+  "abstention_correct": false,
+  "citation_support": [
+   false
+  ],
+  "reason": "Không từ chối: tự tính A4 ở 300 ppi = 2481x3507 bằng kích thước A4 ngoài sách và cite p12 (p12 không có số liệu này). Verifier không bắt được.",
+  "labeler": "agent"
+ },
+ {
+  "query_id": "ts_un6",
+  "group": "unanswerable",
+  "pass": true,
+  "abstention_correct": true,
+  "citation_support": [],
+  "reason": "Từ chối rõ ràng, không khẳng định thêm",
+  "labeler": "agent"
+ }
+]

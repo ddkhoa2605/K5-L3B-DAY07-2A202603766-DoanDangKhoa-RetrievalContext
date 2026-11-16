@@ -1,0 +1,323 @@
+[
+ {
+  "query_id": "tv2_tab1",
+  "group": "table",
+  "pass": true,
+  "reason": "Đạt: đúng/đủ so với ảnh/text gốc; citation đúng trang/vùng",
+  "labeler": "agent",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ]
+ },
+ {
+  "query_id": "tv2_tab2",
+  "group": "table",
+  "pass": true,
+  "reason": "Đạt: đúng/đủ so với ảnh/text gốc; citation đúng trang/vùng",
+  "labeler": "agent",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ]
+ },
+ {
+  "query_id": "tv2_tab3",
+  "group": "table",
+  "pass": true,
+  "reason": "Đạt: đúng/đủ so với ảnh/text gốc; citation đúng trang/vùng",
+  "labeler": "agent",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ]
+ },
+ {
+  "query_id": "tv2_tab4",
+  "group": "table",
+  "pass": true,
+  "reason": "Đạt: đúng/đủ so với ảnh/text gốc; citation đúng trang/vùng",
+  "labeler": "agent",
+  "answer_grade": 2,
+  "citation_support": [
+   true,
+   true
+  ]
+ },
+ {
+  "query_id": "tv2_tab5",
+  "group": "table",
+  "pass": true,
+  "reason": "Đạt: đúng/đủ so với ảnh/text gốc; citation đúng trang/vùng",
+  "labeler": "agent",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ]
+ },
+ {
+  "query_id": "tv2_tab6",
+  "group": "table",
+  "pass": true,
+  "reason": "Đạt: đúng/đủ so với ảnh/text gốc; citation đúng trang/vùng",
+  "labeler": "agent",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ]
+ },
+ {
+  "query_id": "tv2_img1",
+  "group": "image",
+  "pass": false,
+  "reason": "Từ chối nhầm (filter sai chương).",
+  "labeler": "agent",
+  "answer_grade": 0,
+  "citation_support": []
+ },
+ {
+  "query_id": "tv2_img2",
+  "group": "image",
+  "pass": true,
+  "reason": "Đạt: đúng/đủ so với ảnh/text gốc; citation đúng trang/vùng",
+  "labeler": "agent",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ]
+ },
+ {
+  "query_id": "tv2_img3",
+  "group": "image",
+  "pass": false,
+  "reason": "Từ chối nhầm (filter sai chương).",
+  "labeler": "agent",
+  "answer_grade": 0,
+  "citation_support": []
+ },
+ {
+  "query_id": "tv2_img4",
+  "group": "image",
+  "pass": true,
+  "reason": "Đạt: đúng/đủ so với ảnh/text gốc; citation đúng trang/vùng",
+  "labeler": "agent",
+  "answer_grade": 2,
+  "citation_support": [
+   true,
+   true
+  ]
+ },
+ {
+  "query_id": "tv2_img5",
+  "group": "image",
+  "pass": true,
+  "reason": "Đạt: đúng/đủ so với ảnh/text gốc; citation đúng trang/vùng",
+  "labeler": "agent",
+  "answer_grade": 2,
+  "citation_support": [
+   true,
+   true
+  ]
+ },
+ {
+  "query_id": "tv2_ch1",
+  "group": "chart",
+  "pass": true,
+  "reason": "Đạt: đúng/đủ so với ảnh/text gốc; citation đúng trang/vùng",
+  "labeler": "agent",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ]
+ },
+ {
+  "query_id": "tv2_ch2",
+  "group": "chart",
+  "pass": true,
+  "reason": "Đạt: đúng/đủ so với ảnh/text gốc; citation đúng trang/vùng",
+  "labeler": "agent",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ]
+ },
+ {
+  "query_id": "tv2_ch3",
+  "group": "chart",
+  "pass": false,
+  "reason": "Kết luận sai 'bằng nhau' (theo chunk 'vừa'/'vừa'); ảnh gốc: cam nhỏ hơn vàng.",
+  "labeler": "agent",
+  "answer_grade": 1,
+  "citation_support": [
+   true,
+   true
+  ]
+ },
+ {
+  "query_id": "tv2_ch4",
+  "group": "chart",
+  "pass": true,
+  "reason": "Đạt: đúng/đủ so với ảnh/text gốc; citation đúng trang/vùng",
+  "labeler": "agent",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ]
+ },
+ {
+  "query_id": "tv2_ch5",
+  "group": "chart",
+  "pass": true,
+  "reason": "Đạt: đúng/đủ so với ảnh/text gốc; citation đúng trang/vùng",
+  "labeler": "agent",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ]
+ },
+ {
+  "query_id": "tv2_mh1",
+  "group": "multihop",
+  "pass": true,
+  "reason": "Đạt: đúng/đủ so với ảnh/text gốc; citation đúng trang/vùng",
+  "labeler": "agent",
+  "answer_grade": 2,
+  "citation_support": [
+   true,
+   true
+  ]
+ },
+ {
+  "query_id": "tv2_mh2",
+  "group": "multihop",
+  "pass": false,
+  "reason": "Từ chối nhầm cả 2 ý (filter sai chương).",
+  "labeler": "agent",
+  "answer_grade": 0,
+  "citation_support": []
+ },
+ {
+  "query_id": "tv2_mh3",
+  "group": "multihop",
+  "pass": true,
+  "reason": "Đạt: đúng/đủ so với ảnh/text gốc; citation đúng trang/vùng",
+  "labeler": "agent",
+  "answer_grade": 2,
+  "citation_support": [
+   true,
+   true
+  ]
+ },
+ {
+  "query_id": "tv2_mh4",
+  "group": "multihop",
+  "pass": true,
+  "reason": "Đạt: đúng/đủ so với ảnh/text gốc; citation đúng trang/vùng",
+  "labeler": "agent",
+  "answer_grade": 2,
+  "citation_support": [
+   true,
+   true
+  ]
+ },
+ {
+  "query_id": "tv2_tx1",
+  "group": "text",
+  "pass": true,
+  "reason": "Đạt: đúng/đủ so với ảnh/text gốc; citation đúng trang/vùng",
+  "labeler": "agent",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ]
+ },
+ {
+  "query_id": "tv2_tx2",
+  "group": "text",
+  "pass": true,
+  "reason": "Đạt: đúng/đủ so với ảnh/text gốc; citation đúng trang/vùng",
+  "labeler": "agent",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ]
+ },
+ {
+  "query_id": "tv2_tx3",
+  "group": "text",
+  "pass": true,
+  "reason": "Đạt: đúng/đủ so với ảnh/text gốc; citation đúng trang/vùng",
+  "labeler": "agent",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ]
+ },
+ {
+  "query_id": "tv2_tx4",
+  "group": "text",
+  "pass": true,
+  "reason": "Đạt: đúng/đủ so với ảnh/text gốc; citation đúng trang/vùng",
+  "labeler": "agent",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ]
+ },
+ {
+  "query_id": "tv2_un1",
+  "group": "unanswerable",
+  "pass": true,
+  "reason": "Từ chối/nêu rõ sách không có thông tin, không khẳng định thêm",
+  "labeler": "agent",
+  "abstention_correct": true,
+  "citation_support": []
+ },
+ {
+  "query_id": "tv2_un2",
+  "group": "unanswerable",
+  "pass": true,
+  "reason": "Từ chối/nêu rõ sách không có thông tin, không khẳng định thêm",
+  "labeler": "agent",
+  "abstention_correct": true,
+  "citation_support": []
+ },
+ {
+  "query_id": "tv2_un3",
+  "group": "unanswerable",
+  "pass": true,
+  "reason": "Từ chối/nêu rõ sách không có thông tin, không khẳng định thêm",
+  "labeler": "agent",
+  "abstention_correct": true,
+  "citation_support": []
+ },
+ {
+  "query_id": "tv2_un4",
+  "group": "unanswerable",
+  "pass": false,
+  "reason": "Không nói rõ sách không có con số; trả lời như thể có đáp án (dù không bịa số).",
+  "labeler": "agent",
+  "abstention_correct": false,
+  "citation_support": [
+   true
+  ]
+ },
+ {
+  "query_id": "tv2_un5",
+  "group": "unanswerable",
+  "pass": true,
+  "reason": "Từ chối/nêu rõ sách không có thông tin, không khẳng định thêm",
+  "labeler": "agent",
+  "abstention_correct": true,
+  "citation_support": []
+ },
+ {
+  "query_id": "tv2_un6",
+  "group": "unanswerable",
+  "pass": true,
+  "reason": "Từ chối/nêu rõ sách không có thông tin, không khẳng định thêm",
+  "labeler": "agent",
+  "abstention_correct": true,
+  "citation_support": []
+ }
+]

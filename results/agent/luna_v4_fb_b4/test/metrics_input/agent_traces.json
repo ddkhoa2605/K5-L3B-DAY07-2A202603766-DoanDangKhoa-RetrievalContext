@@ -1,0 +1,3594 @@
+[
+  {
+    "query_id": "t3_tab1",
+    "status": "answered",
+    "events": [
+      {
+        "event": "model",
+        "tokens_in": 1409,
+        "tokens_out": 47,
+        "reasoning_tokens": 0,
+        "latency_s": 3.11,
+        "step": 0,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "bảng phím tắt nhóm FILE CTRL + W CTRL + ALT + S dùng để làm gì",
+        "filter": {
+          "chapter": "appendix",
+          "content_type": "text"
+        },
+        "filter_mode": "fallback",
+        "method": "hybrid",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B4:colorme3:p174:t00",
+            "page": 174,
+            "rank": 1,
+            "score": 0.03279,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p175:t01",
+            "page": 175,
+            "rank": 2,
+            "score": 0.03226,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p175:t02",
+            "page": 175,
+            "rank": 3,
+            "score": 0.0315,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p176:t00",
+            "page": 176,
+            "rank": 4,
+            "score": 0.0315,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p174:t01",
+            "page": 174,
+            "rank": 5,
+            "score": 0.03054,
+            "content_type": "text"
+          }
+        ],
+        "added_ids": [
+          "B4:colorme3:p174:t00",
+          "B4:colorme3:p175:t01",
+          "B4:colorme3:p175:t02",
+          "B4:colorme3:p176:t00",
+          "B4:colorme3:p174:t01"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 4.022
+      },
+      {
+        "event": "model",
+        "tokens_in": 2730,
+        "tokens_out": 102,
+        "reasoning_tokens": 11,
+        "latency_s": 2.19,
+        "step": 1,
+        "forced_final": false
+      },
+      {
+        "event": "verify",
+        "draft_answer": "Trong nhóm FILE:\n- **CTRL + W (Close):** Đóng file.\n- **CTRL + ALT + S (Save a Copy):** Lưu thêm một bản copy. [B4:colorme3:p174:t00]",
+        "draft_citations": [
+          "B4:colorme3:p174:t00"
+        ],
+        "removed_claims": [],
+        "tokens_in": 816,
+        "tokens_out": 86,
+        "latency_s": 2.61
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "citations": [
+      "B4:colorme3:p174:t00"
+    ]
+  },
+  {
+    "query_id": "t3_tab2",
+    "status": "answered",
+    "events": [
+      {
+        "event": "model",
+        "tokens_in": 1412,
+        "tokens_out": 47,
+        "reasoning_tokens": 0,
+        "latency_s": 3.15,
+        "step": 0,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "bảng phím tắt nhóm lệnh EDIT CTRL + ALT + Z CTRL + SHIFT + C",
+        "filter": {
+          "chapter": "appendix",
+          "content_type": "text"
+        },
+        "filter_mode": "fallback",
+        "method": "hybrid",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B4:colorme3:p175:t01",
+            "page": 175,
+            "rank": 1,
+            "score": 0.03279,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p174:t00",
+            "page": 174,
+            "rank": 2,
+            "score": 0.032,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p176:t00",
+            "page": 176,
+            "rank": 3,
+            "score": 0.03151,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p175:t02",
+            "page": 175,
+            "rank": 4,
+            "score": 0.03125,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p174:t01",
+            "page": 174,
+            "rank": 5,
+            "score": 0.03102,
+            "content_type": "text"
+          }
+        ],
+        "added_ids": [
+          "B4:colorme3:p175:t01",
+          "B4:colorme3:p174:t00",
+          "B4:colorme3:p176:t00",
+          "B4:colorme3:p175:t02",
+          "B4:colorme3:p174:t01"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 4.018
+      },
+      {
+        "event": "model",
+        "tokens_in": 2733,
+        "tokens_out": 95,
+        "reasoning_tokens": 0,
+        "latency_s": 2.39,
+        "step": 1,
+        "forced_final": false
+      },
+      {
+        "event": "verify",
+        "draft_answer": "Trong nhóm lệnh EDIT:\n- **CTRL + ALT + Z**: Trở lại nhiều bước.\n- **CTRL + SHIFT + C**: Copy Merged (sao chép phần đã hợp nhất). [B4:colorme3:p175:t01]",
+        "draft_citations": [
+          "B4:colorme3:p175:t01"
+        ],
+        "removed_claims": [],
+        "tokens_in": 837,
+        "tokens_out": 92,
+        "latency_s": 1.25
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "citations": [
+      "B4:colorme3:p175:t01"
+    ]
+  },
+  {
+    "query_id": "t3_tab3",
+    "status": "answered",
+    "events": [
+      {
+        "event": "model",
+        "tokens_in": 1407,
+        "tokens_out": 42,
+        "reasoning_tokens": 0,
+        "latency_s": 3.11,
+        "step": 0,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "bảng phím tắt Toolbar phím G phím E công cụ",
+        "filter": {
+          "chapter": "appendix",
+          "content_type": "text"
+        },
+        "filter_mode": "fallback",
+        "method": "hybrid",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B4:colorme3:p176:t00",
+            "page": 176,
+            "rank": 1,
+            "score": 0.03279,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p174:t00",
+            "page": 174,
+            "rank": 2,
+            "score": 0.03175,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p175:t01",
+            "page": 175,
+            "rank": 3,
+            "score": 0.03175,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p022:t00",
+            "page": 22,
+            "rank": 4,
+            "score": 0.03041,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p175:t02",
+            "page": 175,
+            "rank": 5,
+            "score": 0.03105,
+            "content_type": "text"
+          }
+        ],
+        "added_ids": [
+          "B4:colorme3:p176:t00",
+          "B4:colorme3:p174:t00",
+          "B4:colorme3:p175:t01",
+          "B4:colorme3:p022:t00",
+          "B4:colorme3:p175:t02"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 2.143
+      },
+      {
+        "event": "model",
+        "tokens_in": 2738,
+        "tokens_out": 69,
+        "reasoning_tokens": 0,
+        "latency_s": 2.16,
+        "step": 1,
+        "forced_final": false
+      },
+      {
+        "event": "verify",
+        "draft_answer": "Trong nhóm phím tắt Toolbar:\n- **G**: Đổ màu/Đổ màu chuyển.\n- **E**: Tẩy.",
+        "draft_citations": [
+          "B4:colorme3:p176:t00"
+        ],
+        "removed_claims": [],
+        "tokens_in": 778,
+        "tokens_out": 91,
+        "latency_s": 1.63
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "citations": [
+      "B4:colorme3:p176:t00"
+    ]
+  },
+  {
+    "query_id": "t3_tab4",
+    "status": "answered",
+    "events": [
+      {
+        "event": "model",
+        "tokens_in": 1411,
+        "tokens_out": 42,
+        "reasoning_tokens": 0,
+        "latency_s": 3.1,
+        "step": 0,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "ảnh Adobe Kuler ô màu đầu tiên đang được chọn giá trị RGB mã HEX",
+        "filter": {
+          "content_type": "visual"
+        },
+        "filter_mode": "fallback",
+        "method": "hybrid",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B4:colorme3:p086:v00",
+            "page": 86,
+            "rank": 1,
+            "score": 0.03252,
+            "content_type": "visual"
+          },
+          {
+            "id": "B4:colorme3:p086:v01",
+            "page": 86,
+            "rank": 2,
+            "score": 0.03252,
+            "content_type": "visual"
+          },
+          {
+            "id": "B4:colorme3:p086:v02",
+            "page": 86,
+            "rank": 3,
+            "score": 0.03175,
+            "content_type": "visual"
+          },
+          {
+            "id": "B4:colorme3:p016:v00",
+            "page": 16,
+            "rank": 4,
+            "score": 0.02951,
+            "content_type": "visual"
+          },
+          {
+            "id": "B4:colorme3:p061:v01",
+            "page": 61,
+            "rank": 5,
+            "score": 0.02831,
+            "content_type": "visual"
+          }
+        ],
+        "added_ids": [
+          "B4:colorme3:p086:v00",
+          "B4:colorme3:p086:v01",
+          "B4:colorme3:p086:v02",
+          "B4:colorme3:p016:v00",
+          "B4:colorme3:p061:v01"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 3.072
+      },
+      {
+        "event": "model",
+        "tokens_in": 2725,
+        "tokens_out": 95,
+        "reasoning_tokens": 13,
+        "latency_s": 2.41,
+        "step": 1,
+        "forced_final": false
+      },
+      {
+        "event": "verify",
+        "draft_answer": "Trong ảnh Adobe Kuler, ô màu đầu tiên có giá trị RGB **255 83 13** và mã HEX **FF530D**. [B4:colorme3:p086:v01]",
+        "draft_citations": [
+          "B4:colorme3:p086:v01"
+        ],
+        "removed_claims": [],
+        "tokens_in": 864,
+        "tokens_out": 71,
+        "latency_s": 1.3
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "citations": [
+      "B4:colorme3:p086:v01"
+    ]
+  },
+  {
+    "query_id": "t3_tab5",
+    "status": "answered",
+    "events": [
+      {
+        "event": "model",
+        "tokens_in": 1413,
+        "tokens_out": 41,
+        "reasoning_tokens": 0,
+        "latency_s": 1.83,
+        "step": 0,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "bảng 8 ô màu từ khóa cảm nhận tiếng Anh màu pink",
+        "filter": {
+          "chapter": "ch3",
+          "content_type": "visual"
+        },
+        "filter_mode": "fallback",
+        "method": "hybrid",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B4:colorme3:p077:v00",
+            "page": 77,
+            "rank": 1,
+            "score": 0.03279,
+            "content_type": "visual"
+          },
+          {
+            "id": "B4:colorme3:p078:v00",
+            "page": 78,
+            "rank": 2,
+            "score": 0.032,
+            "content_type": "visual"
+          },
+          {
+            "id": "B4:colorme3:p086:v01",
+            "page": 86,
+            "rank": 3,
+            "score": 0.03058,
+            "content_type": "visual"
+          },
+          {
+            "id": "B4:colorme3:p067:v00",
+            "page": 67,
+            "rank": 4,
+            "score": 0.03055,
+            "content_type": "visual"
+          },
+          {
+            "id": "B4:colorme3:p067:v01",
+            "page": 67,
+            "rank": 5,
+            "score": 0.02944,
+            "content_type": "visual"
+          }
+        ],
+        "added_ids": [
+          "B4:colorme3:p077:v00",
+          "B4:colorme3:p078:v00",
+          "B4:colorme3:p086:v01",
+          "B4:colorme3:p067:v00",
+          "B4:colorme3:p067:v01"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 1.109
+      },
+      {
+        "event": "model",
+        "tokens_in": 3429,
+        "tokens_out": 106,
+        "reasoning_tokens": 13,
+        "latency_s": 2.97,
+        "step": 1,
+        "forced_final": false
+      },
+      {
+        "event": "verify",
+        "draft_answer": "Màu **pink** gắn với các từ khóa: **TENDERNESS, SENSITIVE, CARING, EMOTIONAL, SYMPATHETIC, LOVE, SEXUALITY**. [B4:colorme3:p077:v00]",
+        "draft_citations": [
+          "B4:colorme3:p077:v00"
+        ],
+        "removed_claims": [],
+        "tokens_in": 1123,
+        "tokens_out": 88,
+        "latency_s": 1.73
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "citations": [
+      "B4:colorme3:p077:v00"
+    ]
+  },
+  {
+    "query_id": "t3_tab6",
+    "status": "answered",
+    "events": [
+      {
+        "event": "model",
+        "tokens_in": 1405,
+        "tokens_out": 44,
+        "reasoning_tokens": 0,
+        "latency_s": 2.05,
+        "step": 0,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "bảng màu dành cho logo thanh màu hồng gắn với những tính từ nào",
+        "filter": {
+          "chapter": "ch6",
+          "content_type": "visual"
+        },
+        "filter_mode": "fallback",
+        "method": "hybrid",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B4:colorme3:p136:v00",
+            "page": 136,
+            "rank": 1,
+            "score": 0.03252,
+            "content_type": "visual"
+          },
+          {
+            "id": "B4:colorme3:p141:v00",
+            "page": 141,
+            "rank": 2,
+            "score": 0.03227,
+            "content_type": "visual"
+          },
+          {
+            "id": "B4:colorme3:p141:v01",
+            "page": 141,
+            "rank": 3,
+            "score": 0.03058,
+            "content_type": "visual"
+          },
+          {
+            "id": "B4:colorme3:p070:v00",
+            "page": 70,
+            "rank": 4,
+            "score": 0.01639,
+            "content_type": "visual"
+          },
+          {
+            "id": "B4:colorme3:p145:v00",
+            "page": 145,
+            "rank": 5,
+            "score": 0.03054,
+            "content_type": "visual"
+          }
+        ],
+        "added_ids": [
+          "B4:colorme3:p136:v00",
+          "B4:colorme3:p141:v00",
+          "B4:colorme3:p141:v01",
+          "B4:colorme3:p070:v00",
+          "B4:colorme3:p145:v00"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.972
+      },
+      {
+        "event": "model",
+        "tokens_in": 2950,
+        "tokens_out": 98,
+        "reasoning_tokens": 14,
+        "latency_s": 2.22,
+        "step": 1,
+        "forced_final": false
+      },
+      {
+        "event": "verify",
+        "draft_answer": "Thanh màu hồng gắn với các tính từ: **nữ tính, ngây thơ, dịu dàng, khoẻ mạnh, trẻ trung**. [B4:colorme3:p136:v00]",
+        "draft_citations": [
+          "B4:colorme3:p136:v00"
+        ],
+        "removed_claims": [],
+        "tokens_in": 1025,
+        "tokens_out": 79,
+        "latency_s": 1.36
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "citations": [
+      "B4:colorme3:p136:v00"
+    ]
+  },
+  {
+    "query_id": "t3_img1",
+    "status": "answered",
+    "events": [
+      {
+        "event": "model",
+        "tokens_in": 1406,
+        "tokens_out": 44,
+        "reasoning_tokens": 0,
+        "latency_s": 2.17,
+        "step": 0,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "mục “Apple với iPod” chiếc iPod trong ảnh minh họa màu gì",
+        "filter": {
+          "content_type": "visual"
+        },
+        "filter_mode": "fallback",
+        "method": "hybrid",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B4:colorme3:p064:v00",
+            "page": 64,
+            "rank": 1,
+            "score": 0.03279,
+            "content_type": "visual"
+          },
+          {
+            "id": "B4:colorme3:p051:v00",
+            "page": 51,
+            "rank": 2,
+            "score": 0.032,
+            "content_type": "visual"
+          },
+          {
+            "id": "B4:colorme3:p137:v00",
+            "page": 137,
+            "rank": 3,
+            "score": 0.032,
+            "content_type": "visual"
+          },
+          {
+            "id": "B4:colorme3:p133:v00",
+            "page": 133,
+            "rank": 4,
+            "score": 0.03009,
+            "content_type": "visual"
+          },
+          {
+            "id": "B4:colorme3:p149:v00",
+            "page": 149,
+            "rank": 5,
+            "score": 0.02951,
+            "content_type": "visual"
+          }
+        ],
+        "added_ids": [
+          "B4:colorme3:p064:v00",
+          "B4:colorme3:p051:v00",
+          "B4:colorme3:p137:v00",
+          "B4:colorme3:p133:v00",
+          "B4:colorme3:p149:v00"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.692
+      },
+      {
+        "event": "model",
+        "tokens_in": 2465,
+        "tokens_out": 79,
+        "reasoning_tokens": 12,
+        "latency_s": 2.73,
+        "step": 1,
+        "forced_final": false
+      },
+      {
+        "event": "verify",
+        "draft_answer": "Chiếc iPod có màu xanh dương ngả xanh ngọc. [B4:colorme3:p064:v00]",
+        "draft_citations": [
+          "B4:colorme3:p064:v00"
+        ],
+        "removed_claims": [],
+        "tokens_in": 720,
+        "tokens_out": 62,
+        "latency_s": 1.59
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "citations": [
+      "B4:colorme3:p064:v00"
+    ]
+  },
+  {
+    "query_id": "t3_img2",
+    "status": "answered",
+    "events": [
+      {
+        "event": "model",
+        "tokens_in": 1405,
+        "tokens_out": 41,
+        "reasoning_tokens": 0,
+        "latency_s": 2.22,
+        "step": 0,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "hai poster phim minh họa phối màu tương đồng Gradient Tool tên phim",
+        "filter": {
+          "chapter": "ch3",
+          "content_type": "visual"
+        },
+        "filter_mode": "fallback",
+        "method": "hybrid",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B4:colorme3:p069:v00",
+            "page": 69,
+            "rank": 1,
+            "score": 0.03227,
+            "content_type": "visual"
+          },
+          {
+            "id": "B4:colorme3:p069:v01",
+            "page": 69,
+            "rank": 2,
+            "score": 0.03175,
+            "content_type": "visual"
+          },
+          {
+            "id": "B4:colorme3:p080:v01",
+            "page": 80,
+            "rank": 3,
+            "score": 0.03154,
+            "content_type": "visual"
+          },
+          {
+            "id": "B4:colorme3:p080:v02",
+            "page": 80,
+            "rank": 4,
+            "score": 0.03151,
+            "content_type": "visual"
+          },
+          {
+            "id": "B4:colorme3:p086:v02",
+            "page": 86,
+            "rank": 5,
+            "score": 0.03012,
+            "content_type": "visual"
+          }
+        ],
+        "added_ids": [
+          "B4:colorme3:p069:v00",
+          "B4:colorme3:p069:v01",
+          "B4:colorme3:p080:v01",
+          "B4:colorme3:p080:v02",
+          "B4:colorme3:p086:v02"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.82
+      },
+      {
+        "event": "model",
+        "tokens_in": 2528,
+        "tokens_out": 57,
+        "reasoning_tokens": 20,
+        "latency_s": 2.44,
+        "step": 1,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "Gradient Tool phối màu tương đồng poster phim",
+        "filter": {
+          "chapter": "ch3",
+          "content_type": "text"
+        },
+        "filter_mode": "fallback",
+        "method": "hybrid",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B4:colorme3:p069:t00",
+            "page": 69,
+            "rank": 1,
+            "score": 0.03279,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p068:t00",
+            "page": 68,
+            "rank": 2,
+            "score": 0.03151,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p063:t00",
+            "page": 63,
+            "rank": 3,
+            "score": 0.03125,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p061:t00",
+            "page": 61,
+            "rank": 4,
+            "score": 0.03037,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p087:t00",
+            "page": 87,
+            "rank": 5,
+            "score": 0.02778,
+            "content_type": "text"
+          }
+        ],
+        "added_ids": [
+          "B4:colorme3:p069:t00",
+          "B4:colorme3:p068:t00",
+          "B4:colorme3:p063:t00",
+          "B4:colorme3:p061:t00",
+          "B4:colorme3:p087:t00"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.6
+      },
+      {
+        "event": "model",
+        "tokens_in": 3473,
+        "tokens_out": 99,
+        "reasoning_tokens": 8,
+        "latency_s": 2.94,
+        "step": 2,
+        "forced_final": false
+      },
+      {
+        "event": "verify",
+        "draft_answer": "Hai poster phim là **The Little Mermaid** và **The Lion King**. [B4:colorme3:p069:v00] [B4:colorme3:p069:v01]",
+        "draft_citations": [
+          "B4:colorme3:p069:v00",
+          "B4:colorme3:p069:v01"
+        ],
+        "removed_claims": [],
+        "tokens_in": 954,
+        "tokens_out": 86,
+        "latency_s": 1.51
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "citations": [
+      "B4:colorme3:p069:v00",
+      "B4:colorme3:p069:v01"
+    ]
+  },
+  {
+    "query_id": "t3_img3",
+    "status": "answered",
+    "events": [
+      {
+        "event": "model",
+        "tokens_in": 1407,
+        "tokens_out": 42,
+        "reasoning_tokens": 0,
+        "latency_s": 1.8,
+        "step": 0,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "poster sự kiện minh họa nhóm màu neon tên sự kiện ngày diễn ra",
+        "filter": {
+          "chapter": "ch3",
+          "content_type": "visual"
+        },
+        "filter_mode": "fallback",
+        "method": "hybrid",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B4:colorme3:p083:v03",
+            "page": 83,
+            "rank": 1,
+            "score": 0.03279,
+            "content_type": "visual"
+          },
+          {
+            "id": "B4:colorme3:p083:v00",
+            "page": 83,
+            "rank": 2,
+            "score": 0.03226,
+            "content_type": "visual"
+          },
+          {
+            "id": "B4:colorme3:p083:v02",
+            "page": 83,
+            "rank": 3,
+            "score": 0.03175,
+            "content_type": "visual"
+          },
+          {
+            "id": "B4:colorme3:p083:v01",
+            "page": 83,
+            "rank": 4,
+            "score": 0.03101,
+            "content_type": "visual"
+          },
+          {
+            "id": "B4:colorme3:p082:v00",
+            "page": 82,
+            "rank": 5,
+            "score": 0.03055,
+            "content_type": "visual"
+          }
+        ],
+        "added_ids": [
+          "B4:colorme3:p083:v03",
+          "B4:colorme3:p083:v00",
+          "B4:colorme3:p083:v02",
+          "B4:colorme3:p083:v01",
+          "B4:colorme3:p082:v00"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.632
+      },
+      {
+        "event": "model",
+        "tokens_in": 2435,
+        "tokens_out": 101,
+        "reasoning_tokens": 12,
+        "latency_s": 2.55,
+        "step": 1,
+        "forced_final": false
+      },
+      {
+        "event": "verify",
+        "draft_answer": "Poster có tên sự kiện **“SUMMER DANCE PARTY”** và diễn ra vào **Friday, 18 September** (Thứ Sáu, 18 tháng 9). [B4:colorme3:p083:v00]",
+        "draft_citations": [
+          "B4:colorme3:p083:v00"
+        ],
+        "removed_claims": [],
+        "tokens_in": 760,
+        "tokens_out": 84,
+        "latency_s": 1.43
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "citations": [
+      "B4:colorme3:p083:v00"
+    ]
+  },
+  {
+    "query_id": "t3_img4",
+    "status": "answered",
+    "events": [
+      {
+        "event": "model",
+        "tokens_in": 1412,
+        "tokens_out": 47,
+        "reasoning_tokens": 0,
+        "latency_s": 2.22,
+        "step": 0,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "ví dụ “thay đổi kích thước” với một typeface poster phim hình chính là gì",
+        "filter": {
+          "chapter": "ch4",
+          "content_type": "visual"
+        },
+        "filter_mode": "fallback",
+        "method": "hybrid",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B4:colorme3:p095:v00",
+            "page": 95,
+            "rank": 1,
+            "score": 0.03279,
+            "content_type": "visual"
+          },
+          {
+            "id": "B4:colorme3:p097:v00",
+            "page": 97,
+            "rank": 2,
+            "score": 0.03226,
+            "content_type": "visual"
+          },
+          {
+            "id": "B4:colorme3:p096:v00",
+            "page": 96,
+            "rank": 3,
+            "score": 0.03101,
+            "content_type": "visual"
+          },
+          {
+            "id": "B4:colorme3:p092:v03",
+            "page": 92,
+            "rank": 4,
+            "score": 0.02886,
+            "content_type": "visual"
+          },
+          {
+            "id": "B4:colorme3:p023:v00",
+            "page": 23,
+            "rank": 5,
+            "score": 0.02649,
+            "content_type": "visual"
+          }
+        ],
+        "added_ids": [
+          "B4:colorme3:p095:v00",
+          "B4:colorme3:p097:v00",
+          "B4:colorme3:p096:v00",
+          "B4:colorme3:p092:v03",
+          "B4:colorme3:p023:v00"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.62
+      },
+      {
+        "event": "model",
+        "tokens_in": 2754,
+        "tokens_out": 169,
+        "reasoning_tokens": 42,
+        "latency_s": 2.85,
+        "step": 1,
+        "forced_final": false
+      },
+      {
+        "event": "verify",
+        "draft_answer": "Đó là poster phim **The Good, the Bad and the Ugly** (chữ trên poster ghi “SERGIO LEONE” và “THE GOOD THE BAD AND THE UGLY”). Hình chính là **một người đội mũ rộng vành, phần thân được tạo thành từ hình ảnh phong cảnh sa mạc/đồng cỏ**. [B4:colorme3:p095:v00]",
+        "draft_citations": [
+          "B4:colorme3:p095:v00"
+        ],
+        "removed_claims": [
+          "Chi tiết chữ trên poster ghi “SERGIO LEONE” và “THE GOOD THE BAD AND THE UGLY”.",
+          "Mô tả poster là ví dụ “thay đổi kích thước” với một typeface."
+        ],
+        "tokens_in": 836,
+        "tokens_out": 143,
+        "latency_s": 1.71
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "citations": [
+      "B4:colorme3:p095:v00"
+    ]
+  },
+  {
+    "query_id": "t3_img5",
+    "status": "answered",
+    "events": [
+      {
+        "event": "model",
+        "tokens_in": 1402,
+        "tokens_out": 42,
+        "reasoning_tokens": 0,
+        "latency_s": 2.23,
+        "step": 0,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "ba logo ví dụ cho loại logo kết hợp là của những thương hiệu nào",
+        "filter": {
+          "chapter": "ch6",
+          "content_type": "visual"
+        },
+        "filter_mode": "fallback",
+        "method": "hybrid",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B4:colorme3:p135:v00",
+            "page": 135,
+            "rank": 1,
+            "score": 0.03279,
+            "content_type": "visual"
+          },
+          {
+            "id": "B4:colorme3:p133:v00",
+            "page": 133,
+            "rank": 2,
+            "score": 0.03151,
+            "content_type": "visual"
+          },
+          {
+            "id": "B4:colorme3:p134:v00",
+            "page": 134,
+            "rank": 3,
+            "score": 0.03151,
+            "content_type": "visual"
+          },
+          {
+            "id": "B4:colorme3:p134:v02",
+            "page": 134,
+            "rank": 4,
+            "score": 0.03125,
+            "content_type": "visual"
+          },
+          {
+            "id": "B4:colorme3:p134:v01",
+            "page": 134,
+            "rank": 5,
+            "score": 0.03102,
+            "content_type": "visual"
+          }
+        ],
+        "added_ids": [
+          "B4:colorme3:p135:v00",
+          "B4:colorme3:p133:v00",
+          "B4:colorme3:p134:v00",
+          "B4:colorme3:p134:v02",
+          "B4:colorme3:p134:v01"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.763
+      },
+      {
+        "event": "model",
+        "tokens_in": 2302,
+        "tokens_out": 80,
+        "reasoning_tokens": 10,
+        "latency_s": 2.18,
+        "step": 1,
+        "forced_final": false
+      },
+      {
+        "event": "verify",
+        "draft_answer": "Ba logo ví dụ cho loại logo kết hợp là của Starbucks Coffee, BMW và Puma. [B4:colorme3:p135:v00]",
+        "draft_citations": [
+          "B4:colorme3:p135:v00"
+        ],
+        "removed_claims": [],
+        "tokens_in": 746,
+        "tokens_out": 65,
+        "latency_s": 1.66
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "citations": [
+      "B4:colorme3:p135:v00"
+    ]
+  },
+  {
+    "query_id": "t3_ch1",
+    "status": "answered",
+    "events": [
+      {
+        "event": "model",
+        "tokens_in": 1406,
+        "tokens_out": 44,
+        "reasoning_tokens": 0,
+        "latency_s": 1.73,
+        "step": 0,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "biểu đồ Color Emotion Guide dải màu xanh lá thể hiện những cảm xúc nào",
+        "filter": {
+          "chapter": "ch3",
+          "content_type": "visual"
+        },
+        "filter_mode": "fallback",
+        "method": "hybrid",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B4:colorme3:p078:v00",
+            "page": 78,
+            "rank": 1,
+            "score": 0.03279,
+            "content_type": "visual"
+          },
+          {
+            "id": "B4:colorme3:p086:v02",
+            "page": 86,
+            "rank": 2,
+            "score": 0.03041,
+            "content_type": "visual"
+          },
+          {
+            "id": "B4:colorme3:p055:v00",
+            "page": 55,
+            "rank": 3,
+            "score": 0.02996,
+            "content_type": "visual"
+          },
+          {
+            "id": "B4:colorme3:p076:v00",
+            "page": 76,
+            "rank": 4,
+            "score": 0.02601,
+            "content_type": "visual"
+          },
+          {
+            "id": "B4:colorme3:p070:v00",
+            "page": 70,
+            "rank": 5,
+            "score": 0.02986,
+            "content_type": "visual"
+          }
+        ],
+        "added_ids": [
+          "B4:colorme3:p078:v00",
+          "B4:colorme3:p086:v02",
+          "B4:colorme3:p055:v00",
+          "B4:colorme3:p076:v00",
+          "B4:colorme3:p070:v00"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.648
+      },
+      {
+        "event": "model",
+        "tokens_in": 3163,
+        "tokens_out": 83,
+        "reasoning_tokens": 0,
+        "latency_s": 2.68,
+        "step": 1,
+        "forced_final": false
+      },
+      {
+        "event": "verify",
+        "draft_answer": "Trong biểu đồ “Color Emotion Guide”, dải màu xanh lá thể hiện các cảm xúc/đặc tính: **PEACEFUL – GROWTH – HEALTH** (yên bình – phát triển – sức khỏe).",
+        "draft_citations": [
+          "B4:colorme3:p078:v00"
+        ],
+        "removed_claims": [],
+        "tokens_in": 1100,
+        "tokens_out": 77,
+        "latency_s": 1.45
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "citations": [
+      "B4:colorme3:p078:v00"
+    ]
+  },
+  {
+    "query_id": "t3_ch2",
+    "status": "answered",
+    "events": [
+      {
+        "event": "model",
+        "tokens_in": 1410,
+        "tokens_out": 41,
+        "reasoning_tokens": 0,
+        "latency_s": 3.43,
+        "step": 0,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "biểu đồ Color Emotion Guide TRUST dải màu những từ đi cùng",
+        "filter": {
+          "chapter": "ch3",
+          "content_type": "visual"
+        },
+        "filter_mode": "fallback",
+        "method": "hybrid",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B4:colorme3:p078:v00",
+            "page": 78,
+            "rank": 1,
+            "score": 0.03252,
+            "content_type": "visual"
+          },
+          {
+            "id": "B4:colorme3:p086:v02",
+            "page": 86,
+            "rank": 2,
+            "score": 0.03012,
+            "content_type": "visual"
+          },
+          {
+            "id": "B4:colorme3:p084:v00",
+            "page": 84,
+            "rank": 3,
+            "score": 0.02946,
+            "content_type": "visual"
+          },
+          {
+            "id": "B4:colorme3:p077:v00",
+            "page": 77,
+            "rank": 4,
+            "score": 0.03009,
+            "content_type": "visual"
+          },
+          {
+            "id": "B4:colorme3:p086:v00",
+            "page": 86,
+            "rank": 5,
+            "score": 0.03009,
+            "content_type": "visual"
+          }
+        ],
+        "added_ids": [
+          "B4:colorme3:p078:v00",
+          "B4:colorme3:p086:v02",
+          "B4:colorme3:p084:v00",
+          "B4:colorme3:p077:v00",
+          "B4:colorme3:p086:v00"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 1.625
+      },
+      {
+        "event": "model",
+        "tokens_in": 3366,
+        "tokens_out": 88,
+        "reasoning_tokens": 0,
+        "latency_s": 2.22,
+        "step": 1,
+        "forced_final": false
+      },
+      {
+        "event": "verify",
+        "draft_answer": "Trong biểu đồ “Color Emotion Guide”, **TRUST** nằm ở **dải màu xanh dương**, đi cùng các từ **DEPENDABLE** và **STRENGTH**. [B4:colorme3:p078:v00]",
+        "draft_citations": [
+          "B4:colorme3:p078:v00"
+        ],
+        "removed_claims": [],
+        "tokens_in": 1109,
+        "tokens_out": 85,
+        "latency_s": 1.45
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "citations": [
+      "B4:colorme3:p078:v00"
+    ]
+  },
+  {
+    "query_id": "t3_ch3",
+    "status": "answered",
+    "events": [
+      {
+        "event": "model",
+        "tokens_in": 1411,
+        "tokens_out": 48,
+        "reasoning_tokens": 0,
+        "latency_s": 2.18,
+        "step": 0,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "trang CV – Charts thanh tiến trình ngang được tô màu dài bao nhiêu so với một nửa",
+        "filter": {
+          "chapter": "ch7",
+          "content_type": "visual"
+        },
+        "filter_mode": "fallback",
+        "method": "hybrid",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B4:colorme3:p160:v03",
+            "page": 160,
+            "rank": 1,
+            "score": 0.03279,
+            "content_type": "visual"
+          },
+          {
+            "id": "B4:colorme3:p160:v01",
+            "page": 160,
+            "rank": 2,
+            "score": 0.03175,
+            "content_type": "visual"
+          },
+          {
+            "id": "B4:colorme3:p160:v02",
+            "page": 160,
+            "rank": 3,
+            "score": 0.03151,
+            "content_type": "visual"
+          },
+          {
+            "id": "B4:colorme3:p160:v00",
+            "page": 160,
+            "rank": 4,
+            "score": 0.03125,
+            "content_type": "visual"
+          },
+          {
+            "id": "B4:colorme3:p158:v00",
+            "page": 158,
+            "rank": 5,
+            "score": 0.02964,
+            "content_type": "visual"
+          }
+        ],
+        "added_ids": [
+          "B4:colorme3:p160:v03",
+          "B4:colorme3:p160:v01",
+          "B4:colorme3:p160:v02",
+          "B4:colorme3:p160:v00",
+          "B4:colorme3:p158:v00"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.619
+      },
+      {
+        "event": "model",
+        "tokens_in": 2455,
+        "tokens_out": 99,
+        "reasoning_tokens": 12,
+        "latency_s": 2.67,
+        "step": 1,
+        "forced_final": false
+      },
+      {
+        "event": "verify",
+        "draft_answer": "Thanh tiến trình ngang được tô màu **nhiều hơn một nửa chiều dài**: phần màu xanh chiếm khoảng 85%, phần xám khoảng 15%. [B4:colorme3:p160:v03]",
+        "draft_citations": [
+          "B4:colorme3:p160:v03"
+        ],
+        "removed_claims": [],
+        "tokens_in": 679,
+        "tokens_out": 82,
+        "latency_s": 2.08
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "citations": [
+      "B4:colorme3:p160:v03"
+    ]
+  },
+  {
+    "query_id": "t3_ch4",
+    "status": "abstain",
+    "events": [
+      {
+        "event": "model",
+        "tokens_in": 1420,
+        "tokens_out": 53,
+        "reasoning_tokens": 0,
+        "latency_s": 2.22,
+        "step": 0,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "biểu đồ bong bóng \"Các bài toán thường gặp\" bong bóng \"Nhận diện thương hiệu\" \"Chỉnh sửa ảnh\"",
+        "filter": {
+          "content_type": "visual"
+        },
+        "filter_mode": "fallback",
+        "method": "hybrid",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B4:colorme3:p006:v01",
+            "page": 6,
+            "rank": 1,
+            "score": 0.03279,
+            "content_type": "visual"
+          },
+          {
+            "id": "B4:colorme3:p151:v00",
+            "page": 151,
+            "rank": 2,
+            "score": 0.02963,
+            "content_type": "visual"
+          },
+          {
+            "id": "B4:colorme3:p009:v00",
+            "page": 9,
+            "rank": 3,
+            "score": 0.02908,
+            "content_type": "visual"
+          },
+          {
+            "id": "B4:colorme3:p133:v00",
+            "page": 133,
+            "rank": 4,
+            "score": 0.02908,
+            "content_type": "visual"
+          },
+          {
+            "id": "B4:colorme3:p149:v00",
+            "page": 149,
+            "rank": 5,
+            "score": 0.02899,
+            "content_type": "visual"
+          }
+        ],
+        "added_ids": [
+          "B4:colorme3:p006:v01",
+          "B4:colorme3:p151:v00",
+          "B4:colorme3:p009:v00",
+          "B4:colorme3:p133:v00",
+          "B4:colorme3:p149:v00"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.932
+      },
+      {
+        "event": "model",
+        "tokens_in": 3094,
+        "tokens_out": 39,
+        "reasoning_tokens": 19,
+        "latency_s": 1.96,
+        "step": 1,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "read_page",
+        "query": "page=6",
+        "filter": null,
+        "method": "page_lookup",
+        "results": [
+          {
+            "id": "B4:colorme3:p006:t00",
+            "page": 6,
+            "rank": 1,
+            "score": null,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p006:t01",
+            "page": 6,
+            "rank": 2,
+            "score": null,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p006:v00",
+            "page": 6,
+            "rank": 3,
+            "score": null,
+            "content_type": "visual"
+          },
+          {
+            "id": "B4:colorme3:p006:v01",
+            "page": 6,
+            "rank": 4,
+            "score": null,
+            "content_type": "visual"
+          }
+        ],
+        "added_ids": [
+          "B4:colorme3:p006:t00",
+          "B4:colorme3:p006:t01",
+          "B4:colorme3:p006:v00"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.0
+      },
+      {
+        "event": "model",
+        "tokens_in": 3781,
+        "tokens_out": 170,
+        "reasoning_tokens": 34,
+        "latency_s": 3.17,
+        "step": 2,
+        "forced_final": false
+      },
+      {
+        "event": "verify",
+        "draft_answer": "Bong bóng **“Nhận diện thương hiệu” lớn hơn** bong bóng **“Chỉnh sửa ảnh”**. “Nhận diện thương hiệu” tương ứng với hình tròn xanh dương lớn, còn “Chỉnh sửa ảnh” tương ứng với hình tròn màu vàng nhỏ hơn. [B4:colorme3:p006:v01] [B4:colorme3:p006:v00]",
+        "draft_citations": [
+          "B4:colorme3:p006:v01",
+          "B4:colorme3:p006:v00"
+        ],
+        "removed_claims": [
+          "Khẳng định “Nhận diện thương hiệu” lớn hơn “Chỉnh sửa ảnh”.",
+          "Mô tả “Chỉnh sửa ảnh” là hình tròn màu vàng nhỏ hơn."
+        ],
+        "tokens_in": 1252,
+        "tokens_out": 446,
+        "latency_s": 4.7
+      },
+      {
+        "event": "answer",
+        "abstain": true,
+        "by": "verifier"
+      }
+    ],
+    "citations": []
+  },
+  {
+    "query_id": "t3_ch5",
+    "status": "abstain",
+    "events": [
+      {
+        "event": "model",
+        "tokens_in": 1417,
+        "tokens_out": 49,
+        "reasoning_tokens": 0,
+        "latency_s": 2.03,
+        "step": 0,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "sơ đồ vòng tròn màu hệ RGB biểu tượng ở tâm vòng tròn trạng thái các đèn led",
+        "filter": {
+          "chapter": "ch1",
+          "content_type": "visual"
+        },
+        "filter_mode": "fallback",
+        "method": "hybrid",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B4:colorme3:p017:v00",
+            "page": 17,
+            "rank": 1,
+            "score": 0.03279,
+            "content_type": "visual"
+          },
+          {
+            "id": "B4:colorme3:p016:v00",
+            "page": 16,
+            "rank": 2,
+            "score": 0.03226,
+            "content_type": "visual"
+          },
+          {
+            "id": "B4:colorme3:p006:v00",
+            "page": 6,
+            "rank": 3,
+            "score": 0.03126,
+            "content_type": "visual"
+          },
+          {
+            "id": "B4:colorme3:p068:v00",
+            "page": 68,
+            "rank": 4,
+            "score": 0.02986,
+            "content_type": "visual"
+          },
+          {
+            "id": "B4:colorme3:p007:v00",
+            "page": 7,
+            "rank": 5,
+            "score": 0.02988,
+            "content_type": "visual"
+          }
+        ],
+        "added_ids": [
+          "B4:colorme3:p017:v00",
+          "B4:colorme3:p016:v00",
+          "B4:colorme3:p006:v00",
+          "B4:colorme3:p068:v00",
+          "B4:colorme3:p007:v00"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.64
+      },
+      {
+        "event": "model",
+        "tokens_in": 3247,
+        "tokens_out": 102,
+        "reasoning_tokens": 51,
+        "latency_s": 2.52,
+        "step": 1,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "hệ màu RGB ba đèn LED tâm vòng tròn cùng bật trạng thái tắt bật ánh sáng trắng",
+        "filter": {
+          "chapter": "ch1",
+          "content_type": "text"
+        },
+        "filter_mode": "fallback",
+        "method": "hybrid",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B4:colorme3:p017:t00",
+            "page": 17,
+            "rank": 1,
+            "score": 0.03279,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p016:t00",
+            "page": 16,
+            "rank": 2,
+            "score": 0.03226,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p015:t00",
+            "page": 15,
+            "rank": 3,
+            "score": 0.03175,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p082:t00",
+            "page": 82,
+            "rank": 4,
+            "score": 0.0315,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p015:t01",
+            "page": 15,
+            "rank": 5,
+            "score": 0.03125,
+            "content_type": "text"
+          }
+        ],
+        "added_ids": [
+          "B4:colorme3:p017:t00",
+          "B4:colorme3:p016:t00",
+          "B4:colorme3:p015:t00",
+          "B4:colorme3:p082:t00",
+          "B4:colorme3:p015:t01"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 1.074
+      },
+      {
+        "event": "model",
+        "tokens_in": 4281,
+        "tokens_out": 121,
+        "reasoning_tokens": 8,
+        "latency_s": 2.55,
+        "step": 2,
+        "forced_final": false
+      },
+      {
+        "event": "verify",
+        "draft_answer": "Biểu tượng ở tâm thể hiện cả ba đèn LED đỏ, xanh lá và xanh dương đều đang bật cùng lúc; đây là trạng thái tạo ra màu trắng trong hệ RGB. [B4:colorme3:p017:v00] [B4:colorme3:p017:t00]",
+        "draft_citations": [
+          "B4:colorme3:p017:v00",
+          "B4:colorme3:p017:t00"
+        ],
+        "removed_claims": [
+          "Khẳng định biểu tượng ở tâm thể hiện cả ba đèn LED đều bật cùng lúc.",
+          "Khẳng định đây là trạng thái tạo ra màu trắng trong hệ RGB."
+        ],
+        "tokens_in": 1058,
+        "tokens_out": 377,
+        "latency_s": 3.93
+      },
+      {
+        "event": "answer",
+        "abstain": true,
+        "by": "verifier"
+      }
+    ],
+    "citations": []
+  },
+  {
+    "query_id": "t3_mh1",
+    "status": "answered",
+    "events": [
+      {
+        "event": "model",
+        "tokens_in": 1419,
+        "tokens_out": 56,
+        "reasoning_tokens": 0,
+        "latency_s": 2.35,
+        "step": 0,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "hiệu ứng làm mờ mở đầu chương 5 tên là gì và trong chương xu hướng thiết kế được ứng dụng kết hợp với phong cách nào",
+        "filter": {
+          "content_type": "text"
+        },
+        "filter_mode": "fallback",
+        "method": "hybrid",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B4:colorme3:p124:t00",
+            "page": 124,
+            "rank": 1,
+            "score": 0.03226,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p004:t00",
+            "page": 4,
+            "rank": 2,
+            "score": 0.03202,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p163:t00",
+            "page": 163,
+            "rank": 3,
+            "score": 0.03089,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p164:t00",
+            "page": 164,
+            "rank": 4,
+            "score": 0.03012,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p171:t00",
+            "page": 171,
+            "rank": 5,
+            "score": 0.02996,
+            "content_type": "text"
+          }
+        ],
+        "added_ids": [
+          "B4:colorme3:p124:t00",
+          "B4:colorme3:p004:t00",
+          "B4:colorme3:p163:t00",
+          "B4:colorme3:p164:t00",
+          "B4:colorme3:p171:t00"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.656
+      },
+      {
+        "event": "model",
+        "tokens_in": 2370,
+        "tokens_out": 149,
+        "reasoning_tokens": 12,
+        "latency_s": 2.76,
+        "step": 1,
+        "forced_final": false
+      },
+      {
+        "event": "verify",
+        "draft_answer": "Hiệu ứng làm mờ mở đầu chương 5 có tên là **Blur** (làm mờ), cụ thể phần **Blur – Filter Gallery**. [B4:colorme3:p124:t00]\n\nỞ chương xu hướng thiết kế, Blur được ứng dụng kết hợp với phong cách **Flat Design**, dưới dạng **Blur Background**. [B4:colorme3:p171:t00]",
+        "draft_citations": [
+          "B4:colorme3:p124:t00",
+          "B4:colorme3:p171:t00"
+        ],
+        "removed_claims": [],
+        "tokens_in": 859,
+        "tokens_out": 122,
+        "latency_s": 1.59
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "citations": [
+      "B4:colorme3:p124:t00",
+      "B4:colorme3:p171:t00"
+    ]
+  },
+  {
+    "query_id": "t3_mh2",
+    "status": "answered",
+    "events": [
+      {
+        "event": "model",
+        "tokens_in": 1403,
+        "tokens_out": 40,
+        "reasoning_tokens": 0,
+        "latency_s": 1.71,
+        "step": 0,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "font serif và sans-serif được dùng nhiều trong những lĩnh vực nào",
+        "filter": {
+          "chapter": "ch4",
+          "content_type": "text"
+        },
+        "filter_mode": "fallback",
+        "method": "hybrid",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B4:colorme3:p101:t00",
+            "page": 101,
+            "rank": 1,
+            "score": 0.03252,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p099:t00",
+            "page": 99,
+            "rank": 2,
+            "score": 0.03202,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p091:t00",
+            "page": 91,
+            "rank": 3,
+            "score": 0.03175,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p089:t00",
+            "page": 89,
+            "rank": 4,
+            "score": 0.03102,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p093:t00",
+            "page": 93,
+            "rank": 5,
+            "score": 0.03102,
+            "content_type": "text"
+          }
+        ],
+        "added_ids": [
+          "B4:colorme3:p101:t00",
+          "B4:colorme3:p099:t00",
+          "B4:colorme3:p091:t00",
+          "B4:colorme3:p089:t00",
+          "B4:colorme3:p093:t00"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.628
+      },
+      {
+        "event": "model",
+        "tokens_in": 2397,
+        "tokens_out": 166,
+        "reasoning_tokens": 12,
+        "latency_s": 2.73,
+        "step": 1,
+        "forced_final": false
+      },
+      {
+        "event": "verify",
+        "draft_answer": "- **Font serif (chữ có chân):** được dùng nhiều trong **nhà hàng, khách sạn, kinh tế, giáo dục**, và phù hợp với những nơi có mật độ chữ dày như **sách hoặc báo**. [B4:colorme3:p089:t00]\n- **Font sans-serif (chữ không chân):** được dùng nhiều trong **quảng cáo, truyền thông và công nghệ**. [B4:colorme3:p091:t00]",
+        "draft_citations": [
+          "B4:colorme3:p089:t00",
+          "B4:colorme3:p091:t00"
+        ],
+        "removed_claims": [],
+        "tokens_in": 989,
+        "tokens_out": 152,
+        "latency_s": 1.92
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "citations": [
+      "B4:colorme3:p089:t00",
+      "B4:colorme3:p091:t00"
+    ]
+  },
+  {
+    "query_id": "t3_mh3",
+    "status": "answered",
+    "events": [
+      {
+        "event": "model",
+        "tokens_in": 1404,
+        "tokens_out": 44,
+        "reasoning_tokens": 0,
+        "latency_s": 2.04,
+        "step": 0,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "Typography kĩ thuật đóng khung và kĩ thuật line khác nhau như thế nào",
+        "filter": {
+          "chapter": "ch4",
+          "content_type": "text"
+        },
+        "filter_mode": "fallback",
+        "method": "hybrid",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B4:colorme3:p102:t00",
+            "page": 102,
+            "rank": 1,
+            "score": 0.03252,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p106:t00",
+            "page": 106,
+            "rank": 2,
+            "score": 0.03227,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p103:t00",
+            "page": 103,
+            "rank": 3,
+            "score": 0.032,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p112:t00",
+            "page": 112,
+            "rank": 4,
+            "score": 0.03078,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p105:t00",
+            "page": 105,
+            "rank": 5,
+            "score": 0.03009,
+            "content_type": "text"
+          }
+        ],
+        "added_ids": [
+          "B4:colorme3:p102:t00",
+          "B4:colorme3:p106:t00",
+          "B4:colorme3:p103:t00",
+          "B4:colorme3:p112:t00",
+          "B4:colorme3:p105:t00"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.699
+      },
+      {
+        "event": "model",
+        "tokens_in": 2267,
+        "tokens_out": 226,
+        "reasoning_tokens": 12,
+        "latency_s": 4.11,
+        "step": 1,
+        "forced_final": false
+      },
+      {
+        "event": "verify",
+        "draft_answer": "- **Kĩ thuật đóng khung (Border):** tạo một bo viền xung quanh chữ, khiến các thành phần nằm trong bo viền trở thành một thể thống nhất. Bo viền không nhất thiết phải là hình chữ nhật hoặc khép kín. [B4:colorme3:p102:t00] [B4:colorme3:p103:t00]\n- **Kĩ thuật line:** dùng các đường kẻ để phân tách bố cục của bản thiết kế. [B4:colorme3:p106:t00]\n\n**Khác nhau:** đóng khung có chức năng bao lại và liên kết nội dung bên trong; line chủ yếu tạo đường phân chia giữa các phần của bố cục.",
+        "draft_citations": [
+          "B4:colorme3:p102:t00",
+          "B4:colorme3:p103:t00",
+          "B4:colorme3:p106:t00"
+        ],
+        "removed_claims": [
+          "Từ “chủ yếu” trong mô tả chức năng của line."
+        ],
+        "tokens_in": 1137,
+        "tokens_out": 229,
+        "latency_s": 2.65
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "citations": [
+      "B4:colorme3:p102:t00",
+      "B4:colorme3:p103:t00",
+      "B4:colorme3:p106:t00"
+    ]
+  },
+  {
+    "query_id": "t3_mh4",
+    "status": "answered",
+    "events": [
+      {
+        "event": "model",
+        "tokens_in": 1412,
+        "tokens_out": 44,
+        "reasoning_tokens": 0,
+        "latency_s": 1.91,
+        "step": 0,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "logo mô thức Pattern and Shape logo hình khối Geometric Shape định nghĩa khác nhau",
+        "filter": {
+          "chapter": "ch6",
+          "content_type": "text"
+        },
+        "filter_mode": "fallback",
+        "method": "hybrid",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B4:colorme3:p143:t00",
+            "page": 143,
+            "rank": 1,
+            "score": 0.03279,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p144:t00",
+            "page": 144,
+            "rank": 2,
+            "score": 0.03226,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p137:t00",
+            "page": 137,
+            "rank": 3,
+            "score": 0.03033,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p132:t00",
+            "page": 132,
+            "rank": 4,
+            "score": 0.02944,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p136:t00",
+            "page": 136,
+            "rank": 5,
+            "score": 0.02921,
+            "content_type": "text"
+          }
+        ],
+        "added_ids": [
+          "B4:colorme3:p143:t00",
+          "B4:colorme3:p144:t00",
+          "B4:colorme3:p137:t00",
+          "B4:colorme3:p132:t00",
+          "B4:colorme3:p136:t00"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.64
+      },
+      {
+        "event": "model",
+        "tokens_in": 2216,
+        "tokens_out": 203,
+        "reasoning_tokens": 18,
+        "latency_s": 3.36,
+        "step": 1,
+        "forced_final": false
+      },
+      {
+        "event": "verify",
+        "draft_answer": "- **Logo mô thức (Pattern And Shape Logo):** là nhóm logo nằm trong các hình đa giác đều, như tam giác đều, hình vuông hoặc lục giác đều. [B4:colorme3:p143:t00]\n- **Logo hình khối (Geometric Shape Logos):** là những logo chỉ được tạo thành từ các đường thẳng. [B4:colorme3:p144:t00]\n\nVì vậy, điểm khác nhau là **logo mô thức được xác định bởi việc nằm trong các hình đa giác đều**, còn **logo hình khối được xác định bởi cấu tạo chỉ từ các đường thẳng**.",
+        "draft_citations": [
+          "B4:colorme3:p143:t00",
+          "B4:colorme3:p144:t00"
+        ],
+        "removed_claims": [],
+        "tokens_in": 759,
+        "tokens_out": 174,
+        "latency_s": 2.43
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "citations": [
+      "B4:colorme3:p143:t00",
+      "B4:colorme3:p144:t00"
+    ]
+  },
+  {
+    "query_id": "t3_tx1",
+    "status": "answered",
+    "events": [
+      {
+        "event": "model",
+        "tokens_in": 1406,
+        "tokens_out": 41,
+        "reasoning_tokens": 0,
+        "latency_s": 2.17,
+        "step": 0,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "sai lầm lớn nhất thường gặp của người mới bắt đầu thiết kế",
+        "filter": {
+          "content_type": "text"
+        },
+        "filter_mode": "fallback",
+        "method": "hybrid",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B4:colorme3:p006:t00",
+            "page": 6,
+            "rank": 1,
+            "score": 0.03202,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p004:t00",
+            "page": 4,
+            "rank": 2,
+            "score": 0.03083,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p005:t00",
+            "page": 5,
+            "rank": 3,
+            "score": 0.03037,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p008:t00",
+            "page": 8,
+            "rank": 4,
+            "score": 0.02904,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p053:t00",
+            "page": 53,
+            "rank": 5,
+            "score": 0.02775,
+            "content_type": "text"
+          }
+        ],
+        "added_ids": [
+          "B4:colorme3:p006:t00",
+          "B4:colorme3:p004:t00",
+          "B4:colorme3:p005:t00",
+          "B4:colorme3:p008:t00",
+          "B4:colorme3:p053:t00"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.604
+      },
+      {
+        "event": "model",
+        "tokens_in": 2554,
+        "tokens_out": 45,
+        "reasoning_tokens": 0,
+        "latency_s": 6.53,
+        "step": 1,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "người mới bắt đầu thiết kế sai lầm lớn nhất lỗi thường gặp bắt đầu từ đâu",
+        "filter": {
+          "content_type": "text"
+        },
+        "filter_mode": "fallback",
+        "method": "hybrid",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B4:colorme3:p006:t00",
+            "page": 6,
+            "rank": 1,
+            "score": 0.03252,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p005:t00",
+            "page": 5,
+            "rank": 2,
+            "score": 0.03126,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p004:t00",
+            "page": 4,
+            "rank": 3,
+            "score": 0.03041,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p053:t00",
+            "page": 53,
+            "rank": 4,
+            "score": 0.02986,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p062:t00",
+            "page": 62,
+            "rank": 5,
+            "score": 0.02921,
+            "content_type": "text"
+          }
+        ],
+        "added_ids": [
+          "B4:colorme3:p062:t00"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.629
+      },
+      {
+        "event": "model",
+        "tokens_in": 2965,
+        "tokens_out": 92,
+        "reasoning_tokens": 0,
+        "latency_s": 2.25,
+        "step": 2,
+        "forced_final": false
+      },
+      {
+        "event": "verify",
+        "draft_answer": "Theo sách, sai lầm lớn nhất của người mới bắt đầu thiết kế là **dùng quá nhiều màu sắc**, khiến tác phẩm trở thành “một mớ hỗn độn khó cảm nhận”. [B4:colorme3:p062:t00]",
+        "draft_citations": [
+          "B4:colorme3:p062:t00"
+        ],
+        "removed_claims": [],
+        "tokens_in": 752,
+        "tokens_out": 87,
+        "latency_s": 1.44
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "citations": [
+      "B4:colorme3:p062:t00"
+    ]
+  },
+  {
+    "query_id": "t3_tx2",
+    "status": "answered",
+    "events": [
+      {
+        "event": "model",
+        "tokens_in": 1411,
+        "tokens_out": 50,
+        "reasoning_tokens": 0,
+        "latency_s": 1.85,
+        "step": 0,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "tác giả hỏi lớp học colorME ai cần một CV đẹp bao nhiêu người giơ tay tỉ lệ",
+        "filter": {
+          "chapter": "ch7",
+          "content_type": "text"
+        },
+        "filter_mode": "fallback",
+        "method": "hybrid",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B4:colorme3:p153:t00",
+            "page": 153,
+            "rank": 1,
+            "score": 0.03279,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p160:t00",
+            "page": 160,
+            "rank": 2,
+            "score": 0.03175,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p003:t00",
+            "page": 3,
+            "rank": 3,
+            "score": 0.0308,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p158:t00",
+            "page": 158,
+            "rank": 4,
+            "score": 0.03078,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p177:t00",
+            "page": 177,
+            "rank": 5,
+            "score": 0.03054,
+            "content_type": "text"
+          }
+        ],
+        "added_ids": [
+          "B4:colorme3:p153:t00",
+          "B4:colorme3:p160:t00",
+          "B4:colorme3:p003:t00",
+          "B4:colorme3:p158:t00",
+          "B4:colorme3:p177:t00"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.635
+      },
+      {
+        "event": "model",
+        "tokens_in": 2394,
+        "tokens_out": 96,
+        "reasoning_tokens": 12,
+        "latency_s": 2.5,
+        "step": 1,
+        "forced_final": false
+      },
+      {
+        "event": "verify",
+        "draft_answer": "Tỉ lệ người giơ tay **chưa lần nào dưới 80%** — tức là ít nhất 80% số người trong lớp học colorME.[B4:colorme3:p153:t00]",
+        "draft_citations": [
+          "B4:colorme3:p153:t00"
+        ],
+        "removed_claims": [],
+        "tokens_in": 693,
+        "tokens_out": 61,
+        "latency_s": 1.57
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "citations": [
+      "B4:colorme3:p153:t00"
+    ]
+  },
+  {
+    "query_id": "t3_tx3",
+    "status": "answered",
+    "events": [
+      {
+        "event": "model",
+        "tokens_in": 1402,
+        "tokens_out": 40,
+        "reasoning_tokens": 0,
+        "latency_s": 2.16,
+        "step": 0,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "kích thước chữ phụ thuộc vào điều gì của nội dung",
+        "filter": {
+          "chapter": "ch4",
+          "content_type": "text"
+        },
+        "filter_mode": "fallback",
+        "method": "hybrid",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B4:colorme3:p095:t00",
+            "page": 95,
+            "rank": 1,
+            "score": 0.03252,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p039:t00",
+            "page": 39,
+            "rank": 2,
+            "score": 0.03279,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p116:t00",
+            "page": 116,
+            "rank": 3,
+            "score": 0.03178,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p011:t00",
+            "page": 11,
+            "rank": 4,
+            "score": 0.032,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p106:t00",
+            "page": 106,
+            "rank": 5,
+            "score": 0.03105,
+            "content_type": "text"
+          }
+        ],
+        "added_ids": [
+          "B4:colorme3:p095:t00",
+          "B4:colorme3:p039:t00",
+          "B4:colorme3:p116:t00",
+          "B4:colorme3:p011:t00",
+          "B4:colorme3:p106:t00"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 1.043
+      },
+      {
+        "event": "model",
+        "tokens_in": 2251,
+        "tokens_out": 72,
+        "reasoning_tokens": 0,
+        "latency_s": 2.16,
+        "step": 1,
+        "forced_final": false
+      },
+      {
+        "event": "verify",
+        "draft_answer": "Theo sách, kích thước chữ phụ thuộc vào **độ phân cấp thông tin** của nội dung. [B4:colorme3:p039:t00]",
+        "draft_citations": [
+          "B4:colorme3:p039:t00"
+        ],
+        "removed_claims": [],
+        "tokens_in": 615,
+        "tokens_out": 69,
+        "latency_s": 1.66
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "citations": [
+      "B4:colorme3:p039:t00"
+    ]
+  },
+  {
+    "query_id": "t3_tx4",
+    "status": "answered",
+    "events": [
+      {
+        "event": "model",
+        "tokens_in": 1413,
+        "tokens_out": 47,
+        "reasoning_tokens": 0,
+        "latency_s": 1.83,
+        "step": 0,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "phân bố độ to nhỏ của từng con chữ phù hợp lỗi không có chính phụ vì sao typography",
+        "filter": {
+          "chapter": "ch4",
+          "content_type": "text"
+        },
+        "filter_mode": "fallback",
+        "method": "hybrid",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B4:colorme3:p116:t00",
+            "page": 116,
+            "rank": 1,
+            "score": 0.03279,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p115:t00",
+            "page": 115,
+            "rank": 2,
+            "score": 0.03175,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p096:t00",
+            "page": 96,
+            "rank": 3,
+            "score": 0.02983,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p095:t00",
+            "page": 95,
+            "rank": 4,
+            "score": 0.02976,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p101:t00",
+            "page": 101,
+            "rank": 5,
+            "score": 0.02614,
+            "content_type": "text"
+          }
+        ],
+        "added_ids": [
+          "B4:colorme3:p116:t00",
+          "B4:colorme3:p115:t00",
+          "B4:colorme3:p096:t00",
+          "B4:colorme3:p095:t00",
+          "B4:colorme3:p101:t00"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 1.034
+      },
+      {
+        "event": "model",
+        "tokens_in": 2173,
+        "tokens_out": 135,
+        "reasoning_tokens": 41,
+        "latency_s": 2.74,
+        "step": 1,
+        "forced_final": false
+      },
+      {
+        "event": "verify",
+        "draft_answer": "Cần phân bố độ to nhỏ của từng con chữ phù hợp để các phần nội dung có thêm không gian và có thể “thở” được, tránh tình trạng bố cục không có chính phụ. [B4:colorme3:p116:t00]",
+        "draft_citations": [
+          "B4:colorme3:p116:t00"
+        ],
+        "removed_claims": [
+          "Tránh tình trạng bố cục không có chính phụ."
+        ],
+        "tokens_in": 617,
+        "tokens_out": 88,
+        "latency_s": 1.53
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "citations": [
+      "B4:colorme3:p116:t00"
+    ]
+  },
+  {
+    "query_id": "t3_un1",
+    "status": "abstain",
+    "events": [
+      {
+        "event": "model",
+        "tokens_in": 1408,
+        "tokens_out": 45,
+        "reasoning_tokens": 0,
+        "latency_s": 1.87,
+        "step": 0,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "chi phí xây dựng một bộ nhận diện thương hiệu đầy đủ thường tốn bao nhiêu",
+        "filter": {
+          "chapter": "ch6",
+          "content_type": "text"
+        },
+        "filter_mode": "fallback",
+        "method": "hybrid",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B4:colorme3:p150:t00",
+            "page": 150,
+            "rank": 1,
+            "score": 0.03279,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p151:t00",
+            "page": 151,
+            "rank": 2,
+            "score": 0.03175,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p132:t00",
+            "page": 132,
+            "rank": 3,
+            "score": 0.03175,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p149:t00",
+            "page": 149,
+            "rank": 4,
+            "score": 0.03128,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p148:t00",
+            "page": 148,
+            "rank": 5,
+            "score": 0.03077,
+            "content_type": "text"
+          }
+        ],
+        "added_ids": [
+          "B4:colorme3:p150:t00",
+          "B4:colorme3:p151:t00",
+          "B4:colorme3:p132:t00",
+          "B4:colorme3:p149:t00",
+          "B4:colorme3:p148:t00"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.624
+      },
+      {
+        "event": "model",
+        "tokens_in": 2148,
+        "tokens_out": 78,
+        "reasoning_tokens": 34,
+        "latency_s": 2.6,
+        "step": 1,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "giá tiền chi phí thiết kế brand identity bộ nhận diện thương hiệu đầy đủ",
+        "filter": {
+          "content_type": "text"
+        },
+        "filter_mode": "fallback",
+        "method": "hybrid",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B4:colorme3:p150:t00",
+            "page": 150,
+            "rank": 1,
+            "score": 0.03279,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p149:t00",
+            "page": 149,
+            "rank": 2,
+            "score": 0.032,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p151:t00",
+            "page": 151,
+            "rank": 3,
+            "score": 0.032,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p136:t01",
+            "page": 136,
+            "rank": 4,
+            "score": 0.03125,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p132:t00",
+            "page": 132,
+            "rank": 5,
+            "score": 0.03054,
+            "content_type": "text"
+          }
+        ],
+        "added_ids": [
+          "B4:colorme3:p136:t01"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.615
+      },
+      {
+        "event": "model",
+        "tokens_in": 2443,
+        "tokens_out": 128,
+        "reasoning_tokens": 14,
+        "latency_s": 2.83,
+        "step": 2,
+        "forced_final": false
+      },
+      {
+        "event": "answer",
+        "abstain": true
+      }
+    ],
+    "citations": []
+  },
+  {
+    "query_id": "t3_un2",
+    "status": "abstain",
+    "events": [
+      {
+        "event": "model",
+        "tokens_in": 1403,
+        "tokens_out": 42,
+        "reasoning_tokens": 0,
+        "latency_s": 1.98,
+        "step": 0,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "kích thước file PSD tối đa Photoshop hỗ trợ dung lượng tối đa",
+        "filter": {
+          "chapter": "ch1",
+          "content_type": "text"
+        },
+        "filter_mode": "fallback",
+        "method": "hybrid",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B4:colorme3:p019:t00",
+            "page": 19,
+            "rank": 1,
+            "score": 0.03252,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p011:t00",
+            "page": 11,
+            "rank": 2,
+            "score": 0.0311,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p012:t00",
+            "page": 12,
+            "rank": 3,
+            "score": 0.03101,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p008:t00",
+            "page": 8,
+            "rank": 4,
+            "score": 0.03021,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p010:t01",
+            "page": 10,
+            "rank": 5,
+            "score": 0.02885,
+            "content_type": "text"
+          }
+        ],
+        "added_ids": [
+          "B4:colorme3:p019:t00",
+          "B4:colorme3:p011:t00",
+          "B4:colorme3:p012:t00",
+          "B4:colorme3:p008:t00",
+          "B4:colorme3:p010:t01"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.695
+      },
+      {
+        "event": "model",
+        "tokens_in": 2431,
+        "tokens_out": 59,
+        "reasoning_tokens": 17,
+        "latency_s": 3.43,
+        "step": 1,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "PSD file maximum size 2 GB Photoshop hỗ trợ tối đa file PSD",
+        "filter": {
+          "content_type": "text"
+        },
+        "filter_mode": "fallback",
+        "method": "hybrid",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B4:colorme3:p019:t00",
+            "page": 19,
+            "rank": 1,
+            "score": 0.03279,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p137:t00",
+            "page": 137,
+            "rank": 2,
+            "score": 0.03105,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p008:t00",
+            "page": 8,
+            "rank": 3,
+            "score": 0.03016,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p022:t00",
+            "page": 22,
+            "rank": 4,
+            "score": 0.03002,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p009:t00",
+            "page": 9,
+            "rank": 5,
+            "score": 0.02971,
+            "content_type": "text"
+          }
+        ],
+        "added_ids": [
+          "B4:colorme3:p137:t00",
+          "B4:colorme3:p022:t00",
+          "B4:colorme3:p009:t00"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.654
+      },
+      {
+        "event": "model",
+        "tokens_in": 3167,
+        "tokens_out": 86,
+        "reasoning_tokens": 39,
+        "latency_s": 2.63,
+        "step": 2,
+        "forced_final": false
+      },
+      {
+        "event": "answer",
+        "abstain": true
+      }
+    ],
+    "citations": []
+  },
+  {
+    "query_id": "t3_un3",
+    "status": "abstain",
+    "events": [
+      {
+        "event": "model",
+        "tokens_in": 1401,
+        "tokens_out": 40,
+        "reasoning_tokens": 0,
+        "latency_s": 3.2,
+        "step": 0,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "Photoshop GIMP so sánh phần mềm chỉnh sửa ảnh khác nhau",
+        "filter": {
+          "content_type": "text"
+        },
+        "filter_mode": "fallback",
+        "method": "hybrid",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B4:colorme3:p008:t00",
+            "page": 8,
+            "rank": 1,
+            "score": 0.03252,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p009:t01",
+            "page": 9,
+            "rank": 2,
+            "score": 0.03101,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p008:t01",
+            "page": 8,
+            "rank": 3,
+            "score": 0.03089,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p022:t00",
+            "page": 22,
+            "rank": 4,
+            "score": 0.03012,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p086:t00",
+            "page": 86,
+            "rank": 5,
+            "score": 0.02921,
+            "content_type": "text"
+          }
+        ],
+        "added_ids": [
+          "B4:colorme3:p008:t00",
+          "B4:colorme3:p009:t01",
+          "B4:colorme3:p008:t01",
+          "B4:colorme3:p022:t00",
+          "B4:colorme3:p086:t00"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.973
+      },
+      {
+        "event": "model",
+        "tokens_in": 2458,
+        "tokens_out": 60,
+        "reasoning_tokens": 19,
+        "latency_s": 2.26,
+        "step": 1,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "GIMP phần mềm Photoshop các phần mềm thiết kế thường gặp",
+        "filter": {
+          "chapter": "ch1"
+        },
+        "filter_mode": "fallback",
+        "method": "hybrid",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B4:colorme3:p008:t00",
+            "page": 8,
+            "rank": 1,
+            "score": 0.03279,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p008:v00",
+            "page": 8,
+            "rank": 2,
+            "score": 0.032,
+            "content_type": "visual"
+          },
+          {
+            "id": "B4:colorme3:p008:t01",
+            "page": 8,
+            "rank": 3,
+            "score": 0.03128,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p008:v02",
+            "page": 8,
+            "rank": 4,
+            "score": 0.03101,
+            "content_type": "visual"
+          },
+          {
+            "id": "B4:colorme3:p008:v03",
+            "page": 8,
+            "rank": 5,
+            "score": 0.03101,
+            "content_type": "visual"
+          }
+        ],
+        "added_ids": [
+          "B4:colorme3:p008:v00",
+          "B4:colorme3:p008:v02",
+          "B4:colorme3:p008:v03"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 1.401
+      },
+      {
+        "event": "model",
+        "tokens_in": 3067,
+        "tokens_out": 92,
+        "reasoning_tokens": 48,
+        "latency_s": 2.49,
+        "step": 2,
+        "forced_final": false
+      },
+      {
+        "event": "answer",
+        "abstain": true
+      }
+    ],
+    "citations": []
+  },
+  {
+    "query_id": "t3_un4",
+    "status": "answered",
+    "events": [
+      {
+        "event": "model",
+        "tokens_in": 1401,
+        "tokens_out": 35,
+        "reasoning_tokens": 0,
+        "latency_s": 2.65,
+        "step": 0,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "mã HEX màu đỏ trong logo colorME",
+        "filter": {
+          "content_type": "visual"
+        },
+        "filter_mode": "fallback",
+        "method": "hybrid",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B4:colorme3:p086:v01",
+            "page": 86,
+            "rank": 1,
+            "score": 0.03252,
+            "content_type": "visual"
+          },
+          {
+            "id": "B4:colorme3:p003:v00",
+            "page": 3,
+            "rank": 2,
+            "score": 0.03227,
+            "content_type": "visual"
+          },
+          {
+            "id": "B4:colorme3:p086:v00",
+            "page": 86,
+            "rank": 3,
+            "score": 0.03175,
+            "content_type": "visual"
+          },
+          {
+            "id": "B4:colorme3:p075:v01",
+            "page": 75,
+            "rank": 4,
+            "score": 0.02963,
+            "content_type": "visual"
+          },
+          {
+            "id": "B4:colorme3:p086:v02",
+            "page": 86,
+            "rank": 5,
+            "score": 0.02951,
+            "content_type": "visual"
+          }
+        ],
+        "added_ids": [
+          "B4:colorme3:p086:v01",
+          "B4:colorme3:p003:v00",
+          "B4:colorme3:p086:v00",
+          "B4:colorme3:p075:v01",
+          "B4:colorme3:p086:v02"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 1.029
+      },
+      {
+        "event": "model",
+        "tokens_in": 2590,
+        "tokens_out": 78,
+        "reasoning_tokens": 39,
+        "latency_s": 2.28,
+        "step": 1,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "logo colorME màu đỏ mã màu HEX FF0000",
+        "filter": null,
+        "filter_mode": "fallback",
+        "method": "hybrid",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B4:colorme3:p086:v01",
+            "page": 86,
+            "rank": 1,
+            "score": 0.03279,
+            "content_type": "visual"
+          },
+          {
+            "id": "B4:colorme3:p003:v00",
+            "page": 3,
+            "rank": 2,
+            "score": 0.032,
+            "content_type": "visual"
+          },
+          {
+            "id": "B4:colorme3:p086:v00",
+            "page": 86,
+            "rank": 3,
+            "score": 0.03175,
+            "content_type": "visual"
+          },
+          {
+            "id": "B4:colorme3:p086:v02",
+            "page": 86,
+            "rank": 4,
+            "score": 0.02971,
+            "content_type": "visual"
+          },
+          {
+            "id": "B4:colorme3:p075:v01",
+            "page": 75,
+            "rank": 5,
+            "score": 0.02844,
+            "content_type": "visual"
+          }
+        ],
+        "added_ids": [],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 1.421
+      },
+      {
+        "event": "model",
+        "tokens_in": 2814,
+        "tokens_out": 113,
+        "reasoning_tokens": 48,
+        "latency_s": 2.47,
+        "step": 2,
+        "forced_final": false
+      },
+      {
+        "event": "verify",
+        "draft_answer": "Mã HEX của màu đỏ là **FF0000**. [B4:colorme3:p086:v01]",
+        "draft_citations": [
+          "B4:colorme3:p086:v01"
+        ],
+        "removed_claims": [],
+        "tokens_in": 837,
+        "tokens_out": 64,
+        "latency_s": 2.39
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "citations": [
+      "B4:colorme3:p086:v01"
+    ]
+  },
+  {
+    "query_id": "t3_un5",
+    "status": "abstain",
+    "events": [
+      {
+        "event": "model",
+        "tokens_in": 1402,
+        "tokens_out": 50,
+        "reasoning_tokens": 0,
+        "latency_s": 3.48,
+        "step": 0,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "Hiệu ứng Triangulation cần tối thiểu bao nhiêu đa giác? số lượng đa giác tối thiểu",
+        "filter": {
+          "chapter": "ch5",
+          "content_type": "text"
+        },
+        "filter_mode": "fallback",
+        "method": "hybrid",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B4:colorme3:p128:t00",
+            "page": 128,
+            "rank": 1,
+            "score": 0.03279,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p145:t00",
+            "page": 145,
+            "rank": 2,
+            "score": 0.03202,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p126:t00",
+            "page": 126,
+            "rank": 3,
+            "score": 0.03126,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p123:t00",
+            "page": 123,
+            "rank": 4,
+            "score": 0.03125,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p032:t00",
+            "page": 32,
+            "rank": 5,
+            "score": 0.02721,
+            "content_type": "text"
+          }
+        ],
+        "added_ids": [
+          "B4:colorme3:p128:t00",
+          "B4:colorme3:p145:t00",
+          "B4:colorme3:p126:t00",
+          "B4:colorme3:p123:t00",
+          "B4:colorme3:p032:t00"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 1.081
+      },
+      {
+        "event": "model",
+        "tokens_in": 2232,
+        "tokens_out": 72,
+        "reasoning_tokens": 27,
+        "latency_s": 2.3,
+        "step": 1,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "Triangulation Low poly số đa giác tối thiểu bao nhiêu polygon tam giác",
+        "filter": null,
+        "filter_mode": "fallback",
+        "method": "hybrid",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B4:colorme3:p128:v01",
+            "page": 128,
+            "rank": 1,
+            "score": 0.03252,
+            "content_type": "visual"
+          },
+          {
+            "id": "B4:colorme3:p128:t00",
+            "page": 128,
+            "rank": 2,
+            "score": 0.03154,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p145:v00",
+            "page": 145,
+            "rank": 3,
+            "score": 0.03151,
+            "content_type": "visual"
+          },
+          {
+            "id": "B4:colorme3:p128:v00",
+            "page": 128,
+            "rank": 4,
+            "score": 0.0315,
+            "content_type": "visual"
+          },
+          {
+            "id": "B4:colorme3:p145:t00",
+            "page": 145,
+            "rank": 5,
+            "score": 0.0315,
+            "content_type": "text"
+          }
+        ],
+        "added_ids": [
+          "B4:colorme3:p128:v01",
+          "B4:colorme3:p145:v00",
+          "B4:colorme3:p128:v00"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.634
+      },
+      {
+        "event": "model",
+        "tokens_in": 2925,
+        "tokens_out": 98,
+        "reasoning_tokens": 13,
+        "latency_s": 2.6,
+        "step": 2,
+        "forced_final": false
+      },
+      {
+        "event": "answer",
+        "abstain": true
+      }
+    ],
+    "citations": []
+  },
+  {
+    "query_id": "t3_un6",
+    "status": "abstain",
+    "events": [
+      {
+        "event": "model",
+        "tokens_in": 1399,
+        "tokens_out": 36,
+        "reasoning_tokens": 0,
+        "latency_s": 3.33,
+        "step": 0,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "CV nên dài tối đa bao nhiêu trang",
+        "filter": {
+          "chapter": "ch7",
+          "content_type": "text"
+        },
+        "filter_mode": "fallback",
+        "method": "hybrid",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B4:colorme3:p153:t00",
+            "page": 153,
+            "rank": 1,
+            "score": 0.03279,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p154:t00",
+            "page": 154,
+            "rank": 2,
+            "score": 0.032,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p155:t00",
+            "page": 155,
+            "rank": 3,
+            "score": 0.03128,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p156:t00",
+            "page": 156,
+            "rank": 4,
+            "score": 0.03031,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p160:t00",
+            "page": 160,
+            "rank": 5,
+            "score": 0.03031,
+            "content_type": "text"
+          }
+        ],
+        "added_ids": [
+          "B4:colorme3:p153:t00",
+          "B4:colorme3:p154:t00",
+          "B4:colorme3:p155:t00",
+          "B4:colorme3:p156:t00",
+          "B4:colorme3:p160:t00"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.65
+      },
+      {
+        "event": "model",
+        "tokens_in": 2276,
+        "tokens_out": 39,
+        "reasoning_tokens": 0,
+        "latency_s": 1.9,
+        "step": 1,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "CV một trang hai trang tối đa số trang hồ sơ xin việc",
+        "filter": {
+          "content_type": "text"
+        },
+        "filter_mode": "fallback",
+        "method": "hybrid",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B4:colorme3:p155:t00",
+            "page": 155,
+            "rank": 1,
+            "score": 0.03227,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p159:t00",
+            "page": 159,
+            "rank": 2,
+            "score": 0.032,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p154:t00",
+            "page": 154,
+            "rank": 3,
+            "score": 0.03105,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p160:t00",
+            "page": 160,
+            "rank": 4,
+            "score": 0.03078,
+            "content_type": "text"
+          },
+          {
+            "id": "B4:colorme3:p161:t00",
+            "page": 161,
+            "rank": 5,
+            "score": 0.03028,
+            "content_type": "text"
+          }
+        ],
+        "added_ids": [
+          "B4:colorme3:p159:t00",
+          "B4:colorme3:p161:t00"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.662
+      },
+      {
+        "event": "model",
+        "tokens_in": 2698,
+        "tokens_out": 123,
+        "reasoning_tokens": 24,
+        "latency_s": 2.75,
+        "step": 2,
+        "forced_final": false
+      },
+      {
+        "event": "answer",
+        "abstain": true
+      }
+    ],
+    "citations": []
+  }
+]

@@ -1,0 +1,2083 @@
+{
+ "description": "Benchmark Day 7 (cơ bản + thử thách nâng cao) cho EBOOK COLORME 3 (PDF 183 trang, tiếng Việt). Viết và chia dev/test TRƯỚC khi chạy retrieval/agent. page = chỉ số trang PDF 1-based; printed_page = page - 1 (số in ở chân trang).",
+ "evidence_schema": "gold = danh sách evidence; các evidence cùng `group` là thay thế nhau, mọi group phải được bao phủ (multi-hop có >= 2 group ở >= 2 trang). evidence_type=text: chép nguyên văn từ lớp text PDF. evidence_type=visual: sự kiện được người chấm đối chiếu trên ảnh render trang (vùng ghi ở `region`); `evidence` là cụm từ khóa mà mô tả đúng của hình phải chứa, dùng để code xác định chunk/context có mang thông tin đó. Chấm đạt/không đạt luôn đối chiếu bản gốc (ảnh trang), không dựa vào mô tả của model.",
+ "split_rule": "Dev và test hỏi các sự kiện khác nhau (không trùng câu, không chỉ đổi diễn đạt cùng đáp án). Cùng một tài liệu nên có thể trùng trang/chủ đề (ghi trong báo cáo). Không dùng test để chọn cấu hình. | Vòng 2 (sau khi báo cáo test_v1 86.7%): test_v1 bị loại khỏi đánh giá độc lập và đổi tên split; thêm 5 câu dev cho các dạng lỗi đã thấy (đếm phần tử, masthead/headline, số liệu infographic, tính toán bằng số liệu ngoài sách, con số không tồn tại); viết test mới 30 câu (tv2_*) về các sự kiện chưa dùng trong dev, test_v1 hay tập audit vision (p9,10,12,42,57,63,68,82,149,150), trước khi chạy cấu hình vòng 2 lên test. | Vòng 3: test_v2 bị loại khỏi đánh giá độc lập (đổi split thành test_v2); +4 câu dev (dv_img6-9: hình nằm ở chương không liên quan chủ đề – bẫy filter; logo trong ảnh nền); test_v3 mới 30 câu (t3_*) về các sự kiện chưa dùng trong dev/test_v1/test_v2/audit vision, viết trước khi chạy cấu hình vòng 3.",
+ "grading": "Câu có đáp án: đạt khi đúng và đủ (đơn vị/điều kiện/phép tính), citation trỏ đúng trang/vùng evidence và evidence hỗ trợ toàn bộ câu trả lời. Câu thiếu bằng chứng: đạt khi từ chối/nói rõ không có thông tin, không khẳng định thiếu căn cứ. Lỗi hệ thống = không đạt.",
+ "questions": [
+  {
+   "id": "dv_tab1",
+   "split": "dev",
+   "group": "table",
+   "answerable": true,
+   "question": "Trong hình minh họa độ phân giải trong hiển thị, iPhone 6 4.7 inch có độ phân giải màn hình và mật độ điểm ảnh bao nhiêu?",
+   "expected_answer": "1334x750 pixel, 326 ppi.",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 14,
+     "evidence_type": "visual",
+     "evidence": "1334x750",
+     "region": "iPhone ở giữa trong hình 3 iPhone (printed 13)"
+    }
+   ],
+   "reason": "Số liệu chỉ có trong hình (bảng 3 thiết bị), lớp text không có."
+  },
+  {
+   "id": "dv_tab2",
+   "split": "dev",
+   "group": "table",
+   "answerable": true,
+   "question": "Trong bảng 8 ô màu kèm từ khóa cảm nhận (tiếng Anh), màu red gắn với những từ khóa nào?",
+   "expected_answer": "LOVE, IMMEDIACY, ENERGY, SALE, PASSION, ANGER, HUNGER.",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 77,
+     "evidence_type": "visual",
+     "evidence": "IMMEDIACY",
+     "region": "ô 'red', hàng trên cột 2 (printed 76)"
+    }
+   ],
+   "reason": "Bảng là ảnh; tra đúng cột red."
+  },
+  {
+   "id": "dv_tab3",
+   "split": "dev",
+   "group": "table",
+   "answerable": true,
+   "question": "Trong bảng phím tắt nhóm công cụ (Toolbar) ở phụ lục, phím W dùng để làm gì?",
+   "expected_answer": "Tạo vùng chọn theo màu.",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 176,
+     "evidence_type": "text",
+     "evidence": "W: Tạo vùng chọn theo màu"
+    }
+   ],
+   "reason": "Tra một hàng trong bảng phím tắt (dạng danh sách)."
+  },
+  {
+   "id": "dv_img1",
+   "split": "dev",
+   "group": "image",
+   "answerable": true,
+   "question": "Trong poster phim Fury minh họa luật 1/3, gương mặt Brad Pitt nằm ở điểm giao nào của lưới?",
+   "expected_answer": "Điểm giao phía trên bên trái.",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 49,
+     "evidence_type": "visual",
+     "evidence": "trên bên trái",
+     "region": "poster bên phải có lưới (printed 48)"
+    }
+   ],
+   "reason": "Text chỉ nói 'rơi vào 1 trong 4 điểm giao'; vị trí cụ thể phải đọc từ ảnh."
+  },
+  {
+   "id": "dv_img2",
+   "split": "dev",
+   "group": "image",
+   "answerable": true,
+   "question": "Ảnh minh họa nhóm màu neon chói lóa chụp những vật gì và có dòng chữ thương hiệu nào?",
+   "expected_answer": "Các chai thủy tinh phát sáng neon nhiều màu trên nền đen, chữ 'Nuka Cola Quantum'.",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 82,
+     "evidence_type": "visual",
+     "evidence": "Nuka Cola",
+     "region": "ảnh chính (printed 81)"
+    }
+   ],
+   "reason": "Nội dung ảnh."
+  },
+  {
+   "id": "dv_img3",
+   "split": "dev",
+   "group": "image",
+   "answerable": true,
+   "question": "Ở trang mở đầu mục Luật 1/3, poster phim nào được dùng làm ví dụ và ngày ra mắt ghi trên poster là gì?",
+   "expected_answer": "Big Hero 6 (Disney), NOV 7.",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 48,
+     "evidence_type": "visual",
+     "evidence": "NOV 7",
+     "region": "2 poster đỏ (printed 47)"
+    }
+   ],
+   "reason": "Tên phim/ngày chỉ có trong ảnh."
+  },
+  {
+   "id": "dv_ch1",
+   "split": "dev",
+   "group": "chart",
+   "answerable": true,
+   "question": "Trong biểu đồ bong bóng 'Các bài toán thường gặp', bài toán nào được biểu diễn bằng bong bóng nhỏ nhất?",
+   "expected_answer": "Chèn quote vào ảnh (bong bóng xanh lá nhạt nhỏ nhất).",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 6,
+     "evidence_type": "visual",
+     "group": "size",
+     "evidence": "xanh lá nhạt",
+     "region": "5 bong bóng nửa trên (printed 5)"
+    },
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 6,
+     "evidence_type": "visual",
+     "group": "legend",
+     "evidence": "Chèn quote vào ảnh",
+     "region": "chú giải màu nửa dưới"
+    }
+   ],
+   "reason": "So sánh kích thước bong bóng + đối chiếu chú giải màu."
+  },
+  {
+   "id": "dv_ch2",
+   "split": "dev",
+   "group": "chart",
+   "answerable": true,
+   "question": "Theo infographic '7 Skills New Marketers Need to Succeed', nghiên cứu dự đoán thiếu hụt bao nhiêu nhà quản lý giỏi dữ liệu và đến năm nào?",
+   "expected_answer": "Tối đa 1,5 triệu (1.5 MILLION) vào năm 2018.",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 41,
+     "evidence_type": "visual",
+     "evidence": "1.5 MILLION",
+     "region": "mục 1. Analytics (printed 40)"
+    }
+   ],
+   "reason": "Số liệu trong infographic."
+  },
+  {
+   "id": "dv_ch3",
+   "split": "dev",
+   "group": "chart",
+   "answerable": true,
+   "question": "Trong biểu đồ 'Color Emotion Guide', dải màu xám thể hiện những cảm xúc nào?",
+   "expected_answer": "BALANCE, NEUTRAL, CALM.",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 78,
+     "evidence_type": "visual",
+     "evidence": "BALANCE",
+     "region": "dải cuối cùng bên trái (printed 77)"
+    }
+   ],
+   "reason": "Đọc chú giải dải màu của biểu đồ."
+  },
+  {
+   "id": "dv_mh1",
+   "split": "dev",
+   "group": "multihop",
+   "answerable": true,
+   "question": "Hệ màu nào chuyên dùng cho in ấn, hệ màu nào chuyên dùng cho hiển thị, và chữ K trong CMYK là viết tắt của gì?",
+   "expected_answer": "CMYK cho in ấn, RGB cho hiển thị; K = Key (Black).",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 15,
+     "evidence_type": "text",
+     "group": "cmyk",
+     "evidence": "K (Key-Black)"
+    },
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 16,
+     "evidence_type": "text",
+     "group": "rgb",
+     "evidence": "hệ màu RGB lại chuyên dùng trong hiển thị"
+    }
+   ],
+   "reason": "Ghép 2 trang."
+  },
+  {
+   "id": "dv_mh2",
+   "split": "dev",
+   "group": "multihop",
+   "answerable": true,
+   "question": "iPhone 6 5.5 inch trong hình minh họa có mật độ bao nhiêu ppi, và theo định nghĩa trong sách, độ phân giải đếm số pixel trên đơn vị gì?",
+   "expected_answer": "401 ppi; độ phân giải = số pixel trên một đơn vị độ dài (không phải diện tích).",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 14,
+     "evidence_type": "visual",
+     "group": "iphone",
+     "evidence": "401ppi"
+    },
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 12,
+     "evidence_type": "text",
+     "group": "def",
+     "evidence": "Độ phân giải ảnh là số lượng pixel trên một đơn vị độ dài."
+    }
+   ],
+   "reason": "Ghép hình (p14) và định nghĩa (p12)."
+  },
+  {
+   "id": "dv_mh3",
+   "split": "dev",
+   "group": "multihop",
+   "answerable": true,
+   "question": "Sách khuyên dùng những tông màu nào cho CV, và theo chương màu sắc, phối các màu nằm cạnh nhau trên vòng màu như vậy đem lại cảm giác gì?",
+   "expected_answer": "Tông lạnh lục-lam-chàm (chỉ 1 màu chủ đạo); các màu nằm cạnh nhau (màu tương đồng) đem lại cảm giác hài hòa, nhẹ nhàng.",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 156,
+     "evidence_type": "text",
+     "group": "cv",
+     "evidence": "hãy dùng các tông màu lạnh như lục-lam-chàm"
+    },
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 68,
+     "evidence_type": "text",
+     "group": "analog",
+     "evidence": "Những màu nằm cạnh nhau, đem lại cho ta cảm giác hài hòa và nhẹ nhàng."
+    }
+   ],
+   "reason": "Ghép chương 7 và chương 3."
+  },
+  {
+   "id": "dv_tx1",
+   "split": "dev",
+   "group": "text",
+   "answerable": true,
+   "question": "Có thể chọn màu xám làm màu chủ đạo cho tác phẩm không? Vai trò của đen, trắng, xám là gì?",
+   "expected_answer": "Không; đen, trắng, xám không được coi là màu chủ đạo, chúng là màu đi kèm màu chủ đạo để tạo sắc thái mới.",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 66,
+     "evidence_type": "text",
+     "evidence": "tuyệt đối không có màu chủ đạo là màu đen, trắng, hay xám."
+    }
+   ],
+   "reason": "Ngoại lệ có điều kiện."
+  },
+  {
+   "id": "dv_tx2",
+   "split": "dev",
+   "group": "text",
+   "answerable": true,
+   "question": "Theo sách, khoảng bao nhiêu phần trăm sách in nội dung bằng chữ Serif và loại chữ này đem lại cảm giác gì?",
+   "expected_answer": "Khoảng 80%; cảm giác nghiêm trang và cổ điển.",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 89,
+     "evidence_type": "text",
+     "evidence": "Loại chữ này đem lại cho chúng ta cảm giác rất nghiêm trang và cổ điển."
+    }
+   ],
+   "reason": "Tổng hợp 2 ý trong 1 đoạn."
+  },
+  {
+   "id": "dv_tx3",
+   "split": "dev",
+   "group": "text",
+   "answerable": true,
+   "question": "Vì sao logo phải được tạo từ vector?",
+   "expected_answer": "Vì file (raster) dù lớn đến đâu cũng không chứa nổi một logo in trên 10m x 10m; vector co giãn được.",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 137,
+     "evidence_type": "text",
+     "evidence": "Dù file bạn tạo có lớn đến đâu, cũng không thể chứa nổi một logo được in trên 10mx10m."
+    }
+   ],
+   "reason": "Lý do có điều kiện."
+  },
+  {
+   "id": "dv_tx4",
+   "split": "dev",
+   "group": "text",
+   "answerable": true,
+   "question": "Tại sao nên chia CV thành nhiều cột?",
+   "expected_answer": "Khi số từ trên một dòng giảm, tốc độ đọc tăng; nhà tuyển dụng nắm thông tin nhanh hơn (chia đôi hoặc chia 3).",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 154,
+     "evidence_type": "text",
+     "evidence": "khi số lượng từ trên một dòng giảm xuống, tốc độ đọc của người dùng sẽ tăng lên"
+    }
+   ],
+   "reason": "Text."
+  },
+  {
+   "id": "dv_un1",
+   "split": "dev",
+   "group": "unanswerable",
+   "answerable": false,
+   "expected_behavior": "search_and_abstain",
+   "question": "Hệ màu LAB trong Photoshop được dùng trong trường hợp nào?",
+   "absence_reason": "Sách chỉ trình bày CMYK, RGB và HSB.",
+   "check_method": "Tìm 'LAB', 'Lab Color' trong text toàn bộ 183 trang và trong mô tả hình: không có; mục hệ màu chỉ ở p15-17, p60-61."
+  },
+  {
+   "id": "dv_un2",
+   "split": "dev",
+   "group": "unanswerable",
+   "answerable": false,
+   "expected_behavior": "search_and_abstain",
+   "question": "Học phí một khóa học thiết kế tại colorME là bao nhiêu?",
+   "absence_reason": "Sách giới thiệu colorME (số học viên, câu chuyện khởi nghiệp) nhưng không nêu học phí.",
+   "check_method": "Đọc p3, p177-183 (phụ lục về colorME); tìm 'học phí', 'giá', 'đồng', 'VNĐ': không có."
+  },
+  {
+   "id": "dv_un3",
+   "split": "dev",
+   "group": "unanswerable",
+   "answerable": false,
+   "expected_behavior": "search_and_abstain",
+   "question": "Tỉ lệ vàng có giá trị bằng bao nhiêu (con số cụ thể)?",
+   "absence_reason": "p48 chỉ nhắc 'tỉ lệ vàng' và dẫn link video, không có giá trị số.",
+   "check_method": "Tìm 'tỉ lệ vàng', '1.618', 'phi' trong text và mô tả hình: chỉ có p48 (link video)."
+  },
+  {
+   "id": "ts_tab1",
+   "split": "test_v1",
+   "group": "table",
+   "answerable": true,
+   "question": "Theo hình so sánh các iPhone, mật độ điểm ảnh của iPhone 6 5.5 inch cao hơn iPhone 5 (4 inch) bao nhiêu ppi?",
+   "expected_answer": "75 ppi (401 ppi − 326 ppi).",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 14,
+     "evidence_type": "visual",
+     "evidence": "1136x640",
+     "region": "iPhone 6 5.5\" (trái) và iPhone 5 (phải) (printed 13)"
+    }
+   ],
+   "reason": "Tra 2 ô của bảng trong hình rồi tính hiệu."
+  },
+  {
+   "id": "ts_tab2",
+   "split": "test_v1",
+   "group": "table",
+   "answerable": true,
+   "question": "Trong bảng 8 ô màu kèm từ khóa cảm nhận (tiếng Anh), màu orange gắn với những từ khóa nào?",
+   "expected_answer": "HEALTH, ATTRACTION, STAND OUT, THIRST, WEALTH, YOUTHFUL, HAPPINESS.",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 77,
+     "evidence_type": "visual",
+     "evidence": "ATTRACTION",
+     "region": "ô 'orange', hàng dưới cột 2 (printed 76)"
+    }
+   ],
+   "reason": "Bảng là ảnh; tra đúng cột orange."
+  },
+  {
+   "id": "ts_tab3",
+   "split": "test_v1",
+   "group": "table",
+   "answerable": true,
+   "question": "Trong bảng màu dành cho logo (chương nhận diện thương hiệu), nhóm tính từ 'Yên tĩnh, lành mạnh, khoẻ khoắn, ổn định, thèm muốn' nằm trên thanh màu gì?",
+   "expected_answer": "Xanh lá (đậm).",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 136,
+     "evidence_type": "visual",
+     "evidence": "xanh lá",
+     "region": "thanh thứ 5 trong 9 thanh (printed 135)"
+    }
+   ],
+   "reason": "Text layer chỉ có tính từ, màu chỉ có trong ảnh."
+  },
+  {
+   "id": "ts_tab4",
+   "split": "test_v1",
+   "group": "table",
+   "answerable": true,
+   "question": "Trong ảnh chụp Adobe Kuler, Color Rule đang chọn là gì và màu có RGB 255 0 0 có mã HEX nào?",
+   "expected_answer": "Analogous; FF0000.",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 86,
+     "evidence_type": "visual",
+     "evidence": "Analogous",
+     "region": "ảnh Kuler, ô Color Rule và hàng RGB/HEX (printed 85)"
+    }
+   ],
+   "reason": "Tra ô trong bảng giá trị màu của ảnh chụp màn hình."
+  },
+  {
+   "id": "ts_tab5",
+   "split": "test_v1",
+   "group": "table",
+   "answerable": true,
+   "question": "Trong tờ rơi IVY LANGUAGE dùng làm ví dụ phân cấp thông tin, chương trình SECOND dành cho độ tuổi nào?",
+   "expected_answer": "10 đến 14 tuổi (Tiếng Anh thiếu nhi nâng cao).",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 40,
+     "evidence_type": "visual",
+     "evidence": "10 đến 14 tuổi",
+     "region": "cột thứ 3 trong bảng 3 chương trình (printed 39)"
+    }
+   ],
+   "reason": "Tra cột SECOND của bảng 3 chương trình."
+  },
+  {
+   "id": "ts_tab6",
+   "split": "test_v1",
+   "group": "table",
+   "answerable": true,
+   "question": "Trong bảng phím tắt nhóm IMAGE, CTRL + U và CTRL + SHIFT + U lần lượt mở bảng gì?",
+   "expected_answer": "CTRL + U: bảng Hue/Saturation; CTRL + SHIFT + U: bảng Desaturate.",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 175,
+     "evidence_type": "text",
+     "evidence": "CTRL + U: Bảng Hue/Saturation"
+    }
+   ],
+   "reason": "Tra 2 hàng của bảng phím tắt."
+  },
+  {
+   "id": "ts_img1",
+   "split": "test_v1",
+   "group": "image",
+   "answerable": true,
+   "question": "Trong hình 4 thùng sơn minh họa hệ màu CMYK, thùng sơn màu hồng (magenta) mang chữ cái nào và thùng màu đen mang chữ cái nào?",
+   "expected_answer": "Màu hồng: M; màu đen: K.",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 15,
+     "evidence_type": "visual",
+     "evidence": "hồng",
+     "region": "4 thùng sơn đầu trang (printed 14)"
+    }
+   ],
+   "reason": "Gắn màu với chữ cái trong ảnh."
+  },
+  {
+   "id": "ts_img2",
+   "split": "test_v1",
+   "group": "image",
+   "answerable": true,
+   "question": "Trong ảnh quảng cáo Coca-Cola minh họa luật 1/3, gương mặt Santa nằm ở điểm giao nào của lưới?",
+   "expected_answer": "Điểm giao phía dưới bên trái.",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 50,
+     "evidence_type": "visual",
+     "evidence": "dưới bên trái",
+     "region": "ảnh bên phải có lưới (printed 49)"
+    }
+   ],
+   "reason": "Text chỉ nói 1 trong 4 điểm giao; vị trí phải đọc từ ảnh."
+  },
+  {
+   "id": "ts_img3",
+   "split": "test_v1",
+   "group": "image",
+   "answerable": true,
+   "question": "Bìa tạp chí Time dùng để minh họa 'lưới có mặt ở mọi nơi' có dòng tiêu đề lớn nào?",
+   "expected_answer": "THE 100 MOST INFLUENTIAL PEOPLE IN THE WORLD.",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 45,
+     "evidence_type": "visual",
+     "evidence": "100 MOST INFLUENTIAL",
+     "region": "2 bìa Time (printed 44)"
+    }
+   ],
+   "reason": "Chữ trong ảnh."
+  },
+  {
+   "id": "ts_img4",
+   "split": "test_v1",
+   "group": "image",
+   "answerable": true,
+   "question": "Trong ảnh hộp thoại tạo file mới (New) của Photoshop, file được đặt Width, Height, Resolution và Color Mode bao nhiêu?",
+   "expected_answer": "Width 842 pixels, Height 595 pixels, Resolution 72 pixels/inch, Color Mode RGB Color 8 bit.",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 19,
+     "evidence_type": "visual",
+     "evidence": "842",
+     "region": "ảnh chụp hộp thoại New (printed 18)"
+    }
+   ],
+   "reason": "Giá trị chỉ có trong ảnh chụp màn hình."
+  },
+  {
+   "id": "ts_img5",
+   "split": "test_v1",
+   "group": "image",
+   "answerable": true,
+   "question": "Poster McDonald's minh họa luật đối xứng có dòng slogan nào trong dấu ngoặc kép ở phía dưới?",
+   "expected_answer": "\"Delicious Starts Right Here\".",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 52,
+     "evidence_type": "visual",
+     "evidence": "Delicious Starts Right Here",
+     "region": "phần dưới poster (printed 51)"
+    }
+   ],
+   "reason": "Chữ trong ảnh."
+  },
+  {
+   "id": "ts_ch1",
+   "split": "test_v1",
+   "group": "chart",
+   "answerable": true,
+   "question": "Trong biểu đồ bong bóng 'Các bài toán thường gặp', bài toán nào được biểu diễn bằng bong bóng lớn nhất?",
+   "expected_answer": "Thiết kế ấn phẩm truyền thông (bong bóng xanh lá đậm lớn nhất).",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 6,
+     "evidence_type": "visual",
+     "group": "size",
+     "evidence": "lớn nhất",
+     "region": "5 bong bóng nửa trên (printed 5)"
+    },
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 6,
+     "evidence_type": "visual",
+     "group": "legend",
+     "evidence": "Thiết kế ấn phẩm",
+     "region": "chú giải màu nửa dưới"
+    }
+   ],
+   "reason": "So sánh kích thước + chú giải."
+  },
+  {
+   "id": "ts_ch2",
+   "split": "test_v1",
+   "group": "chart",
+   "answerable": true,
+   "question": "Theo infographic '7 Skills New Marketers Need to Succeed', bao nhiêu phần trăm marketer tin rằng mạng xã hội quan trọng với doanh nghiệp của họ?",
+   "expected_answer": "92%.",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 41,
+     "evidence_type": "visual",
+     "evidence": "92%",
+     "region": "mục 2. Social Media (printed 40)"
+    }
+   ],
+   "reason": "Số liệu trong infographic."
+  },
+  {
+   "id": "ts_ch3",
+   "split": "test_v1",
+   "group": "chart",
+   "answerable": true,
+   "question": "Trong trang 'CV – Charts', biểu đồ dạng chấm tròn có bao nhiêu chấm được tô màu trên tổng số chấm?",
+   "expected_answer": "5 chấm tô xanh trên tổng 6 chấm.",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 160,
+     "evidence_type": "visual",
+     "evidence": "chấm",
+     "region": "hàng chấm tròn bên trái (printed 159)"
+    }
+   ],
+   "reason": "Đọc giá trị biểu đồ."
+  },
+  {
+   "id": "ts_ch4",
+   "split": "test_v1",
+   "group": "chart",
+   "answerable": true,
+   "question": "Trong biểu đồ 'Color Emotion Guide', dải màu tím thể hiện những cảm xúc nào?",
+   "expected_answer": "CREATIVE, IMAGINITIVE, WISE.",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 78,
+     "evidence_type": "visual",
+     "evidence": "CREATIVE",
+     "region": "dải thứ 4 (printed 77)"
+    }
+   ],
+   "reason": "Đọc chú giải dải màu."
+  },
+  {
+   "id": "ts_ch5",
+   "split": "test_v1",
+   "group": "chart",
+   "answerable": true,
+   "question": "Trang 'CV – Charts' giới thiệu những mẫu biểu đồ nào cho CV?",
+   "expected_answer": "4 mẫu: biểu đồ vòng (donut), biểu đồ tròn (pie), biểu đồ chấm tròn, thanh ngang (progress bar).",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 160,
+     "evidence_type": "visual",
+     "evidence": "tròn",
+     "region": "4 biểu đồ nửa trên (printed 159)"
+    }
+   ],
+   "reason": "Nhận diện loại biểu đồ."
+  },
+  {
+   "id": "ts_mh1",
+   "split": "test_v1",
+   "group": "multihop",
+   "answerable": true,
+   "question": "Logo đa giác ít cạnh (Low Poly) tương tự hiệu ứng nào đã học ở chương 5, và để tạo hiệu ứng đó sách bảo dùng công cụ bên ngoài nào?",
+   "expected_answer": "Hiệu ứng Triangulation (low poly); công cụ http://snorpey.github.io/triangulation/.",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 145,
+     "evidence_type": "text",
+     "group": "logo",
+     "evidence": "Tương tự như hiệu ứng Triangulation được học ở chương 5"
+    },
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 128,
+     "evidence_type": "text",
+     "group": "tool",
+     "evidence": "snorpey.github.io/triangulation"
+    }
+   ],
+   "reason": "Ghép chương 6 và chương 5."
+  },
+  {
+   "id": "ts_mh2",
+   "split": "test_v1",
+   "group": "multihop",
+   "answerable": true,
+   "question": "Trong bảng màu cho logo, thanh màu tím gắn với những tính từ nào; và theo chương màu sắc, màu bổ túc của tím là màu gì, thương hiệu nào được lấy làm ví dụ phối cặp này?",
+   "expected_answer": "Tím: Tinh tế, tâm lý, giàu sang, hoàng tộc, trẻ trung, bí ẩn; màu bổ túc là vàng (cặp Vàng-Tím); ví dụ TPBank.",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 136,
+     "evidence_type": "visual",
+     "group": "logo_table",
+     "evidence": "tím",
+     "region": "thanh thứ 7 (printed 135)"
+    },
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 70,
+     "evidence_type": "text",
+     "group": "complement",
+     "evidence": "Trên đây là ví dụ về bộ nhận diện thương hiệu của TPBank. Sự phối hợp tuyệt vời giữa vàng và tím."
+    }
+   ],
+   "reason": "Ghép bảng (ảnh, chương 6) và text chương 3."
+  },
+  {
+   "id": "ts_mh3",
+   "split": "test_v1",
+   "group": "multihop",
+   "answerable": true,
+   "question": "Phím tắt của Transform tool ở chương 1 là gì, và trong phụ lục phím tắt, CTRL + SHIFT + T dùng để làm gì?",
+   "expected_answer": "Ctrl+T; CTRL + SHIFT + T: làm lại bước Free Transform.",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 23,
+     "evidence_type": "text",
+     "group": "transform",
+     "evidence": "Transform tool, có phím tắt là Ctrl+T"
+    },
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 24,
+     "evidence_type": "text",
+     "group": "transform",
+     "evidence": "Transform tool, có phím tắt là Ctrl+T"
+    },
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 25,
+     "evidence_type": "text",
+     "group": "transform",
+     "evidence": "Transform tool, có phím tắt là Ctrl+T"
+    },
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 26,
+     "evidence_type": "text",
+     "group": "transform",
+     "evidence": "Transform tool, có phím tắt là Ctrl+T"
+    },
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 27,
+     "evidence_type": "text",
+     "group": "transform",
+     "evidence": "Transform tool, có phím tắt là Ctrl+T"
+    },
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 28,
+     "evidence_type": "text",
+     "group": "transform",
+     "evidence": "Transform tool, có phím tắt là Ctrl+T"
+    },
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 175,
+     "evidence_type": "text",
+     "group": "appendix",
+     "evidence": "CTRL + SHIFT + T: Làm lại bước Free Transform"
+    }
+   ],
+   "reason": "Ghép chương 1 (6 trang có cùng câu, chấp nhận trang nào cũng được) và phụ lục."
+  },
+  {
+   "id": "ts_mh4",
+   "split": "test_v1",
+   "group": "multihop",
+   "answerable": true,
+   "question": "Cặp màu bổ túc nào bị hạn chế nhất khi phối, và sách dùng ảnh thiên nhiên nào để minh họa cặp màu đó?",
+   "expected_answer": "Đỏ và xanh lá; ảnh cánh đồng hoa tulip đỏ với lá xanh.",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 75,
+     "evidence_type": "text",
+     "group": "pair",
+     "evidence": "Đây là cặp màu được hạn chế nhất trong việc phối hợp."
+    },
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 76,
+     "evidence_type": "visual",
+     "group": "photo",
+     "evidence": "tulip",
+     "region": "ảnh hoa (printed 75)"
+    }
+   ],
+   "reason": "Ghép text p75 và ảnh p76."
+  },
+  {
+   "id": "ts_tx1",
+   "split": "test_v1",
+   "group": "text",
+   "answerable": true,
+   "question": "Vì sao Flat Design ban đầu được gọi là Metro Design?",
+   "expected_answer": "Vì phong cách hướng tới kiểu biển báo ở ga tàu điện Metro: đơn giản, gọn gàng, xúc tích (theo kĩ sư trưởng Windows 8, 2012).",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 165,
+     "evidence_type": "text",
+     "evidence": "phong cách mà Metro Design hướng đến là phong cách thiết kế biển báo ở ga tàu điện Metro"
+    }
+   ],
+   "reason": "Text."
+  },
+  {
+   "id": "ts_tx2",
+   "split": "test_v1",
+   "group": "text",
+   "answerable": true,
+   "question": "Vì sao màu pastel khó làm tông chủ đạo nhưng lại hợp làm background?",
+   "expected_answer": "Pastel (màu ám trắng) mờ nhạt nên khó thành tông chủ đạo, nhưng dễ kết hợp, không gây khó chịu nên hoàn hảo cho background (vd rèm, chăn ga gối đệm).",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 84,
+     "evidence_type": "text",
+     "evidence": "màu pastel rất khó có thể trở thành tông màu chủ đạo, nhưng lại cực kì hoàn hảo để trở thành"
+    }
+   ],
+   "reason": "Text có điều kiện."
+  },
+  {
+   "id": "ts_tx3",
+   "split": "test_v1",
+   "group": "text",
+   "answerable": true,
+   "question": "Phần đầu mục (header) của CV thường gồm những thông tin gì?",
+   "expected_answer": "Tên, giới thiệu ngắn về bản thân, vị trí tuyển dụng, thông tin cá nhân, ảnh đại diện.",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 157,
+     "evidence_type": "text",
+     "evidence": "Những thông tin thường có trong đầu mục là: Tên, giới thiệu ngắn về bản thân, vị trí tuyển dụng, thông tin cá"
+    }
+   ],
+   "reason": "Text liệt kê."
+  },
+  {
+   "id": "ts_tx4",
+   "split": "test_v1",
+   "group": "text",
+   "answerable": true,
+   "question": "Trong logo FedEx, hình gì được giấu trong không gian âm và nằm ở đâu?",
+   "expected_answer": "Một mũi tên, nằm giữa 2 chữ E và X.",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 146,
+     "evidence_type": "text",
+     "evidence": "mũi tên nằm giữa 2 chữ E và X"
+    }
+   ],
+   "reason": "Text."
+  },
+  {
+   "id": "ts_un1",
+   "split": "test_v1",
+   "group": "unanswerable",
+   "answerable": false,
+   "expected_behavior": "search_and_abstain",
+   "question": "Sách khuyến nghị độ phân giải tối thiểu bao nhiêu dpi khi thiết kế ấn phẩm để in?",
+   "absence_reason": "p12-13 chỉ minh họa các mức 50-300 ppi và nói độ phân giải càng cao càng rõ; không đưa ra mức khuyến nghị tối thiểu.",
+   "check_method": "Đọc p12-14, p19; tìm 'dpi', 'tối thiểu', 'khuyến nghị' trong text + mô tả hình: không có khuyến nghị."
+  },
+  {
+   "id": "ts_un2",
+   "split": "test_v1",
+   "group": "unanswerable",
+   "answerable": false,
+   "expected_behavior": "search_and_abstain",
+   "question": "Google ra mắt Material Design vào năm nào?",
+   "absence_reason": "p167 chỉ nói Google gia nhập cuộc chơi với Material Design, không nêu năm.",
+   "check_method": "Đọc p164-171; năm duy nhất là 2012 (Windows 8, phe thiết kế phẳng) và iOS 7, không có năm ra mắt Material Design."
+  },
+  {
+   "id": "ts_un3",
+   "split": "test_v1",
+   "group": "unanswerable",
+   "answerable": false,
+   "expected_behavior": "search_and_abstain",
+   "question": "Phím tắt để mở hộp thoại Image Size trong Photoshop là gì?",
+   "absence_reason": "Phụ lục phím tắt p174-176 và các trang chương 1 không có Image Size.",
+   "check_method": "Đọc toàn bộ p174-176 + p21; tìm 'Image Size' (chỉ xuất hiện trong ảnh hộp thoại New p19 dạng 'Image Size: 1.43M', không có phím tắt)."
+  },
+  {
+   "id": "ts_un4",
+   "split": "test_v1",
+   "group": "unanswerable",
+   "answerable": false,
+   "expected_behavior": "search_and_abstain",
+   "question": "Sách khuyên dùng font chữ cụ thể nào cho CV?",
+   "absence_reason": "Chương 7 (p153-162) nói về cột, màu, header, avatar, tiêu đề, biểu đồ, timeline, icon nhưng không gợi ý font.",
+   "check_method": "Đọc p153-162 + mô tả hình; tìm 'font' trong chương 7: không có."
+  },
+  {
+   "id": "ts_un5",
+   "split": "test_v1",
+   "group": "unanswerable",
+   "answerable": false,
+   "expected_behavior": "search_and_abstain",
+   "question": "Theo sách, một trang giấy A4 ở 300 ppi có kích thước bao nhiêu pixel?",
+   "absence_reason": "p12 chỉ nhắc ví dụ dàn ảnh 50x100 hoặc 500x1000 pixel lên giấy A4, không cho kích thước A4 theo pixel.",
+   "check_method": "Tìm 'A4' trong text: chỉ p12 (ví dụ so sánh), không có số pixel của A4."
+  },
+  {
+   "id": "ts_un6",
+   "split": "test_v1",
+   "group": "unanswerable",
+   "answerable": false,
+   "expected_behavior": "search_and_abstain",
+   "question": "Kích thước tiêu chuẩn của danh thiếp (business card) mà sách đề xuất là bao nhiêu?",
+   "absence_reason": "Sách không bàn về danh thiếp; p150 chỉ liệt kê 'ấn phẩm văn phòng' trong bộ nhận diện.",
+   "check_method": "Tìm 'danh thiếp', 'card', 'name card' trong text + mô tả hình: chỉ có ảnh panel Layers p21 có tên layer 'Business Card III', không có kích thước."
+  },
+  {
+   "id": "dv_img4",
+   "split": "dev",
+   "group": "image",
+   "answerable": true,
+   "question": "Trang 'Vì sao nên học Photoshop' có bao nhiêu biểu tượng minh họa lý do (ô vuông đỏ)?",
+   "expected_answer": "10 biểu tượng (10 lý do).",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 9,
+     "evidence_type": "visual",
+     "evidence": "10",
+     "region": "cột icon bên trái (printed 8)"
+    }
+   ],
+   "reason": "Đếm phần tử trong hình; vision v2 đếm sai thành 11."
+  },
+  {
+   "id": "dv_img5",
+   "split": "dev",
+   "group": "image",
+   "answerable": true,
+   "question": "Trong tổng kết chương 2, bìa tạp chí VOGUE có con số lớn màu hồng nào và dòng chữ đi kèm?",
+   "expected_answer": "65 – \"65 CHOICES TO UPDATE YOUR STYLE\".",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 53,
+     "evidence_type": "visual",
+     "evidence": "65",
+     "region": "bìa VOGUE bên phải (printed 52)"
+    }
+   ],
+   "reason": "Đọc headline khác masthead."
+  },
+  {
+   "id": "dv_ch4",
+   "split": "dev",
+   "group": "chart",
+   "answerable": true,
+   "question": "Theo infographic công thức súp (Healthy Soup Recipes), sau khi cho nguyên liệu cần đun liu riu bao lâu và mỗi công thức đủ cho mấy người?",
+   "expected_answer": "20 đến 30 phút; đủ cho 4 người.",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 42,
+     "evidence_type": "visual",
+     "evidence": "20 to 30",
+     "region": "khung 'For each recipe' (printed 41)"
+    }
+   ],
+   "reason": "Số liệu trong infographic."
+  },
+  {
+   "id": "dv_un4",
+   "split": "dev",
+   "group": "unanswerable",
+   "answerable": false,
+   "expected_behavior": "search_and_abstain",
+   "question": "Theo sách, một trang giấy A3 ở 300 ppi có kích thước bao nhiêu pixel?",
+   "absence_reason": "Sách không cho kích thước khổ A3 (hay A4) theo pixel; p12 chỉ nhắc ví dụ dàn ảnh lên giấy A4.",
+   "check_method": "Tìm 'A3', 'A4' trong text + mô tả hình: chỉ p12 (ví dụ), không có kích thước. (Dạng lỗi lấy từ test_v1 ts_un5 – nay đưa vào dev.)"
+  },
+  {
+   "id": "dv_un5",
+   "split": "dev",
+   "group": "unanswerable",
+   "answerable": false,
+   "expected_behavior": "search_and_abstain",
+   "question": "Sách khuyên chỉ nên dùng tối đa bao nhiêu font chữ trong một tác phẩm?",
+   "absence_reason": "p95, p118 khuyên không dùng quá nhiều font nhưng không đưa con số tối đa.",
+   "check_method": "Đọc p95-101, p118: không có số lượng tối đa."
+  },
+  {
+   "id": "tv2_tab1",
+   "split": "test_v2",
+   "group": "table",
+   "answerable": true,
+   "question": "Trong danh sách phím tắt thao tác với layer ở chương 1, phím tắt để gộp 2 hoặc nhiều layer và để tạo nhóm layer là gì?",
+   "expected_answer": "Gộp layer: chọn layer, Ctrl + E; tạo nhóm: Ctrl + G.",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 21,
+     "evidence_type": "text",
+     "evidence": "Gộp 2 hoặc nhiều layer lại (chọn Layer, Ctrl + E)"
+    }
+   ],
+   "reason": "Tra 2 hàng của bảng phím tắt."
+  },
+  {
+   "id": "tv2_tab2",
+   "split": "test_v2",
+   "group": "table",
+   "answerable": true,
+   "question": "Trong bảng phím tắt nhóm lệnh chọn (SELECT), CTRL + D và CTRL + ALT + D làm gì?",
+   "expected_answer": "CTRL + D: bỏ vùng chọn; CTRL + ALT + D: mờ biên vùng chọn.",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 174,
+     "evidence_type": "text",
+     "evidence": "CTRL + ALT + D: Mờ biên vùng chọn"
+    }
+   ],
+   "reason": "Tra 2 hàng."
+  },
+  {
+   "id": "tv2_tab3",
+   "split": "test_v2",
+   "group": "table",
+   "answerable": true,
+   "question": "Trong bảng phím tắt nhóm công cụ (Toolbar), phím nào dùng để viết chữ và phím nào là Hand Tool?",
+   "expected_answer": "T: viết chữ; H: Hand Tool.",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 176,
+     "evidence_type": "text",
+     "evidence": "T: Viết chữ"
+    }
+   ],
+   "reason": "Tra ngược từ chức năng ra phím."
+  },
+  {
+   "id": "tv2_tab4",
+   "split": "test_v2",
+   "group": "table",
+   "answerable": true,
+   "question": "Trong nhóm phím tắt VIEW, CTRL + R và CTRL + Y dùng để làm gì?",
+   "expected_answer": "CTRL + R: hiện thước; CTRL + Y: xem màu CMYK.",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 175,
+     "evidence_type": "text",
+     "evidence": "CTRL + R: Hiện thước"
+    }
+   ],
+   "reason": "Tra 2 hàng."
+  },
+  {
+   "id": "tv2_tab5",
+   "split": "test_v2",
+   "group": "table",
+   "answerable": true,
+   "question": "Trong bảng màu dành cho logo (chương nhận diện thương hiệu), thanh màu đen gắn với những tính từ nào?",
+   "expected_answer": "Trang trọng, đặc biệt, mạnh mẽ, quyền lực, tinh tế, truyền thống.",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 136,
+     "evidence_type": "visual",
+     "evidence": "đen",
+     "region": "thanh đầu tiên (printed 135)"
+    }
+   ],
+   "reason": "Màu chỉ có trong ảnh; text không gắn màu. Đã đối chiếu ảnh render trang gốc."
+  },
+  {
+   "id": "tv2_tab6",
+   "split": "test_v2",
+   "group": "table",
+   "answerable": true,
+   "question": "Trong bảng 8 ô màu kèm từ khóa cảm nhận (tiếng Anh), màu black gắn với những từ khóa nào?",
+   "expected_answer": "BOLD, RICH, POWER, MYSTERY, ELEGANCE, EVIL, STRENGTH.",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 77,
+     "evidence_type": "visual",
+     "evidence": "MYSTERY",
+     "region": "ô 'black', hàng trên cột 3 (printed 76)"
+    }
+   ],
+   "reason": "Bảng là ảnh. Đã đối chiếu ảnh render trang gốc."
+  },
+  {
+   "id": "tv2_img1",
+   "split": "test_v2",
+   "group": "image",
+   "answerable": true,
+   "question": "Trong sách, biểu tượng phần mềm Adobe Illustrator có chữ gì và chữ màu gì trên nền màu gì?",
+   "expected_answer": "Chữ \"Ai\" màu cam trên nền nâu đậm.",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 8,
+     "evidence_type": "visual",
+     "evidence": "Ai",
+     "region": "icon thứ 2 cột trái (printed 7)"
+    }
+   ],
+   "reason": "Đã đối chiếu ảnh render trang gốc."
+  },
+  {
+   "id": "tv2_img2",
+   "split": "test_v2",
+   "group": "image",
+   "answerable": true,
+   "question": "Poster phim dùng làm ví dụ khác cho mục 'Lưới trong thiết kế' là phim gì và ngày công chiếu ghi trên poster là gì?",
+   "expected_answer": "The Avengers (Marvel); MAY 4.",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 46,
+     "evidence_type": "visual",
+     "evidence": "MAY 4",
+     "region": "2 poster (printed 45)"
+    }
+   ],
+   "reason": "Đã đối chiếu ảnh render trang gốc."
+  },
+  {
+   "id": "tv2_img3",
+   "split": "test_v2",
+   "group": "image",
+   "answerable": true,
+   "question": "Trong ảnh minh họa chiến dịch 'Do You Vespa?', vòng tròn chứa dòng chữ 'DO YOU VESPA?' có màu gì?",
+   "expected_answer": "Xanh dương (nhạt) – cùng màu vòng khoanh gương mặt cô gái; phần còn lại ảnh đen trắng.",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 62,
+     "evidence_type": "visual",
+     "evidence": "VESPA",
+     "region": "vòng tròn bên phải (printed 61)"
+    }
+   ],
+   "reason": "Đã đối chiếu ảnh render trang gốc."
+  },
+  {
+   "id": "tv2_img4",
+   "split": "test_v2",
+   "group": "image",
+   "answerable": true,
+   "question": "Hai bìa album của ca sĩ MIN minh họa kĩ thuật đóng khung có những chữ lớn nào trên bìa?",
+   "expected_answer": "Bìa trái: Y Ê U; bìa phải: TÌM.",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 103,
+     "evidence_type": "visual",
+     "evidence": "TÌM",
+     "region": "2 bìa album (printed 102)"
+    }
+   ],
+   "reason": "Đã đối chiếu ảnh render trang gốc."
+  },
+  {
+   "id": "tv2_img5",
+   "split": "test_v2",
+   "group": "image",
+   "answerable": true,
+   "question": "Trong các ví dụ logo không gian âm, logo 'Unique Idea' lồng ghép những hình nào và logo '1234 club' giấu thêm hình gì?",
+   "expected_answer": "Unique Idea: con ngựa có sừng kết hợp bóng đèn; 1234 club: một ngôi sao nhỏ (cạnh số 3/4).",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 147,
+     "evidence_type": "visual",
+     "evidence": "Unique Idea",
+     "region": "2 logo (printed 146)"
+    }
+   ],
+   "reason": "Đã đối chiếu ảnh render trang gốc."
+  },
+  {
+   "id": "tv2_ch1",
+   "split": "test_v2",
+   "group": "chart",
+   "answerable": true,
+   "question": "Trong biểu đồ 'Color Emotion Guide', dải màu cam thể hiện những cảm xúc nào?",
+   "expected_answer": "FRIENDLY, CHEERFUL, CONFIDENCE.",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 78,
+     "evidence_type": "visual",
+     "evidence": "FRIENDLY",
+     "region": "dải thứ 2 (printed 77)"
+    }
+   ],
+   "reason": "Đã đối chiếu ảnh render trang gốc."
+  },
+  {
+   "id": "tv2_ch2",
+   "split": "test_v2",
+   "group": "chart",
+   "answerable": true,
+   "question": "Biểu đồ 'Color Emotion Guide' có bao nhiêu dải cảm xúc màu?",
+   "expected_answer": "7 dải: OPTIMISM, FRIENDLY, EXCITEMENT, CREATIVE, TRUST, PEACEFUL, BALANCE.",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 78,
+     "evidence_type": "visual",
+     "evidence": "PEACEFUL",
+     "region": "cột chú giải bên trái (printed 77)"
+    }
+   ],
+   "reason": "Đếm chú giải. Đã đối chiếu ảnh render trang gốc."
+  },
+  {
+   "id": "tv2_ch3",
+   "split": "test_v2",
+   "group": "chart",
+   "answerable": true,
+   "question": "Trong biểu đồ bong bóng 'Các bài toán thường gặp', bong bóng của 'Số hóa ý tưởng' lớn hơn hay nhỏ hơn bong bóng của 'Chỉnh sửa ảnh'?",
+   "expected_answer": "Nhỏ hơn (bong bóng cam nhỏ hơn bong bóng vàng).",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 6,
+     "evidence_type": "visual",
+     "evidence": "Số hóa ý tưởng",
+     "region": "bong bóng cam (trên trái) và vàng (phải) (printed 5)"
+    }
+   ],
+   "reason": "So sánh kích thước + chú giải. Đã đối chiếu ảnh render trang gốc."
+  },
+  {
+   "id": "tv2_ch4",
+   "split": "test_v2",
+   "group": "chart",
+   "answerable": true,
+   "question": "Trong trang 'CV – Charts', phần màu xanh của biểu đồ tròn (pie) chiếm nhiều hơn hay ít hơn một nửa hình tròn?",
+   "expected_answer": "Ít hơn một nửa (khoảng 40%).",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 160,
+     "evidence_type": "visual",
+     "evidence": "xanh",
+     "region": "biểu đồ tròn trên phải (printed 159)"
+    }
+   ],
+   "reason": "Đã đối chiếu ảnh render trang gốc."
+  },
+  {
+   "id": "tv2_ch5",
+   "split": "test_v2",
+   "group": "chart",
+   "answerable": true,
+   "question": "Sơ đồ các cặp màu bổ túc (6 vòng tròn màu) gồm những cặp nào, và RED-ORANGE được ghép với màu nào?",
+   "expected_answer": "6 cặp: RED+GREEN, RED-ORANGE+BLUE-GREEN, ORANGE+BLUE, YELLOW-ORANGE+BLUE-PURPLE, YELLOW+PURPLE, YELLOW-GREEN+RED-PURPLE; RED-ORANGE đi với BLUE-GREEN.",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 70,
+     "evidence_type": "visual",
+     "evidence": "BLUE-GREEN",
+     "region": "6 vòng màu (printed 69)"
+    }
+   ],
+   "reason": "Đã đối chiếu ảnh render trang gốc."
+  },
+  {
+   "id": "tv2_mh1",
+   "split": "test_v2",
+   "group": "multihop",
+   "answerable": true,
+   "question": "Phím tắt của Move Tool ở chương 1 là gì, và trong bảng phím tắt Toolbar ở phụ lục, phím M dùng để làm gì?",
+   "expected_answer": "Move Tool: V; phím M: tạo vùng chọn.",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 22,
+     "evidence_type": "text",
+     "evidence": "Phím tắt của công cụ này là V.",
+     "group": "move"
+    },
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 176,
+     "evidence_type": "text",
+     "evidence": "M: Tạo vùng chọn",
+     "group": "m"
+    }
+   ],
+   "reason": "Chương 1 + phụ lục."
+  },
+  {
+   "id": "tv2_mh2",
+   "split": "test_v2",
+   "group": "multihop",
+   "answerable": true,
+   "question": "Kĩ thuật nghịch đảo màu được minh họa bằng ca khúc của ai, và phím tắt để nghịch đảo vùng chọn trong Photoshop là gì?",
+   "expected_answer": "G Dragon (ca khúc ONE OF A KIND); CTRL + SHIFT + I.",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 109,
+     "evidence_type": "text",
+     "evidence": "G Dragon",
+     "group": "song"
+    },
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 174,
+     "evidence_type": "text",
+     "evidence": "CTRL + SHIFT + I: Nghịch đảo vùng chọn",
+     "group": "key"
+    }
+   ],
+   "reason": "Chương 4 + phụ lục."
+  },
+  {
+   "id": "tv2_mh3",
+   "split": "test_v2",
+   "group": "multihop",
+   "answerable": true,
+   "question": "Logo tượng hình có nhược điểm gì, và thương hiệu nào được nêu là đã loại bỏ phần chữ khỏi logo kết hợp của mình?",
+   "expected_answer": "Không phù hợp cho công ty/tổ chức chưa có độ nhận diện lớn trên thị trường; Starbucks Coffee.",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 133,
+     "evidence_type": "text",
+     "evidence": "không phù hợp lắm cho",
+     "group": "weak"
+    },
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 135,
+     "evidence_type": "text",
+     "evidence": "Starbucks Coffee",
+     "group": "sb"
+    }
+   ],
+   "reason": "2 trang chương 6."
+  },
+  {
+   "id": "tv2_mh4",
+   "split": "test_v2",
+   "group": "multihop",
+   "answerable": true,
+   "question": "Trong xu hướng thiết kế phẳng, Google đem hiệu ứng nào trở lại và Apple (iOS 7) giữ lại hiệu ứng nào?",
+   "expected_answer": "Google: bóng đổ (bóng dài 45 độ, tối giản); Apple iOS 7: gradient.",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 168,
+     "evidence_type": "text",
+     "evidence": "Google đem bóng đổ trở lại với thiết kế phẳng",
+     "group": "google"
+    },
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 170,
+     "evidence_type": "text",
+     "evidence": "Apple chính là người hùng giữ hiệu ứng Gradient ở lại",
+     "group": "apple"
+    }
+   ],
+   "reason": "2 trang chương 8."
+  },
+  {
+   "id": "tv2_tx1",
+   "split": "test_v2",
+   "group": "text",
+   "answerable": true,
+   "question": "Trong thiết kế, 'phần mềm' nghĩa là gì?",
+   "expected_answer": "Những phần có thể được chỉnh sửa, bổ sung và cập nhật (không phải phần mềm máy tính).",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 47,
+     "evidence_type": "text",
+     "evidence": "Phần mềm trong thiết kế là những phần có thể được chỉnh sửa, bổ"
+    }
+   ],
+   "reason": "Định nghĩa."
+  },
+  {
+   "id": "tv2_tx2",
+   "split": "test_v2",
+   "group": "text",
+   "answerable": true,
+   "question": "Tối kị lớn nhất đối với designer khi dùng chữ là gì?",
+   "expected_answer": "Bóp méo chữ.",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 115,
+     "evidence_type": "text",
+     "evidence": "Tối kị lớn nhất đối với designer là bóp méo chữ."
+    }
+   ],
+   "reason": "Text."
+  },
+  {
+   "id": "tv2_tx3",
+   "split": "test_v2",
+   "group": "text",
+   "answerable": true,
+   "question": "Theo sách, CV có ảnh đại diện mang lại lợi ích gì?",
+   "expected_answer": "Chiếm ưu thế hơn CV không có ảnh; nhà tuyển dụng ấn tượng tốt hơn, thiện cảm hơn, thấy ứng viên tự tin hơn.",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 158,
+     "evidence_type": "text",
+     "evidence": "những CV có ảnh đại diện đi kèm chiếm ưu thế lớn hơn hẳn so với CV không có"
+    }
+   ],
+   "reason": "Text."
+  },
+  {
+   "id": "tv2_tx4",
+   "split": "test_v2",
+   "group": "text",
+   "answerable": true,
+   "question": "Photoshop cho dùng thử bao lâu, và nếu không mua thì có cách nào để học?",
+   "expected_answer": "Dùng thử 30 ngày; hoặc dùng các phiên bản cũ được cung cấp miễn phí để học tập.",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 8,
+     "evidence_type": "text",
+     "evidence": "Photoshop cho phép bạn dùng thử trong vòng 30 ngày"
+    }
+   ],
+   "reason": "Text có điều kiện."
+  },
+  {
+   "id": "tv2_un1",
+   "split": "test_v2",
+   "group": "unanswerable",
+   "answerable": false,
+   "expected_behavior": "search_and_abstain",
+   "question": "Phím tắt để mở bảng Layers trong Photoshop là gì?",
+   "absence_reason": "Phụ lục p174-176 và p21 không có phím mở bảng Layers.",
+   "check_method": "Đọc p21, p174-176; tìm 'F7', 'Layers panel': không có phím tắt."
+  },
+  {
+   "id": "tv2_un2",
+   "split": "test_v2",
+   "group": "unanswerable",
+   "answerable": false,
+   "expected_behavior": "search_and_abstain",
+   "question": "Theo sách, hệ màu RGB có thể hiển thị khoảng bao nhiêu triệu màu?",
+   "absence_reason": "p16-17 giải thích 3 đèn led, không có con số số lượng màu.",
+   "check_method": "Đọc p16-17; tìm 'triệu', 'màu' + số: không có."
+  },
+  {
+   "id": "tv2_un3",
+   "split": "test_v2",
+   "group": "unanswerable",
+   "answerable": false,
+   "expected_behavior": "search_and_abstain",
+   "question": "colorME có bao nhiêu giảng viên?",
+   "absence_reason": "Sách nêu số học viên (1500, 500) nhưng không nêu số giảng viên.",
+   "check_method": "Đọc p3, p177-183; tìm 'giảng viên': chỉ có trong ảnh CV mẫu (civiME), không có số lượng."
+  },
+  {
+   "id": "tv2_un4",
+   "split": "test_v2",
+   "group": "unanswerable",
+   "answerable": false,
+   "expected_behavior": "search_and_abstain",
+   "question": "Sách khuyên logo phải đọc được ở kích thước tối thiểu bao nhiêu pixel?",
+   "absence_reason": "p138 chỉ nói logo phải thấy được trên kích thước nhỏ nhất (vd in lên bút), không có số pixel.",
+   "check_method": "Đọc p137-140."
+  },
+  {
+   "id": "tv2_un5",
+   "split": "test_v2",
+   "group": "unanswerable",
+   "answerable": false,
+   "expected_behavior": "search_and_abstain",
+   "question": "Sách giới thiệu những trang web nào để tải font chữ miễn phí?",
+   "absence_reason": "Sách chỉ gợi ý icons8.com (icon), freestockphotos.biz (ảnh), công cụ triangulation; không có trang tải font.",
+   "check_method": "Tìm 'http' trong text: không có trang font."
+  },
+  {
+   "id": "tv2_un6",
+   "split": "test_v2",
+   "group": "unanswerable",
+   "answerable": false,
+   "expected_behavior": "search_and_abstain",
+   "question": "Kích thước chuẩn của ảnh bìa (cover) Facebook mà sách đề xuất là bao nhiêu?",
+   "absence_reason": "p6 chỉ liệt kê 'cover' trong các ấn phẩm, không có kích thước.",
+   "check_method": "Tìm 'cover', 'Facebook' trong text + mô tả hình: không có kích thước."
+  },
+  {
+   "id": "dv_img6",
+   "split": "dev",
+   "group": "image",
+   "answerable": true,
+   "question": "Trong trang 'Những gì bạn có và chưa có', biểu tượng phần mềm nào nằm trong vòng tròn màu xanh lá?",
+   "expected_answer": "Biểu tượng Photoshop (chữ Ps).",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 7,
+     "evidence_type": "visual",
+     "evidence": "Ps",
+     "region": "vòng tròn xanh lá thứ 3 bên trái (printed 6)"
+    }
+   ],
+   "reason": "Bẫy filter: hình nằm ở chương 1, dễ bị lọc nhầm sang chương logo. Đã đối chiếu ảnh render trang gốc."
+  },
+  {
+   "id": "dv_img7",
+   "split": "dev",
+   "group": "image",
+   "answerable": true,
+   "question": "Trong sách, dòng chữ 'Vietnam Airlines' trong logo hãng có màu gì?",
+   "expected_answer": "Xanh dương (đậm).",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 72,
+     "evidence_type": "visual",
+     "evidence": "Vietnam Airlines",
+     "region": "logo cuối trang (printed 71)"
+    }
+   ],
+   "reason": "Bẫy filter: logo nằm ở chương 3 (màu sắc), không ở chương 6. Đã đối chiếu ảnh render trang gốc."
+  },
+  {
+   "id": "dv_img8",
+   "split": "dev",
+   "group": "image",
+   "answerable": true,
+   "question": "Tấm biển quảng cáo 'Cò lô sĩ' trong phần tác phẩm của học viên kêu gọi mọi người làm gì?",
+   "expected_answer": "Đạp xe (let's ĐẠP XE), nói không với xe máy/ô tô.",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 121,
+     "evidence_type": "visual",
+     "evidence": "ĐẠP XE",
+     "region": "biển quảng cáo (printed 120)"
+    }
+   ],
+   "reason": "Bẫy filter: tác phẩm học viên ở cuối chương 4. Đã đối chiếu ảnh render trang gốc."
+  },
+  {
+   "id": "dv_img9",
+   "split": "dev",
+   "group": "image",
+   "answerable": true,
+   "question": "Ảnh nền low poly minh họa hiệu ứng Triangulation có logo ghi dòng chữ gì?",
+   "expected_answer": "Color ME 9th May 2015.",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 128,
+     "evidence_type": "visual",
+     "evidence": "9th May 2015",
+     "region": "ảnh dưới (printed 127)"
+    }
+   ],
+   "reason": "Đã đối chiếu ảnh render trang gốc."
+  },
+  {
+   "id": "t3_tab1",
+   "split": "test",
+   "group": "table",
+   "answerable": true,
+   "question": "Trong bảng phím tắt nhóm FILE, CTRL + W và CTRL + ALT + S dùng để làm gì?",
+   "expected_answer": "CTRL + W: đóng file; CTRL + ALT + S: lưu thêm 1 bản copy.",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 174,
+     "evidence_type": "text",
+     "evidence": "CTRL + ALT + S (Save a Copy): Lưu thêm 1 bản copy"
+    }
+   ],
+   "reason": "Tra 2 hàng."
+  },
+  {
+   "id": "t3_tab2",
+   "split": "test",
+   "group": "table",
+   "answerable": true,
+   "question": "Trong nhóm lệnh EDIT của bảng phím tắt, CTRL + ALT + Z và CTRL + SHIFT + C làm gì?",
+   "expected_answer": "CTRL + ALT + Z: trở lại nhiều bước; CTRL + SHIFT + C: Copy Merged.",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 175,
+     "evidence_type": "text",
+     "evidence": "CTRL + ALT + Z: Trở lại nhiều bước"
+    }
+   ],
+   "reason": "Tra 2 hàng."
+  },
+  {
+   "id": "t3_tab3",
+   "split": "test",
+   "group": "table",
+   "answerable": true,
+   "question": "Trong bảng phím tắt Toolbar, phím G và phím E tương ứng công cụ gì?",
+   "expected_answer": "G: đổ màu/đổ màu chuyển; E: tẩy.",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 176,
+     "evidence_type": "text",
+     "evidence": "G: Đổ màu/Đổ màu chuyển"
+    }
+   ],
+   "reason": "Tra 2 hàng."
+  },
+  {
+   "id": "t3_tab4",
+   "split": "test",
+   "group": "table",
+   "answerable": true,
+   "question": "Trong ảnh Adobe Kuler, ô màu đầu tiên (đang được chọn) có giá trị RGB và mã HEX nào?",
+   "expected_answer": "RGB 255 83 13; HEX FF530D.",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 86,
+     "evidence_type": "visual",
+     "evidence": "FF530D",
+     "region": "ô màu đầu tiên + hàng RGB/HEX (printed 85)"
+    }
+   ],
+   "reason": "Đã đối chiếu ảnh render trang gốc."
+  },
+  {
+   "id": "t3_tab5",
+   "split": "test",
+   "group": "table",
+   "answerable": true,
+   "question": "Trong bảng 8 ô màu kèm từ khóa cảm nhận (tiếng Anh), màu pink gắn với những từ khóa nào?",
+   "expected_answer": "TENDERNESS, SENSITIVE, CARING, EMOTIONAL, SYMPATHETIC, LOVE, SEXUALITY.",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 77,
+     "evidence_type": "visual",
+     "evidence": "TENDERNESS",
+     "region": "ô 'pink', hàng dưới cột 3 (printed 76)"
+    }
+   ],
+   "reason": "Đã đối chiếu ảnh render trang gốc."
+  },
+  {
+   "id": "t3_tab6",
+   "split": "test",
+   "group": "table",
+   "answerable": true,
+   "question": "Trong bảng màu dành cho logo, thanh màu hồng gắn với những tính từ nào?",
+   "expected_answer": "Nữ tính, ngây thơ, dịu dàng, khoẻ mạnh, trẻ trung.",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 136,
+     "evidence_type": "visual",
+     "evidence": "hồng",
+     "region": "thanh thứ 6 (printed 135)"
+    }
+   ],
+   "reason": "Đã đối chiếu ảnh render trang gốc."
+  },
+  {
+   "id": "t3_img1",
+   "split": "test",
+   "group": "image",
+   "answerable": true,
+   "question": "Chiếc iPod trong ảnh minh họa mục 'Apple với iPod' có màu gì?",
+   "expected_answer": "Xanh dương (sáng), dây đeo cùng màu.",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 64,
+     "evidence_type": "visual",
+     "evidence": "iPod",
+     "region": "ảnh trên (printed 63)"
+    }
+   ],
+   "reason": "Đã đối chiếu ảnh render trang gốc."
+  },
+  {
+   "id": "t3_img2",
+   "split": "test",
+   "group": "image",
+   "answerable": true,
+   "question": "Hai poster phim minh họa phối màu tương đồng (Gradient Tool) là những phim nào?",
+   "expected_answer": "The Little Mermaid và The Lion King (Disney).",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 69,
+     "evidence_type": "visual",
+     "evidence": "LION KING",
+     "region": "2 poster (printed 68)"
+    }
+   ],
+   "reason": "Đã đối chiếu ảnh render trang gốc."
+  },
+  {
+   "id": "t3_img3",
+   "split": "test",
+   "group": "image",
+   "answerable": true,
+   "question": "Poster sự kiện minh họa nhóm màu neon có tên sự kiện gì và diễn ra vào ngày nào?",
+   "expected_answer": "SUMMER DANCE PARTY (Cocktail Bar), FRIDAY 18 SEPTEMBER.",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 83,
+     "evidence_type": "visual",
+     "evidence": "SUMMER DANCE PARTY",
+     "region": "poster (printed 82)"
+    }
+   ],
+   "reason": "Đã đối chiếu ảnh render trang gốc."
+  },
+  {
+   "id": "t3_img4",
+   "split": "test",
+   "group": "image",
+   "answerable": true,
+   "question": "Ví dụ 'thay đổi kích thước' với 1 typeface là poster phim nào, và hình chính là gì?",
+   "expected_answer": "THE GOOD THE BAD AND THE UGLY; bóng một người đàn ông đội mũ chứa phong cảnh bên trong.",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 95,
+     "evidence_type": "visual",
+     "evidence": "THE GOOD THE BAD AND THE UGLY",
+     "region": "poster (printed 94)"
+    }
+   ],
+   "reason": "Đã đối chiếu ảnh render trang gốc."
+  },
+  {
+   "id": "t3_img5",
+   "split": "test",
+   "group": "image",
+   "answerable": true,
+   "question": "Ba logo ví dụ cho loại logo kết hợp là của những thương hiệu nào?",
+   "expected_answer": "Starbucks Coffee, BMW, Puma.",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 135,
+     "evidence_type": "visual",
+     "evidence": "BMW",
+     "region": "3 logo (printed 134)"
+    }
+   ],
+   "reason": "Đã đối chiếu ảnh render trang gốc."
+  },
+  {
+   "id": "t3_ch1",
+   "split": "test",
+   "group": "chart",
+   "answerable": true,
+   "question": "Trong biểu đồ 'Color Emotion Guide', dải màu xanh lá thể hiện những cảm xúc nào?",
+   "expected_answer": "PEACEFUL, GROWTH, HEALTH.",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 78,
+     "evidence_type": "visual",
+     "evidence": "GROWTH",
+     "region": "dải thứ 6 (printed 77)"
+    }
+   ],
+   "reason": "Đã đối chiếu ảnh render trang gốc."
+  },
+  {
+   "id": "t3_ch2",
+   "split": "test",
+   "group": "chart",
+   "answerable": true,
+   "question": "Trong biểu đồ 'Color Emotion Guide', cảm xúc TRUST nằm ở dải màu gì và đi cùng những từ nào?",
+   "expected_answer": "Dải xanh dương: TRUST, DEPENDABLE, STRENGTH.",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 78,
+     "evidence_type": "visual",
+     "evidence": "DEPENDABLE",
+     "region": "dải thứ 5 (printed 77)"
+    }
+   ],
+   "reason": "Đã đối chiếu ảnh render trang gốc."
+  },
+  {
+   "id": "t3_ch3",
+   "split": "test",
+   "group": "chart",
+   "answerable": true,
+   "question": "Trong trang 'CV – Charts', thanh tiến trình ngang được tô màu nhiều hơn hay ít hơn một nửa chiều dài?",
+   "expected_answer": "Nhiều hơn một nửa (khoảng 80%).",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 160,
+     "evidence_type": "visual",
+     "evidence": "80",
+     "region": "thanh ngang dưới phải (printed 159)"
+    }
+   ],
+   "reason": "Đã đối chiếu ảnh render trang gốc."
+  },
+  {
+   "id": "t3_ch4",
+   "split": "test",
+   "group": "chart",
+   "answerable": true,
+   "question": "Trong biểu đồ bong bóng 'Các bài toán thường gặp', bong bóng 'Nhận diện thương hiệu' lớn hơn hay nhỏ hơn bong bóng 'Chỉnh sửa ảnh'?",
+   "expected_answer": "Lớn hơn (bong bóng xanh dương lớn hơn bong bóng vàng).",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 6,
+     "evidence_type": "visual",
+     "evidence": "Nhận diện thương hiệu",
+     "region": "bong bóng xanh dương (trái) và vàng (phải) (printed 5)"
+    }
+   ],
+   "reason": "Đã đối chiếu ảnh render trang gốc."
+  },
+  {
+   "id": "t3_ch5",
+   "split": "test",
+   "group": "chart",
+   "answerable": true,
+   "question": "Trong sơ đồ vòng tròn màu minh họa hệ RGB, biểu tượng ở tâm vòng tròn thể hiện trạng thái các đèn led thế nào?",
+   "expected_answer": "Cả 3 đèn đỏ, xanh lá, xanh dương đều bật (tạo màu trắng).",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 17,
+     "evidence_type": "visual",
+     "evidence": "tâm",
+     "region": "biểu tượng nhỏ ở giữa vòng (printed 16)"
+    }
+   ],
+   "reason": "Đã đối chiếu ảnh render trang gốc."
+  },
+  {
+   "id": "t3_mh1",
+   "split": "test",
+   "group": "multihop",
+   "answerable": true,
+   "question": "Hiệu ứng làm mờ mở đầu chương 5 tên là gì, và ở chương xu hướng thiết kế nó được ứng dụng kết hợp với phong cách nào?",
+   "expected_answer": "Blur; kết hợp với thiết kế phẳng (Flat Design) qua Blur Background.",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 124,
+     "evidence_type": "text",
+     "evidence": "Bắt đầu chương 5 với hiệu ứng blur bạn nhé",
+     "group": "ch5"
+    },
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 171,
+     "evidence_type": "text",
+     "evidence": "Ứng dụng với Blur BackGround",
+     "group": "ch8"
+    }
+   ],
+   "reason": "Chương 5 + chương 8."
+  },
+  {
+   "id": "t3_mh2",
+   "split": "test",
+   "group": "multihop",
+   "answerable": true,
+   "question": "Font serif và font sans-serif lần lượt được dùng nhiều trong những lĩnh vực nào?",
+   "expected_answer": "Serif: nhà hàng, khách sạn, kinh tế, giáo dục; sans-serif: quảng cáo, truyền thông, công nghệ.",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 89,
+     "evidence_type": "text",
+     "evidence": "nhà hàng, khách sạn, kinh tế, giáo dục",
+     "group": "serif"
+    },
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 91,
+     "evidence_type": "text",
+     "evidence": "quảng cáo, truyền thông và công nghệ",
+     "group": "sans"
+    }
+   ],
+   "reason": "2 trang."
+  },
+  {
+   "id": "t3_mh3",
+   "split": "test",
+   "group": "multihop",
+   "answerable": true,
+   "question": "Kĩ thuật đóng khung và kĩ thuật line trong typography khác nhau thế nào?",
+   "expected_answer": "Đóng khung: tạo bo viền quanh chữ để mọi thứ bên trong thành một thể thống nhất; line: dùng đường kẻ để phân tách bố cục.",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 102,
+     "evidence_type": "text",
+     "evidence": "tạo ra một bo viền xung quanh chữ",
+     "group": "border"
+    },
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 106,
+     "evidence_type": "text",
+     "evidence": "Là kĩ thuật dùng những đường kẻ để phân tách bố cục của bản thiết kế.",
+     "group": "line"
+    }
+   ],
+   "reason": "2 trang."
+  },
+  {
+   "id": "t3_mh4",
+   "split": "test",
+   "group": "multihop",
+   "answerable": true,
+   "question": "Logo mô thức (Pattern and Shape) và logo hình khối (Geometric Shape) được định nghĩa khác nhau thế nào?",
+   "expected_answer": "Logo mô thức nằm trong các hình đa giác đều (tam giác đều, hình vuông, lục giác đều); logo hình khối chỉ tạo thành từ những đường thẳng.",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 143,
+     "evidence_type": "text",
+     "evidence": "Là nhóm logo nằm trong các hình đa giác đều",
+     "group": "pattern"
+    },
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 144,
+     "evidence_type": "text",
+     "evidence": "Là những logo chỉ được tạo thành từ những đường thẳng",
+     "group": "geo"
+    }
+   ],
+   "reason": "2 trang."
+  },
+  {
+   "id": "t3_tx1",
+   "split": "test",
+   "group": "text",
+   "answerable": true,
+   "question": "Theo sách, sai lầm lớn nhất thường gặp của người mới bắt đầu thiết kế là gì?",
+   "expected_answer": "Dùng quá nhiều màu sắc, biến tác phẩm thành mớ hỗn độn.",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 62,
+     "evidence_type": "text",
+     "evidence": "các bạn dùng… quá nhiều màu sắc"
+    }
+   ],
+   "reason": "Text."
+  },
+  {
+   "id": "t3_tx2",
+   "split": "test",
+   "group": "text",
+   "answerable": true,
+   "question": "Khi tác giả hỏi lớp học colorME ai cần một CV đẹp, tỉ lệ người giơ tay thế nào?",
+   "expected_answer": "Chưa lần nào dưới 80%.",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 153,
+     "evidence_type": "text",
+     "evidence": "Chưa lần nào số"
+    }
+   ],
+   "reason": "Text."
+  },
+  {
+   "id": "t3_tx3",
+   "split": "test",
+   "group": "text",
+   "answerable": true,
+   "question": "Theo sách, kích thước chữ phụ thuộc vào điều gì của nội dung?",
+   "expected_answer": "Độ phân cấp thông tin.",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 39,
+     "evidence_type": "text",
+     "evidence": "Câu trả lời chính là độ phân cấp thông tin."
+    }
+   ],
+   "reason": "Text."
+  },
+  {
+   "id": "t3_tx4",
+   "split": "test",
+   "group": "text",
+   "answerable": true,
+   "question": "Vì sao cần phân bố độ to nhỏ của từng con chữ cho phù hợp (lỗi 'không có chính phụ')?",
+   "expected_answer": "Để những phần nội dung có thêm không gian để có thể 'thở'.",
+   "gold": [
+    {
+     "source_id": "colorme-ebook-3",
+     "page": 116,
+     "evidence_type": "text",
+     "evidence": "Để những phần nội dung có thêm không gian"
+    }
+   ],
+   "reason": "Text."
+  },
+  {
+   "id": "t3_un1",
+   "split": "test",
+   "group": "unanswerable",
+   "answerable": false,
+   "expected_behavior": "search_and_abstain",
+   "question": "Theo sách, xây dựng một bộ nhận diện thương hiệu đầy đủ thường tốn bao nhiêu chi phí?",
+   "absence_reason": "p149-151 liệt kê thành phần bộ nhận diện, không có chi phí.",
+   "check_method": "Đọc p148-151; tìm 'chi phí', 'giá': không có."
+  },
+  {
+   "id": "t3_un2",
+   "split": "test",
+   "group": "unanswerable",
+   "answerable": false,
+   "expected_behavior": "search_and_abstain",
+   "question": "Kích thước file PSD tối đa mà Photoshop hỗ trợ là bao nhiêu?",
+   "absence_reason": "Sách không nói về giới hạn kích thước file.",
+   "check_method": "Tìm 'PSD', 'GB', 'dung lượng': không có."
+  },
+  {
+   "id": "t3_un3",
+   "split": "test",
+   "group": "unanswerable",
+   "answerable": false,
+   "expected_behavior": "search_and_abstain",
+   "question": "Sách so sánh Photoshop với phần mềm GIMP như thế nào?",
+   "absence_reason": "p8 chỉ so Photoshop với Illustrator, InDesign, Lightroom; không nhắc GIMP.",
+   "check_method": "Tìm 'GIMP': không có."
+  },
+  {
+   "id": "t3_un4",
+   "split": "test",
+   "group": "unanswerable",
+   "answerable": false,
+   "expected_behavior": "search_and_abstain",
+   "question": "Theo sách, mã HEX của màu đỏ trong logo colorME là gì?",
+   "absence_reason": "Sách không ghi mã màu logo colorME (mã HEX duy nhất là của ảnh Kuler p86).",
+   "check_method": "Tìm 'HEX', '#': chỉ ảnh Kuler p86."
+  },
+  {
+   "id": "t3_un5",
+   "split": "test",
+   "group": "unanswerable",
+   "answerable": false,
+   "expected_behavior": "search_and_abstain",
+   "question": "Hiệu ứng Triangulation cần tối thiểu bao nhiêu đa giác?",
+   "absence_reason": "p128 chỉ giới thiệu trào lưu và công cụ ngoài, không có con số.",
+   "check_method": "Đọc p128, p145."
+  },
+  {
+   "id": "t3_un6",
+   "split": "test",
+   "group": "unanswerable",
+   "answerable": false,
+   "expected_behavior": "search_and_abstain",
+   "question": "Sách khuyên CV nên dài tối đa mấy trang?",
+   "absence_reason": "Chương 7 không nói về độ dài CV.",
+   "check_method": "Đọc p153-162; tìm 'trang', 'độ dài': không có."
+  }
+ ]
+}

@@ -1,0 +1,6554 @@
+[
+  {
+    "method": "dense",
+    "query_id": "t3_tab1",
+    "split": "test",
+    "group": "table",
+    "query": "Trong bảng phím tắt nhóm FILE, CTRL + W và CTRL + ALT + S dùng để làm gì?",
+    "filter": null,
+    "first_hit_rank": 1,
+    "results": [
+      {
+        "id": "B4:colorme3:p174:t00",
+        "page": 174,
+        "rank": 1,
+        "score": 0.66769,
+        "content_type": "text",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p175:t01",
+        "page": 175,
+        "rank": 2,
+        "score": 0.64866,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p175:t02",
+        "page": 175,
+        "rank": 3,
+        "score": 0.62641,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p176:t00",
+        "page": 176,
+        "rank": 4,
+        "score": 0.62349,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p174:v00",
+        "page": 174,
+        "rank": 5,
+        "score": 0.59294,
+        "content_type": "visual",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p175:v00",
+        "page": 175,
+        "rank": 6,
+        "score": 0.58791,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p173:t00",
+        "page": 173,
+        "rank": 7,
+        "score": 0.5852,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p176:v00",
+        "page": 176,
+        "rank": 8,
+        "score": 0.56063,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p174:t01",
+        "page": 174,
+        "rank": 9,
+        "score": 0.55816,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p028:t00",
+        "page": 28,
+        "rank": 10,
+        "score": 0.54077,
+        "content_type": "text",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "method": "dense",
+    "query_id": "t3_tab2",
+    "split": "test",
+    "group": "table",
+    "query": "Trong nhóm lệnh EDIT của bảng phím tắt, CTRL + ALT + Z và CTRL + SHIFT + C làm gì?",
+    "filter": null,
+    "first_hit_rank": 1,
+    "results": [
+      {
+        "id": "B4:colorme3:p175:t01",
+        "page": 175,
+        "rank": 1,
+        "score": 0.67749,
+        "content_type": "text",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p175:t02",
+        "page": 175,
+        "rank": 2,
+        "score": 0.62994,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p176:t00",
+        "page": 176,
+        "rank": 3,
+        "score": 0.62227,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p174:t00",
+        "page": 174,
+        "rank": 4,
+        "score": 0.6088,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p175:v00",
+        "page": 175,
+        "rank": 5,
+        "score": 0.6067,
+        "content_type": "visual",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p173:t00",
+        "page": 173,
+        "rank": 6,
+        "score": 0.57483,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p176:v00",
+        "page": 176,
+        "rank": 7,
+        "score": 0.55585,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p174:t01",
+        "page": 174,
+        "rank": 8,
+        "score": 0.55375,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p174:v00",
+        "page": 174,
+        "rank": 9,
+        "score": 0.55026,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p173:v01",
+        "page": 173,
+        "rank": 10,
+        "score": 0.52907,
+        "content_type": "visual",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "method": "dense",
+    "query_id": "t3_tab3",
+    "split": "test",
+    "group": "table",
+    "query": "Trong bảng phím tắt Toolbar, phím G và phím E tương ứng công cụ gì?",
+    "filter": null,
+    "first_hit_rank": 1,
+    "results": [
+      {
+        "id": "B4:colorme3:p176:v00",
+        "page": 176,
+        "rank": 1,
+        "score": 0.69071,
+        "content_type": "visual",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p176:t00",
+        "page": 176,
+        "rank": 2,
+        "score": 0.68108,
+        "content_type": "text",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p175:t02",
+        "page": 175,
+        "rank": 3,
+        "score": 0.59589,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p175:v00",
+        "page": 175,
+        "rank": 4,
+        "score": 0.56226,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p175:t01",
+        "page": 175,
+        "rank": 5,
+        "score": 0.56206,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p175:t00",
+        "page": 175,
+        "rank": 6,
+        "score": 0.54166,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p174:t00",
+        "page": 174,
+        "rank": 7,
+        "score": 0.53193,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p173:t00",
+        "page": 173,
+        "rank": 8,
+        "score": 0.52974,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p174:v00",
+        "page": 174,
+        "rank": 9,
+        "score": 0.51561,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p174:t01",
+        "page": 174,
+        "rank": 10,
+        "score": 0.51263,
+        "content_type": "text",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "method": "dense",
+    "query_id": "t3_tab4",
+    "split": "test",
+    "group": "table",
+    "query": "Trong ảnh Adobe Kuler, ô màu đầu tiên (đang được chọn) có giá trị RGB và mã HEX nào?",
+    "filter": null,
+    "first_hit_rank": 1,
+    "results": [
+      {
+        "id": "B4:colorme3:p086:v01",
+        "page": 86,
+        "rank": 1,
+        "score": 0.75823,
+        "content_type": "visual",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p086:v00",
+        "page": 86,
+        "rank": 2,
+        "score": 0.72733,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p086:v02",
+        "page": 86,
+        "rank": 3,
+        "score": 0.67562,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p086:t00",
+        "page": 86,
+        "rank": 4,
+        "score": 0.66516,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p016:t00",
+        "page": 16,
+        "rank": 5,
+        "score": 0.62651,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p016:v00",
+        "page": 16,
+        "rank": 6,
+        "score": 0.61494,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p061:t00",
+        "page": 61,
+        "rank": 7,
+        "score": 0.60649,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p061:v00",
+        "page": 61,
+        "rank": 8,
+        "score": 0.60197,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p061:v01",
+        "page": 61,
+        "rank": 9,
+        "score": 0.58735,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p017:v00",
+        "page": 17,
+        "rank": 10,
+        "score": 0.5859,
+        "content_type": "visual",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "method": "dense",
+    "query_id": "t3_tab5",
+    "split": "test",
+    "group": "table",
+    "query": "Trong bảng 8 ô màu kèm từ khóa cảm nhận (tiếng Anh), màu pink gắn với những từ khóa nào?",
+    "filter": null,
+    "first_hit_rank": 1,
+    "results": [
+      {
+        "id": "B4:colorme3:p077:v00",
+        "page": 77,
+        "rank": 1,
+        "score": 0.60073,
+        "content_type": "visual",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p078:v00",
+        "page": 78,
+        "rank": 2,
+        "score": 0.58584,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p086:v01",
+        "page": 86,
+        "rank": 3,
+        "score": 0.51699,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p086:v00",
+        "page": 86,
+        "rank": 4,
+        "score": 0.50686,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p067:v01",
+        "page": 67,
+        "rank": 5,
+        "score": 0.50599,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p136:v00",
+        "page": 136,
+        "rank": 6,
+        "score": 0.5028,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p149:v01",
+        "page": 149,
+        "rank": 7,
+        "score": 0.49986,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p070:v00",
+        "page": 70,
+        "rank": 8,
+        "score": 0.49962,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p084:v00",
+        "page": 84,
+        "rank": 9,
+        "score": 0.49803,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p067:v00",
+        "page": 67,
+        "rank": 10,
+        "score": 0.49186,
+        "content_type": "visual",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "method": "dense",
+    "query_id": "t3_tab6",
+    "split": "test",
+    "group": "table",
+    "query": "Trong bảng màu dành cho logo, thanh màu hồng gắn với những tính từ nào?",
+    "filter": null,
+    "first_hit_rank": 3,
+    "results": [
+      {
+        "id": "B4:colorme3:p070:v00",
+        "page": 70,
+        "rank": 1,
+        "score": 0.64362,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p086:v01",
+        "page": 86,
+        "rank": 2,
+        "score": 0.63695,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p136:v00",
+        "page": 136,
+        "rank": 3,
+        "score": 0.62259,
+        "content_type": "visual",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p072:v00",
+        "page": 72,
+        "rank": 4,
+        "score": 0.61144,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p086:v00",
+        "page": 86,
+        "rank": 5,
+        "score": 0.60739,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p141:v00",
+        "page": 141,
+        "rank": 6,
+        "score": 0.60551,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p070:v01",
+        "page": 70,
+        "rank": 7,
+        "score": 0.59949,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p136:t00",
+        "page": 136,
+        "rank": 8,
+        "score": 0.59913,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p086:v02",
+        "page": 86,
+        "rank": 9,
+        "score": 0.59487,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p072:v01",
+        "page": 72,
+        "rank": 10,
+        "score": 0.58831,
+        "content_type": "visual",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "method": "dense",
+    "query_id": "t3_img1",
+    "split": "test",
+    "group": "image",
+    "query": "Chiếc iPod trong ảnh minh họa mục 'Apple với iPod' có màu gì?",
+    "filter": null,
+    "first_hit_rank": 1,
+    "results": [
+      {
+        "id": "B4:colorme3:p064:v00",
+        "page": 64,
+        "rank": 1,
+        "score": 0.76844,
+        "content_type": "visual",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p064:t00",
+        "page": 64,
+        "rank": 2,
+        "score": 0.72006,
+        "content_type": "text",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p137:v00",
+        "page": 137,
+        "rank": 3,
+        "score": 0.54143,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p085:v01",
+        "page": 85,
+        "rank": 4,
+        "score": 0.5134,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p149:v00",
+        "page": 149,
+        "rank": 5,
+        "score": 0.50501,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p086:v01",
+        "page": 86,
+        "rank": 6,
+        "score": 0.49848,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p073:v00",
+        "page": 73,
+        "rank": 7,
+        "score": 0.49282,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p133:v00",
+        "page": 133,
+        "rank": 8,
+        "score": 0.48896,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p170:t00",
+        "page": 170,
+        "rank": 9,
+        "score": 0.48795,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p085:v00",
+        "page": 85,
+        "rank": 10,
+        "score": 0.48743,
+        "content_type": "visual",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "method": "dense",
+    "query_id": "t3_img2",
+    "split": "test",
+    "group": "image",
+    "query": "Hai poster phim minh họa phối màu tương đồng (Gradient Tool) là những phim nào?",
+    "filter": null,
+    "first_hit_rank": 2,
+    "results": [
+      {
+        "id": "B4:colorme3:p069:t00",
+        "page": 69,
+        "rank": 1,
+        "score": 0.65472,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p069:v00",
+        "page": 69,
+        "rank": 2,
+        "score": 0.58889,
+        "content_type": "visual",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p080:v01",
+        "page": 80,
+        "rank": 3,
+        "score": 0.58698,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p069:v01",
+        "page": 69,
+        "rank": 4,
+        "score": 0.58489,
+        "content_type": "visual",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p080:v02",
+        "page": 80,
+        "rank": 5,
+        "score": 0.55116,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p080:v00",
+        "page": 80,
+        "rank": 6,
+        "score": 0.53722,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p073:v00",
+        "page": 73,
+        "rank": 7,
+        "score": 0.53295,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p086:t00",
+        "page": 86,
+        "rank": 8,
+        "score": 0.52792,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p086:v01",
+        "page": 86,
+        "rank": 9,
+        "score": 0.52736,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p068:v00",
+        "page": 68,
+        "rank": 10,
+        "score": 0.52716,
+        "content_type": "visual",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "method": "dense",
+    "query_id": "t3_img3",
+    "split": "test",
+    "group": "image",
+    "query": "Poster sự kiện minh họa nhóm màu neon có tên sự kiện gì và diễn ra vào ngày nào?",
+    "filter": null,
+    "first_hit_rank": 2,
+    "results": [
+      {
+        "id": "B4:colorme3:p083:v02",
+        "page": 83,
+        "rank": 1,
+        "score": 0.58359,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p083:v03",
+        "page": 83,
+        "rank": 2,
+        "score": 0.57596,
+        "content_type": "visual",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p083:v00",
+        "page": 83,
+        "rank": 3,
+        "score": 0.5724,
+        "content_type": "visual",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p083:v01",
+        "page": 83,
+        "rank": 4,
+        "score": 0.56437,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p082:v00",
+        "page": 82,
+        "rank": 5,
+        "score": 0.55556,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p083:v06",
+        "page": 83,
+        "rank": 6,
+        "score": 0.54849,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p083:v04",
+        "page": 83,
+        "rank": 7,
+        "score": 0.54714,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p083:v05",
+        "page": 83,
+        "rank": 8,
+        "score": 0.52229,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p082:t00",
+        "page": 82,
+        "rank": 9,
+        "score": 0.50677,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p107:v00",
+        "page": 107,
+        "rank": 10,
+        "score": 0.47083,
+        "content_type": "visual",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "method": "dense",
+    "query_id": "t3_img4",
+    "split": "test",
+    "group": "image",
+    "query": "Ví dụ 'thay đổi kích thước' với 1 typeface là poster phim nào, và hình chính là gì?",
+    "filter": null,
+    "first_hit_rank": 1,
+    "results": [
+      {
+        "id": "B4:colorme3:p095:v00",
+        "page": 95,
+        "rank": 1,
+        "score": 0.64628,
+        "content_type": "visual",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p095:t00",
+        "page": 95,
+        "rank": 2,
+        "score": 0.62771,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p092:v03",
+        "page": 92,
+        "rank": 3,
+        "score": 0.61704,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p097:v00",
+        "page": 97,
+        "rank": 4,
+        "score": 0.61543,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p096:t00",
+        "page": 96,
+        "rank": 5,
+        "score": 0.6093,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p092:v02",
+        "page": 92,
+        "rank": 6,
+        "score": 0.6058,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p097:t00",
+        "page": 97,
+        "rank": 7,
+        "score": 0.59907,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p096:v00",
+        "page": 96,
+        "rank": 8,
+        "score": 0.5949,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p092:v00",
+        "page": 92,
+        "rank": 9,
+        "score": 0.58363,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p092:v05",
+        "page": 92,
+        "rank": 10,
+        "score": 0.58319,
+        "content_type": "visual",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "method": "dense",
+    "query_id": "t3_img5",
+    "split": "test",
+    "group": "image",
+    "query": "Ba logo ví dụ cho loại logo kết hợp là của những thương hiệu nào?",
+    "filter": null,
+    "first_hit_rank": 1,
+    "results": [
+      {
+        "id": "B4:colorme3:p135:v00",
+        "page": 135,
+        "rank": 1,
+        "score": 0.677,
+        "content_type": "visual",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p135:t00",
+        "page": 135,
+        "rank": 2,
+        "score": 0.67499,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p133:v00",
+        "page": 133,
+        "rank": 3,
+        "score": 0.63284,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p133:t00",
+        "page": 133,
+        "rank": 4,
+        "score": 0.6208,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p142:v01",
+        "page": 142,
+        "rank": 5,
+        "score": 0.6114,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p134:v00",
+        "page": 134,
+        "rank": 6,
+        "score": 0.59784,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p134:v01",
+        "page": 134,
+        "rank": 7,
+        "score": 0.59755,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p144:v00",
+        "page": 144,
+        "rank": 8,
+        "score": 0.59453,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p143:v01",
+        "page": 143,
+        "rank": 9,
+        "score": 0.59157,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p134:v02",
+        "page": 134,
+        "rank": 10,
+        "score": 0.59082,
+        "content_type": "visual",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "method": "dense",
+    "query_id": "t3_ch1",
+    "split": "test",
+    "group": "chart",
+    "query": "Trong biểu đồ 'Color Emotion Guide', dải màu xanh lá thể hiện những cảm xúc nào?",
+    "filter": null,
+    "first_hit_rank": 1,
+    "results": [
+      {
+        "id": "B4:colorme3:p078:v00",
+        "page": 78,
+        "rank": 1,
+        "score": 0.72535,
+        "content_type": "visual",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p077:v00",
+        "page": 77,
+        "rank": 2,
+        "score": 0.67763,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p055:v00",
+        "page": 55,
+        "rank": 3,
+        "score": 0.61522,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p086:v01",
+        "page": 86,
+        "rank": 4,
+        "score": 0.5978,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p077:t00",
+        "page": 77,
+        "rank": 5,
+        "score": 0.59339,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p070:v00",
+        "page": 70,
+        "rank": 6,
+        "score": 0.59285,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p136:v00",
+        "page": 136,
+        "rank": 7,
+        "score": 0.58332,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p086:v00",
+        "page": 86,
+        "rank": 8,
+        "score": 0.58009,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p085:v00",
+        "page": 85,
+        "rank": 9,
+        "score": 0.57559,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p080:v01",
+        "page": 80,
+        "rank": 10,
+        "score": 0.57521,
+        "content_type": "visual",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "method": "dense",
+    "query_id": "t3_ch2",
+    "split": "test",
+    "group": "chart",
+    "query": "Trong biểu đồ 'Color Emotion Guide', cảm xúc TRUST nằm ở dải màu gì và đi cùng những từ nào?",
+    "filter": null,
+    "first_hit_rank": 1,
+    "results": [
+      {
+        "id": "B4:colorme3:p078:v00",
+        "page": 78,
+        "rank": 1,
+        "score": 0.72396,
+        "content_type": "visual",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p077:v00",
+        "page": 77,
+        "rank": 2,
+        "score": 0.71748,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p068:t00",
+        "page": 68,
+        "rank": 3,
+        "score": 0.59931,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p055:v00",
+        "page": 55,
+        "rank": 4,
+        "score": 0.59161,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p070:v00",
+        "page": 70,
+        "rank": 5,
+        "score": 0.58738,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p077:t00",
+        "page": 77,
+        "rank": 6,
+        "score": 0.57743,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p086:v01",
+        "page": 86,
+        "rank": 7,
+        "score": 0.5756,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p136:v00",
+        "page": 136,
+        "rank": 8,
+        "score": 0.57346,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p086:v00",
+        "page": 86,
+        "rank": 9,
+        "score": 0.56558,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p085:v00",
+        "page": 85,
+        "rank": 10,
+        "score": 0.55877,
+        "content_type": "visual",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "method": "dense",
+    "query_id": "t3_ch3",
+    "split": "test",
+    "group": "chart",
+    "query": "Trong trang 'CV – Charts', thanh tiến trình ngang được tô màu nhiều hơn hay ít hơn một nửa chiều dài?",
+    "filter": null,
+    "first_hit_rank": null,
+    "results": [
+      {
+        "id": "B4:colorme3:p160:v03",
+        "page": 160,
+        "rank": 1,
+        "score": 0.60033,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p160:v02",
+        "page": 160,
+        "rank": 2,
+        "score": 0.58171,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p160:v01",
+        "page": 160,
+        "rank": 3,
+        "score": 0.57756,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p160:v00",
+        "page": 160,
+        "rank": 4,
+        "score": 0.57102,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p160:t00",
+        "page": 160,
+        "rank": 5,
+        "score": 0.55128,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p154:v00",
+        "page": 154,
+        "rank": 6,
+        "score": 0.51141,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p070:v00",
+        "page": 70,
+        "rank": 7,
+        "score": 0.50307,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p068:v00",
+        "page": 68,
+        "rank": 8,
+        "score": 0.50219,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p044:v01",
+        "page": 44,
+        "rank": 9,
+        "score": 0.49979,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p066:v01",
+        "page": 66,
+        "rank": 10,
+        "score": 0.49707,
+        "content_type": "visual",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "method": "dense",
+    "query_id": "t3_ch4",
+    "split": "test",
+    "group": "chart",
+    "query": "Trong biểu đồ bong bóng 'Các bài toán thường gặp', bong bóng 'Nhận diện thương hiệu' lớn hơn hay nhỏ hơn bong bóng 'Chỉnh sửa ảnh'?",
+    "filter": null,
+    "first_hit_rank": null,
+    "results": [
+      {
+        "id": "B4:colorme3:p138:v00",
+        "page": 138,
+        "rank": 1,
+        "score": 0.53704,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p143:v00",
+        "page": 143,
+        "rank": 2,
+        "score": 0.49288,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p133:v00",
+        "page": 133,
+        "rank": 3,
+        "score": 0.49106,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p143:v01",
+        "page": 143,
+        "rank": 4,
+        "score": 0.4854,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p137:t00",
+        "page": 137,
+        "rank": 5,
+        "score": 0.48345,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p013:t00",
+        "page": 13,
+        "rank": 6,
+        "score": 0.47923,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p138:t00",
+        "page": 138,
+        "rank": 7,
+        "score": 0.47723,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p012:t01",
+        "page": 12,
+        "rank": 8,
+        "score": 0.47704,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p149:v00",
+        "page": 149,
+        "rank": 9,
+        "score": 0.47556,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p014:t00",
+        "page": 14,
+        "rank": 10,
+        "score": 0.47552,
+        "content_type": "text",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "method": "dense",
+    "query_id": "t3_ch5",
+    "split": "test",
+    "group": "chart",
+    "query": "Trong sơ đồ vòng tròn màu minh họa hệ RGB, biểu tượng ở tâm vòng tròn thể hiện trạng thái các đèn led thế nào?",
+    "filter": null,
+    "first_hit_rank": 1,
+    "results": [
+      {
+        "id": "B4:colorme3:p017:v00",
+        "page": 17,
+        "rank": 1,
+        "score": 0.65109,
+        "content_type": "visual",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p016:v00",
+        "page": 16,
+        "rank": 2,
+        "score": 0.63151,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p017:t00",
+        "page": 17,
+        "rank": 3,
+        "score": 0.62486,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p016:t00",
+        "page": 16,
+        "rank": 4,
+        "score": 0.61078,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p086:v01",
+        "page": 86,
+        "rank": 5,
+        "score": 0.58297,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p070:v00",
+        "page": 70,
+        "rank": 6,
+        "score": 0.56326,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p068:v00",
+        "page": 68,
+        "rank": 7,
+        "score": 0.56281,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p086:v02",
+        "page": 86,
+        "rank": 8,
+        "score": 0.56219,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p086:v00",
+        "page": 86,
+        "rank": 9,
+        "score": 0.55007,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p055:v00",
+        "page": 55,
+        "rank": 10,
+        "score": 0.54012,
+        "content_type": "visual",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "method": "dense",
+    "query_id": "t3_mh1",
+    "split": "test",
+    "group": "multihop",
+    "query": "Hiệu ứng làm mờ mở đầu chương 5 tên là gì, và ở chương xu hướng thiết kế nó được ứng dụng kết hợp với phong cách nào?",
+    "filter": null,
+    "first_hit_rank": 1,
+    "results": [
+      {
+        "id": "B4:colorme3:p124:t00",
+        "page": 124,
+        "rank": 1,
+        "score": 0.57045,
+        "content_type": "text",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p163:t00",
+        "page": 163,
+        "rank": 2,
+        "score": 0.56917,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p124:v00",
+        "page": 124,
+        "rank": 3,
+        "score": 0.54816,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p124:v01",
+        "page": 124,
+        "rank": 4,
+        "score": 0.54763,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p001:v01",
+        "page": 1,
+        "rank": 5,
+        "score": 0.54429,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p166:v00",
+        "page": 166,
+        "rank": 6,
+        "score": 0.53953,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p152:t00",
+        "page": 152,
+        "rank": 7,
+        "score": 0.53545,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p172:v00",
+        "page": 172,
+        "rank": 8,
+        "score": 0.53353,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p004:t00",
+        "page": 4,
+        "rank": 9,
+        "score": 0.53326,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p167:v00",
+        "page": 167,
+        "rank": 10,
+        "score": 0.53076,
+        "content_type": "visual",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "method": "dense",
+    "query_id": "t3_mh2",
+    "split": "test",
+    "group": "multihop",
+    "query": "Font serif và font sans-serif lần lượt được dùng nhiều trong những lĩnh vực nào?",
+    "filter": null,
+    "first_hit_rank": 2,
+    "results": [
+      {
+        "id": "B4:colorme3:p099:t00",
+        "page": 99,
+        "rank": 1,
+        "score": 0.60246,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p089:t00",
+        "page": 89,
+        "rank": 2,
+        "score": 0.60144,
+        "content_type": "text",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p091:t00",
+        "page": 91,
+        "rank": 3,
+        "score": 0.59922,
+        "content_type": "text",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p101:t00",
+        "page": 101,
+        "rank": 4,
+        "score": 0.59619,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p099:v00",
+        "page": 99,
+        "rank": 5,
+        "score": 0.59046,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p091:v01",
+        "page": 91,
+        "rank": 6,
+        "score": 0.58806,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p101:v00",
+        "page": 101,
+        "rank": 7,
+        "score": 0.58446,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p100:t00",
+        "page": 100,
+        "rank": 8,
+        "score": 0.57705,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p100:v00",
+        "page": 100,
+        "rank": 9,
+        "score": 0.57302,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p089:v00",
+        "page": 89,
+        "rank": 10,
+        "score": 0.56928,
+        "content_type": "visual",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "method": "dense",
+    "query_id": "t3_mh3",
+    "split": "test",
+    "group": "multihop",
+    "query": "Kĩ thuật đóng khung và kĩ thuật line trong typography khác nhau thế nào?",
+    "filter": null,
+    "first_hit_rank": 1,
+    "results": [
+      {
+        "id": "B4:colorme3:p106:t00",
+        "page": 106,
+        "rank": 1,
+        "score": 0.72674,
+        "content_type": "text",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p102:t00",
+        "page": 102,
+        "rank": 2,
+        "score": 0.67089,
+        "content_type": "text",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p111:t00",
+        "page": 111,
+        "rank": 3,
+        "score": 0.62493,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p114:t00",
+        "page": 114,
+        "rank": 4,
+        "score": 0.61726,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p110:t00",
+        "page": 110,
+        "rank": 5,
+        "score": 0.61723,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p112:t00",
+        "page": 112,
+        "rank": 6,
+        "score": 0.61687,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p103:t00",
+        "page": 103,
+        "rank": 7,
+        "score": 0.61567,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p105:t00",
+        "page": 105,
+        "rank": 8,
+        "score": 0.61046,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p104:t00",
+        "page": 104,
+        "rank": 9,
+        "score": 0.60513,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p106:v00",
+        "page": 106,
+        "rank": 10,
+        "score": 0.60431,
+        "content_type": "visual",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "method": "dense",
+    "query_id": "t3_mh4",
+    "split": "test",
+    "group": "multihop",
+    "query": "Logo mô thức (Pattern and Shape) và logo hình khối (Geometric Shape) được định nghĩa khác nhau thế nào?",
+    "filter": null,
+    "first_hit_rank": 1,
+    "results": [
+      {
+        "id": "B4:colorme3:p143:t00",
+        "page": 143,
+        "rank": 1,
+        "score": 0.76435,
+        "content_type": "text",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p143:v00",
+        "page": 143,
+        "rank": 2,
+        "score": 0.71582,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p143:v01",
+        "page": 143,
+        "rank": 3,
+        "score": 0.71055,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p144:t00",
+        "page": 144,
+        "rank": 4,
+        "score": 0.70296,
+        "content_type": "text",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p144:v00",
+        "page": 144,
+        "rank": 5,
+        "score": 0.64236,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p137:t00",
+        "page": 137,
+        "rank": 6,
+        "score": 0.59738,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p148:v00",
+        "page": 148,
+        "rank": 7,
+        "score": 0.59581,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p145:t00",
+        "page": 145,
+        "rank": 8,
+        "score": 0.59475,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p142:v00",
+        "page": 142,
+        "rank": 9,
+        "score": 0.58902,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p142:v01",
+        "page": 142,
+        "rank": 10,
+        "score": 0.57854,
+        "content_type": "visual",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "method": "dense",
+    "query_id": "t3_tx1",
+    "split": "test",
+    "group": "text",
+    "query": "Theo sách, sai lầm lớn nhất thường gặp của người mới bắt đầu thiết kế là gì?",
+    "filter": null,
+    "first_hit_rank": null,
+    "results": [
+      {
+        "id": "B4:colorme3:p007:t01",
+        "page": 7,
+        "rank": 1,
+        "score": 0.63424,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p006:t00",
+        "page": 6,
+        "rank": 2,
+        "score": 0.61058,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p005:t00",
+        "page": 5,
+        "rank": 3,
+        "score": 0.60846,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p163:t00",
+        "page": 163,
+        "rank": 4,
+        "score": 0.58792,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p007:v00",
+        "page": 7,
+        "rank": 5,
+        "score": 0.56895,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p008:t00",
+        "page": 8,
+        "rank": 6,
+        "score": 0.56558,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p036:t00",
+        "page": 36,
+        "rank": 7,
+        "score": 0.5652,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p007:t00",
+        "page": 7,
+        "rank": 8,
+        "score": 0.5623,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p004:t00",
+        "page": 4,
+        "rank": 9,
+        "score": 0.55926,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p039:v00",
+        "page": 39,
+        "rank": 10,
+        "score": 0.55767,
+        "content_type": "visual",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "method": "dense",
+    "query_id": "t3_tx2",
+    "split": "test",
+    "group": "text",
+    "query": "Khi tác giả hỏi lớp học colorME ai cần một CV đẹp, tỉ lệ người giơ tay thế nào?",
+    "filter": null,
+    "first_hit_rank": 1,
+    "results": [
+      {
+        "id": "B4:colorme3:p153:t00",
+        "page": 153,
+        "rank": 1,
+        "score": 0.67924,
+        "content_type": "text",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p066:v00",
+        "page": 66,
+        "rank": 2,
+        "score": 0.60526,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p066:v01",
+        "page": 66,
+        "rank": 3,
+        "score": 0.5696,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p156:t00",
+        "page": 156,
+        "rank": 4,
+        "score": 0.56293,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p156:v01",
+        "page": 156,
+        "rank": 5,
+        "score": 0.56268,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p156:v00",
+        "page": 156,
+        "rank": 6,
+        "score": 0.56154,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p158:v00",
+        "page": 158,
+        "rank": 7,
+        "score": 0.54959,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p155:v00",
+        "page": 155,
+        "rank": 8,
+        "score": 0.54857,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p159:v01",
+        "page": 159,
+        "rank": 9,
+        "score": 0.54416,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p158:t00",
+        "page": 158,
+        "rank": 10,
+        "score": 0.53973,
+        "content_type": "text",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "method": "dense",
+    "query_id": "t3_tx3",
+    "split": "test",
+    "group": "text",
+    "query": "Theo sách, kích thước chữ phụ thuộc vào điều gì của nội dung?",
+    "filter": null,
+    "first_hit_rank": 1,
+    "results": [
+      {
+        "id": "B4:colorme3:p039:t00",
+        "page": 39,
+        "rank": 1,
+        "score": 0.6123,
+        "content_type": "text",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p116:t00",
+        "page": 116,
+        "rank": 2,
+        "score": 0.56862,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p108:t00",
+        "page": 108,
+        "rank": 3,
+        "score": 0.52616,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p095:t00",
+        "page": 95,
+        "rank": 4,
+        "score": 0.52201,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p118:t00",
+        "page": 118,
+        "rank": 5,
+        "score": 0.52062,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p105:t00",
+        "page": 105,
+        "rank": 6,
+        "score": 0.51481,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p120:v00",
+        "page": 120,
+        "rank": 7,
+        "score": 0.51337,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p104:v00",
+        "page": 104,
+        "rank": 8,
+        "score": 0.50843,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p118:v00",
+        "page": 118,
+        "rank": 9,
+        "score": 0.50835,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p095:v00",
+        "page": 95,
+        "rank": 10,
+        "score": 0.50743,
+        "content_type": "visual",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "method": "dense",
+    "query_id": "t3_tx4",
+    "split": "test",
+    "group": "text",
+    "query": "Vì sao cần phân bố độ to nhỏ của từng con chữ cho phù hợp (lỗi 'không có chính phụ')?",
+    "filter": null,
+    "first_hit_rank": 1,
+    "results": [
+      {
+        "id": "B4:colorme3:p116:t00",
+        "page": 116,
+        "rank": 1,
+        "score": 0.59858,
+        "content_type": "text",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p119:t00",
+        "page": 119,
+        "rank": 2,
+        "score": 0.49297,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p095:t00",
+        "page": 95,
+        "rank": 3,
+        "score": 0.49023,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p039:t00",
+        "page": 39,
+        "rank": 4,
+        "score": 0.48915,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p115:t00",
+        "page": 115,
+        "rank": 5,
+        "score": 0.47942,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p118:t00",
+        "page": 118,
+        "rank": 6,
+        "score": 0.47652,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p101:v00",
+        "page": 101,
+        "rank": 7,
+        "score": 0.47214,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p113:t00",
+        "page": 113,
+        "rank": 8,
+        "score": 0.46631,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p105:t00",
+        "page": 105,
+        "rank": 9,
+        "score": 0.46612,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p098:t00",
+        "page": 98,
+        "rank": 10,
+        "score": 0.46555,
+        "content_type": "text",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "method": "bm25",
+    "query_id": "t3_tab1",
+    "split": "test",
+    "group": "table",
+    "query": "Trong bảng phím tắt nhóm FILE, CTRL + W và CTRL + ALT + S dùng để làm gì?",
+    "filter": null,
+    "first_hit_rank": 1,
+    "results": [
+      {
+        "id": "B4:colorme3:p174:t00",
+        "page": 174,
+        "rank": 1,
+        "score": 76.0503,
+        "content_type": "text",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p174:v00",
+        "page": 174,
+        "rank": 2,
+        "score": 67.0906,
+        "content_type": "visual",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p175:t01",
+        "page": 175,
+        "rank": 3,
+        "score": 42.945,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p175:v00",
+        "page": 175,
+        "rank": 4,
+        "score": 42.2446,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p176:t00",
+        "page": 176,
+        "rank": 5,
+        "score": 31.546,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p175:t02",
+        "page": 175,
+        "rank": 6,
+        "score": 30.6539,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p174:t01",
+        "page": 174,
+        "rank": 7,
+        "score": 29.4207,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p176:v00",
+        "page": 176,
+        "rank": 8,
+        "score": 25.9099,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p021:v01",
+        "page": 21,
+        "rank": 9,
+        "score": 24.3619,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p022:t00",
+        "page": 22,
+        "rank": 10,
+        "score": 20.8602,
+        "content_type": "text",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "method": "bm25",
+    "query_id": "t3_tab2",
+    "split": "test",
+    "group": "table",
+    "query": "Trong nhóm lệnh EDIT của bảng phím tắt, CTRL + ALT + Z và CTRL + SHIFT + C làm gì?",
+    "filter": null,
+    "first_hit_rank": 1,
+    "results": [
+      {
+        "id": "B4:colorme3:p175:t01",
+        "page": 175,
+        "rank": 1,
+        "score": 98.8816,
+        "content_type": "text",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p175:v00",
+        "page": 175,
+        "rank": 2,
+        "score": 92.9537,
+        "content_type": "visual",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p174:v00",
+        "page": 174,
+        "rank": 3,
+        "score": 62.281,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p174:t00",
+        "page": 174,
+        "rank": 4,
+        "score": 60.651,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p174:t01",
+        "page": 174,
+        "rank": 5,
+        "score": 50.8808,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p175:t02",
+        "page": 175,
+        "rank": 6,
+        "score": 46.0752,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p021:v01",
+        "page": 21,
+        "rank": 7,
+        "score": 32.1161,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p176:t00",
+        "page": 176,
+        "rank": 8,
+        "score": 28.3988,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p176:v00",
+        "page": 176,
+        "rank": 9,
+        "score": 27.8384,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p021:t00",
+        "page": 21,
+        "rank": 10,
+        "score": 23.8957,
+        "content_type": "text",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "method": "bm25",
+    "query_id": "t3_tab3",
+    "split": "test",
+    "group": "table",
+    "query": "Trong bảng phím tắt Toolbar, phím G và phím E tương ứng công cụ gì?",
+    "filter": null,
+    "first_hit_rank": 1,
+    "results": [
+      {
+        "id": "B4:colorme3:p176:v00",
+        "page": 176,
+        "rank": 1,
+        "score": 39.2271,
+        "content_type": "visual",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p176:t00",
+        "page": 176,
+        "rank": 2,
+        "score": 33.9175,
+        "content_type": "text",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p021:v01",
+        "page": 21,
+        "rank": 3,
+        "score": 31.769,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p022:t00",
+        "page": 22,
+        "rank": 4,
+        "score": 28.4148,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p174:v00",
+        "page": 174,
+        "rank": 5,
+        "score": 24.6912,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p174:t00",
+        "page": 174,
+        "rank": 6,
+        "score": 22.1288,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p023:t00",
+        "page": 23,
+        "rank": 7,
+        "score": 20.3737,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p024:t00",
+        "page": 24,
+        "rank": 8,
+        "score": 20.3737,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p025:t00",
+        "page": 25,
+        "rank": 9,
+        "score": 20.3737,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p026:t00",
+        "page": 26,
+        "rank": 10,
+        "score": 20.3737,
+        "content_type": "text",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "method": "bm25",
+    "query_id": "t3_tab4",
+    "split": "test",
+    "group": "table",
+    "query": "Trong ảnh Adobe Kuler, ô màu đầu tiên (đang được chọn) có giá trị RGB và mã HEX nào?",
+    "filter": null,
+    "first_hit_rank": 2,
+    "results": [
+      {
+        "id": "B4:colorme3:p086:v00",
+        "page": 86,
+        "rank": 1,
+        "score": 54.1566,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p086:v01",
+        "page": 86,
+        "rank": 2,
+        "score": 50.8105,
+        "content_type": "visual",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p086:v02",
+        "page": 86,
+        "rank": 3,
+        "score": 43.2006,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p034:v00",
+        "page": 34,
+        "rank": 4,
+        "score": 23.8893,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p031:v00",
+        "page": 31,
+        "rank": 5,
+        "score": 23.4224,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p007:t01",
+        "page": 7,
+        "rank": 6,
+        "score": 20.5685,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p136:t01",
+        "page": 136,
+        "rank": 7,
+        "score": 20.4181,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p153:t00",
+        "page": 153,
+        "rank": 8,
+        "score": 19.0716,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p033:v00",
+        "page": 33,
+        "rank": 9,
+        "score": 18.8789,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p086:t00",
+        "page": 86,
+        "rank": 10,
+        "score": 16.1639,
+        "content_type": "text",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "method": "bm25",
+    "query_id": "t3_tab5",
+    "split": "test",
+    "group": "table",
+    "query": "Trong bảng 8 ô màu kèm từ khóa cảm nhận (tiếng Anh), màu pink gắn với những từ khóa nào?",
+    "filter": null,
+    "first_hit_rank": 1,
+    "results": [
+      {
+        "id": "B4:colorme3:p077:v00",
+        "page": 77,
+        "rank": 1,
+        "score": 32.602,
+        "content_type": "visual",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p077:t00",
+        "page": 77,
+        "rank": 2,
+        "score": 23.8775,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p078:v00",
+        "page": 78,
+        "rank": 3,
+        "score": 23.1254,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p040:v00",
+        "page": 40,
+        "rank": 4,
+        "score": 22.6104,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p094:v00",
+        "page": 94,
+        "rank": 5,
+        "score": 18.3877,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p009:t00",
+        "page": 9,
+        "rank": 6,
+        "score": 16.6625,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p092:v05",
+        "page": 92,
+        "rank": 7,
+        "score": 16.2369,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p092:v00",
+        "page": 92,
+        "rank": 8,
+        "score": 16.2151,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p115:v00",
+        "page": 115,
+        "rank": 9,
+        "score": 16.2028,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p092:v03",
+        "page": 92,
+        "rank": 10,
+        "score": 16.0272,
+        "content_type": "visual",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "method": "bm25",
+    "query_id": "t3_tab6",
+    "split": "test",
+    "group": "table",
+    "query": "Trong bảng màu dành cho logo, thanh màu hồng gắn với những tính từ nào?",
+    "filter": null,
+    "first_hit_rank": 1,
+    "results": [
+      {
+        "id": "B4:colorme3:p136:v00",
+        "page": 136,
+        "rank": 1,
+        "score": 29.4706,
+        "content_type": "visual",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p009:t00",
+        "page": 9,
+        "rank": 2,
+        "score": 18.2436,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p151:v00",
+        "page": 151,
+        "rank": 3,
+        "score": 15.9296,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p015:v00",
+        "page": 15,
+        "rank": 4,
+        "score": 15.6685,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p002:t00",
+        "page": 2,
+        "rank": 5,
+        "score": 14.9319,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p073:v00",
+        "page": 73,
+        "rank": 6,
+        "score": 14.7583,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p141:v00",
+        "page": 141,
+        "rank": 7,
+        "score": 14.4815,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p047:v01",
+        "page": 47,
+        "rank": 8,
+        "score": 14.197,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p047:v00",
+        "page": 47,
+        "rank": 9,
+        "score": 14.0847,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p170:v00",
+        "page": 170,
+        "rank": 10,
+        "score": 13.7089,
+        "content_type": "visual",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "method": "bm25",
+    "query_id": "t3_img1",
+    "split": "test",
+    "group": "image",
+    "query": "Chiếc iPod trong ảnh minh họa mục 'Apple với iPod' có màu gì?",
+    "filter": null,
+    "first_hit_rank": 1,
+    "results": [
+      {
+        "id": "B4:colorme3:p064:t00",
+        "page": 64,
+        "rank": 1,
+        "score": 43.1545,
+        "content_type": "text",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p064:v00",
+        "page": 64,
+        "rank": 2,
+        "score": 29.0472,
+        "content_type": "visual",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p051:v00",
+        "page": 51,
+        "rank": 3,
+        "score": 14.7372,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p137:v00",
+        "page": 137,
+        "rank": 4,
+        "score": 12.5845,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p042:v02",
+        "page": 42,
+        "rank": 5,
+        "score": 11.3499,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p062:t00",
+        "page": 62,
+        "rank": 6,
+        "score": 10.273,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p142:v01",
+        "page": 142,
+        "rank": 7,
+        "score": 10.2343,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p159:v01",
+        "page": 159,
+        "rank": 8,
+        "score": 10.1688,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p127:v00",
+        "page": 127,
+        "rank": 9,
+        "score": 9.6381,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p071:v01",
+        "page": 71,
+        "rank": 10,
+        "score": 9.5029,
+        "content_type": "visual",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "method": "bm25",
+    "query_id": "t3_img2",
+    "split": "test",
+    "group": "image",
+    "query": "Hai poster phim minh họa phối màu tương đồng (Gradient Tool) là những phim nào?",
+    "filter": null,
+    "first_hit_rank": 2,
+    "results": [
+      {
+        "id": "B4:colorme3:p069:t00",
+        "page": 69,
+        "rank": 1,
+        "score": 53.8409,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p069:v00",
+        "page": 69,
+        "rank": 2,
+        "score": 39.3358,
+        "content_type": "visual",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p069:v01",
+        "page": 69,
+        "rank": 3,
+        "score": 39.2178,
+        "content_type": "visual",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p068:t00",
+        "page": 68,
+        "rank": 4,
+        "score": 35.5554,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p068:v00",
+        "page": 68,
+        "rank": 5,
+        "score": 25.3837,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p049:v00",
+        "page": 49,
+        "rank": 6,
+        "score": 21.9563,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p070:t00",
+        "page": 70,
+        "rank": 7,
+        "score": 19.5898,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p114:v00",
+        "page": 114,
+        "rank": 8,
+        "score": 18.2732,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p046:v00",
+        "page": 46,
+        "rank": 9,
+        "score": 17.1806,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p086:v02",
+        "page": 86,
+        "rank": 10,
+        "score": 17.1363,
+        "content_type": "visual",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "method": "bm25",
+    "query_id": "t3_img3",
+    "split": "test",
+    "group": "image",
+    "query": "Poster sự kiện minh họa nhóm màu neon có tên sự kiện gì và diễn ra vào ngày nào?",
+    "filter": null,
+    "first_hit_rank": 1,
+    "results": [
+      {
+        "id": "B4:colorme3:p083:v03",
+        "page": 83,
+        "rank": 1,
+        "score": 46.0962,
+        "content_type": "visual",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p083:v00",
+        "page": 83,
+        "rank": 2,
+        "score": 42.4228,
+        "content_type": "visual",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p082:t00",
+        "page": 82,
+        "rank": 3,
+        "score": 36.0032,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p083:v02",
+        "page": 83,
+        "rank": 4,
+        "score": 33.5744,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p096:v00",
+        "page": 96,
+        "rank": 5,
+        "score": 28.2534,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p082:v00",
+        "page": 82,
+        "rank": 6,
+        "score": 27.2524,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p107:v00",
+        "page": 107,
+        "rank": 7,
+        "score": 24.107,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p108:v00",
+        "page": 108,
+        "rank": 8,
+        "score": 18.8543,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p083:v01",
+        "page": 83,
+        "rank": 9,
+        "score": 18.6501,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p083:v04",
+        "page": 83,
+        "rank": 10,
+        "score": 17.1686,
+        "content_type": "visual",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "method": "bm25",
+    "query_id": "t3_img4",
+    "split": "test",
+    "group": "image",
+    "query": "Ví dụ 'thay đổi kích thước' với 1 typeface là poster phim nào, và hình chính là gì?",
+    "filter": null,
+    "first_hit_rank": 2,
+    "results": [
+      {
+        "id": "B4:colorme3:p095:t00",
+        "page": 95,
+        "rank": 1,
+        "score": 49.5507,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p095:v00",
+        "page": 95,
+        "rank": 2,
+        "score": 47.6645,
+        "content_type": "visual",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p039:t00",
+        "page": 39,
+        "rank": 3,
+        "score": 46.9525,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p011:t00",
+        "page": 11,
+        "rank": 4,
+        "score": 34.9155,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p096:t00",
+        "page": 96,
+        "rank": 5,
+        "score": 32.4578,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p138:v00",
+        "page": 138,
+        "rank": 6,
+        "score": 31.8853,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p039:v00",
+        "page": 39,
+        "rank": 7,
+        "score": 30.1711,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p097:t00",
+        "page": 97,
+        "rank": 8,
+        "score": 28.5679,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p097:v00",
+        "page": 97,
+        "rank": 9,
+        "score": 23.0691,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p096:v00",
+        "page": 96,
+        "rank": 10,
+        "score": 22.0807,
+        "content_type": "visual",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "method": "bm25",
+    "query_id": "t3_img5",
+    "split": "test",
+    "group": "image",
+    "query": "Ba logo ví dụ cho loại logo kết hợp là của những thương hiệu nào?",
+    "filter": null,
+    "first_hit_rank": 1,
+    "results": [
+      {
+        "id": "B4:colorme3:p135:v00",
+        "page": 135,
+        "rank": 1,
+        "score": 42.0867,
+        "content_type": "visual",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p133:t00",
+        "page": 133,
+        "rank": 2,
+        "score": 40.1771,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p135:t00",
+        "page": 135,
+        "rank": 3,
+        "score": 38.9217,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p134:v00",
+        "page": 134,
+        "rank": 4,
+        "score": 32.4108,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p134:v01",
+        "page": 134,
+        "rank": 5,
+        "score": 32.3027,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p134:v02",
+        "page": 134,
+        "rank": 6,
+        "score": 31.8785,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p133:v00",
+        "page": 133,
+        "rank": 7,
+        "score": 25.2547,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p134:t00",
+        "page": 134,
+        "rank": 8,
+        "score": 24.8761,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p146:t00",
+        "page": 146,
+        "rank": 9,
+        "score": 22.2798,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p145:t00",
+        "page": 145,
+        "rank": 10,
+        "score": 21.4351,
+        "content_type": "text",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "method": "bm25",
+    "query_id": "t3_ch1",
+    "split": "test",
+    "group": "chart",
+    "query": "Trong biểu đồ 'Color Emotion Guide', dải màu xanh lá thể hiện những cảm xúc nào?",
+    "filter": null,
+    "first_hit_rank": 1,
+    "results": [
+      {
+        "id": "B4:colorme3:p078:v00",
+        "page": 78,
+        "rank": 1,
+        "score": 54.3899,
+        "content_type": "visual",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p017:v00",
+        "page": 17,
+        "rank": 2,
+        "score": 28.3565,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p086:v02",
+        "page": 86,
+        "rank": 3,
+        "score": 24.4843,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p041:v05",
+        "page": 41,
+        "rank": 4,
+        "score": 23.2635,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p077:t00",
+        "page": 77,
+        "rank": 5,
+        "score": 22.7175,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p160:v00",
+        "page": 160,
+        "rank": 6,
+        "score": 22.0092,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p160:v01",
+        "page": 160,
+        "rank": 7,
+        "score": 22.0073,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p084:v00",
+        "page": 84,
+        "rank": 8,
+        "score": 21.4921,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p160:v03",
+        "page": 160,
+        "rank": 9,
+        "score": 20.7964,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p007:v00",
+        "page": 7,
+        "rank": 10,
+        "score": 19.4887,
+        "content_type": "visual",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "method": "bm25",
+    "query_id": "t3_ch2",
+    "split": "test",
+    "group": "chart",
+    "query": "Trong biểu đồ 'Color Emotion Guide', cảm xúc TRUST nằm ở dải màu gì và đi cùng những từ nào?",
+    "filter": null,
+    "first_hit_rank": 1,
+    "results": [
+      {
+        "id": "B4:colorme3:p078:v00",
+        "page": 78,
+        "rank": 1,
+        "score": 56.3723,
+        "content_type": "visual",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p068:t00",
+        "page": 68,
+        "rank": 2,
+        "score": 21.0562,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p084:v00",
+        "page": 84,
+        "rank": 3,
+        "score": 19.4986,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p082:t00",
+        "page": 82,
+        "rank": 4,
+        "score": 18.351,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p017:v00",
+        "page": 17,
+        "rank": 5,
+        "score": 16.1849,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p062:t00",
+        "page": 62,
+        "rank": 6,
+        "score": 16.1527,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p160:v03",
+        "page": 160,
+        "rank": 7,
+        "score": 16.1097,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p152:v01",
+        "page": 152,
+        "rank": 8,
+        "score": 16.106,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p160:v01",
+        "page": 160,
+        "rank": 9,
+        "score": 16.0605,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p160:v00",
+        "page": 160,
+        "rank": 10,
+        "score": 16.028,
+        "content_type": "visual",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "method": "bm25",
+    "query_id": "t3_ch3",
+    "split": "test",
+    "group": "chart",
+    "query": "Trong trang 'CV – Charts', thanh tiến trình ngang được tô màu nhiều hơn hay ít hơn một nửa chiều dài?",
+    "filter": null,
+    "first_hit_rank": null,
+    "results": [
+      {
+        "id": "B4:colorme3:p160:v03",
+        "page": 160,
+        "rank": 1,
+        "score": 24.5842,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p161:t00",
+        "page": 161,
+        "rank": 2,
+        "score": 22.3085,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p160:t00",
+        "page": 160,
+        "rank": 3,
+        "score": 19.8289,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p010:v01",
+        "page": 10,
+        "rank": 4,
+        "score": 16.9543,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p161:v00",
+        "page": 161,
+        "rank": 5,
+        "score": 16.9352,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p160:v01",
+        "page": 160,
+        "rank": 6,
+        "score": 16.2824,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p160:v00",
+        "page": 160,
+        "rank": 7,
+        "score": 15.8238,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p059:t00",
+        "page": 59,
+        "rank": 8,
+        "score": 15.764,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p160:v02",
+        "page": 160,
+        "rank": 9,
+        "score": 15.3042,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p161:v01",
+        "page": 161,
+        "rank": 10,
+        "score": 15.1677,
+        "content_type": "visual",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "method": "bm25",
+    "query_id": "t3_ch4",
+    "split": "test",
+    "group": "chart",
+    "query": "Trong biểu đồ bong bóng 'Các bài toán thường gặp', bong bóng 'Nhận diện thương hiệu' lớn hơn hay nhỏ hơn bong bóng 'Chỉnh sửa ảnh'?",
+    "filter": null,
+    "first_hit_rank": 1,
+    "results": [
+      {
+        "id": "B4:colorme3:p006:v01",
+        "page": 6,
+        "rank": 1,
+        "score": 67.2322,
+        "content_type": "visual",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p006:t00",
+        "page": 6,
+        "rank": 2,
+        "score": 60.7171,
+        "content_type": "text",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p006:t01",
+        "page": 6,
+        "rank": 3,
+        "score": 60.594,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p006:v00",
+        "page": 6,
+        "rank": 4,
+        "score": 44.3696,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p008:t00",
+        "page": 8,
+        "rank": 5,
+        "score": 37.5918,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p150:v00",
+        "page": 150,
+        "rank": 6,
+        "score": 37.4876,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p148:v00",
+        "page": 148,
+        "rank": 7,
+        "score": 34.5371,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p149:t00",
+        "page": 149,
+        "rank": 8,
+        "score": 29.7832,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p132:t00",
+        "page": 132,
+        "rank": 9,
+        "score": 29.1522,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p152:v01",
+        "page": 152,
+        "rank": 10,
+        "score": 29.1097,
+        "content_type": "visual",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "method": "bm25",
+    "query_id": "t3_ch5",
+    "split": "test",
+    "group": "chart",
+    "query": "Trong sơ đồ vòng tròn màu minh họa hệ RGB, biểu tượng ở tâm vòng tròn thể hiện trạng thái các đèn led thế nào?",
+    "filter": null,
+    "first_hit_rank": 1,
+    "results": [
+      {
+        "id": "B4:colorme3:p017:v00",
+        "page": 17,
+        "rank": 1,
+        "score": 51.2846,
+        "content_type": "visual",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p016:t00",
+        "page": 16,
+        "rank": 2,
+        "score": 37.4331,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p017:t00",
+        "page": 17,
+        "rank": 3,
+        "score": 37.0285,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p076:v00",
+        "page": 76,
+        "rank": 4,
+        "score": 35.5345,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p016:v00",
+        "page": 16,
+        "rank": 5,
+        "score": 34.0033,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p086:v02",
+        "page": 86,
+        "rank": 6,
+        "score": 32.544,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p080:v02",
+        "page": 80,
+        "rank": 7,
+        "score": 32.4277,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p070:v01",
+        "page": 70,
+        "rank": 8,
+        "score": 30.449,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p148:v00",
+        "page": 148,
+        "rank": 9,
+        "score": 30.0596,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p139:v00",
+        "page": 139,
+        "rank": 10,
+        "score": 28.2504,
+        "content_type": "visual",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "method": "bm25",
+    "query_id": "t3_mh1",
+    "split": "test",
+    "group": "multihop",
+    "query": "Hiệu ứng làm mờ mở đầu chương 5 tên là gì, và ở chương xu hướng thiết kế nó được ứng dụng kết hợp với phong cách nào?",
+    "filter": null,
+    "first_hit_rank": 1,
+    "results": [
+      {
+        "id": "B4:colorme3:p171:t00",
+        "page": 171,
+        "rank": 1,
+        "score": 50.1066,
+        "content_type": "text",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p124:v01",
+        "page": 124,
+        "rank": 2,
+        "score": 42.2136,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p124:v00",
+        "page": 124,
+        "rank": 3,
+        "score": 42.0653,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p004:t00",
+        "page": 4,
+        "rank": 4,
+        "score": 40.9173,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p124:t00",
+        "page": 124,
+        "rank": 5,
+        "score": 39.0849,
+        "content_type": "text",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p004:v00",
+        "page": 4,
+        "rank": 6,
+        "score": 37.8469,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p164:t00",
+        "page": 164,
+        "rank": 7,
+        "score": 37.5186,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p165:t00",
+        "page": 165,
+        "rank": 8,
+        "score": 34.7262,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p123:v00",
+        "page": 123,
+        "rank": 9,
+        "score": 34.026,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p171:v00",
+        "page": 171,
+        "rank": 10,
+        "score": 32.7641,
+        "content_type": "visual",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "method": "bm25",
+    "query_id": "t3_mh2",
+    "split": "test",
+    "group": "multihop",
+    "query": "Font serif và font sans-serif lần lượt được dùng nhiều trong những lĩnh vực nào?",
+    "filter": null,
+    "first_hit_rank": 3,
+    "results": [
+      {
+        "id": "B4:colorme3:p101:t00",
+        "page": 101,
+        "rank": 1,
+        "score": 52.2483,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p101:v00",
+        "page": 101,
+        "rank": 2,
+        "score": 50.2841,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p091:t00",
+        "page": 91,
+        "rank": 3,
+        "score": 40.9872,
+        "content_type": "text",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p091:v00",
+        "page": 91,
+        "rank": 4,
+        "score": 35.326,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p093:t00",
+        "page": 93,
+        "rank": 5,
+        "score": 34.7584,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p099:v00",
+        "page": 99,
+        "rank": 6,
+        "score": 34.1863,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p091:v01",
+        "page": 91,
+        "rank": 7,
+        "score": 32.8022,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p099:t00",
+        "page": 99,
+        "rank": 8,
+        "score": 32.7545,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p100:v00",
+        "page": 100,
+        "rank": 9,
+        "score": 28.8034,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p099:v01",
+        "page": 99,
+        "rank": 10,
+        "score": 24.1764,
+        "content_type": "visual",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "method": "bm25",
+    "query_id": "t3_mh3",
+    "split": "test",
+    "group": "multihop",
+    "query": "Kĩ thuật đóng khung và kĩ thuật line trong typography khác nhau thế nào?",
+    "filter": null,
+    "first_hit_rank": 1,
+    "results": [
+      {
+        "id": "B4:colorme3:p102:t00",
+        "page": 102,
+        "rank": 1,
+        "score": 37.1568,
+        "content_type": "text",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p106:t00",
+        "page": 106,
+        "rank": 2,
+        "score": 29.0111,
+        "content_type": "text",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p102:v00",
+        "page": 102,
+        "rank": 3,
+        "score": 27.8957,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p103:t00",
+        "page": 103,
+        "rank": 4,
+        "score": 23.8602,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p106:v00",
+        "page": 106,
+        "rank": 5,
+        "score": 17.4218,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p106:v01",
+        "page": 106,
+        "rank": 6,
+        "score": 15.8609,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p009:t00",
+        "page": 9,
+        "rank": 7,
+        "score": 14.9667,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p006:t00",
+        "page": 6,
+        "rank": 8,
+        "score": 14.8901,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p038:v00",
+        "page": 38,
+        "rank": 9,
+        "score": 14.1951,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p071:t00",
+        "page": 71,
+        "rank": 10,
+        "score": 13.7042,
+        "content_type": "text",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "method": "bm25",
+    "query_id": "t3_mh4",
+    "split": "test",
+    "group": "multihop",
+    "query": "Logo mô thức (Pattern and Shape) và logo hình khối (Geometric Shape) được định nghĩa khác nhau thế nào?",
+    "filter": null,
+    "first_hit_rank": 1,
+    "results": [
+      {
+        "id": "B4:colorme3:p143:t00",
+        "page": 143,
+        "rank": 1,
+        "score": 64.4306,
+        "content_type": "text",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p144:t00",
+        "page": 144,
+        "rank": 2,
+        "score": 50.5694,
+        "content_type": "text",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p143:v00",
+        "page": 143,
+        "rank": 3,
+        "score": 44.5453,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p143:v01",
+        "page": 143,
+        "rank": 4,
+        "score": 44.2797,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p144:v00",
+        "page": 144,
+        "rank": 5,
+        "score": 28.212,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p136:v00",
+        "page": 136,
+        "rank": 6,
+        "score": 20.3997,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p138:t00",
+        "page": 138,
+        "rank": 7,
+        "score": 20.2186,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p038:v00",
+        "page": 38,
+        "rank": 8,
+        "score": 19.2845,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p142:v01",
+        "page": 142,
+        "rank": 9,
+        "score": 18.8476,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p095:v00",
+        "page": 95,
+        "rank": 10,
+        "score": 15.6069,
+        "content_type": "visual",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "method": "bm25",
+    "query_id": "t3_tx1",
+    "split": "test",
+    "group": "text",
+    "query": "Theo sách, sai lầm lớn nhất thường gặp của người mới bắt đầu thiết kế là gì?",
+    "filter": null,
+    "first_hit_rank": 1,
+    "results": [
+      {
+        "id": "B4:colorme3:p062:t00",
+        "page": 62,
+        "rank": 1,
+        "score": 72.3419,
+        "content_type": "text",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p001:v01",
+        "page": 1,
+        "rank": 2,
+        "score": 42.5922,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p001:v00",
+        "page": 1,
+        "rank": 3,
+        "score": 36.3636,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p010:t00",
+        "page": 10,
+        "rank": 4,
+        "score": 34.2744,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p172:t00",
+        "page": 172,
+        "rank": 5,
+        "score": 26.6129,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p052:t00",
+        "page": 52,
+        "rank": 6,
+        "score": 24.7189,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p006:t00",
+        "page": 6,
+        "rank": 7,
+        "score": 24.6917,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p154:t00",
+        "page": 154,
+        "rank": 8,
+        "score": 22.7799,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p006:v00",
+        "page": 6,
+        "rank": 9,
+        "score": 22.2432,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p043:t00",
+        "page": 43,
+        "rank": 10,
+        "score": 21.6915,
+        "content_type": "text",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "method": "bm25",
+    "query_id": "t3_tx2",
+    "split": "test",
+    "group": "text",
+    "query": "Khi tác giả hỏi lớp học colorME ai cần một CV đẹp, tỉ lệ người giơ tay thế nào?",
+    "filter": null,
+    "first_hit_rank": 1,
+    "results": [
+      {
+        "id": "B4:colorme3:p153:t00",
+        "page": 153,
+        "rank": 1,
+        "score": 46.2957,
+        "content_type": "text",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p003:t00",
+        "page": 3,
+        "rank": 2,
+        "score": 28.742,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p178:v00",
+        "page": 178,
+        "rank": 3,
+        "score": 26.1329,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p177:v01",
+        "page": 177,
+        "rank": 4,
+        "score": 25.5991,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p048:t00",
+        "page": 48,
+        "rank": 5,
+        "score": 24.9932,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p087:t00",
+        "page": 87,
+        "rank": 6,
+        "score": 22.3978,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p177:t00",
+        "page": 177,
+        "rank": 7,
+        "score": 22.1801,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p160:v03",
+        "page": 160,
+        "rank": 8,
+        "score": 22.1252,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p050:t00",
+        "page": 50,
+        "rank": 9,
+        "score": 21.9822,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p009:t00",
+        "page": 9,
+        "rank": 10,
+        "score": 19.8856,
+        "content_type": "text",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "method": "bm25",
+    "query_id": "t3_tx3",
+    "split": "test",
+    "group": "text",
+    "query": "Theo sách, kích thước chữ phụ thuộc vào điều gì của nội dung?",
+    "filter": null,
+    "first_hit_rank": 1,
+    "results": [
+      {
+        "id": "B4:colorme3:p039:t00",
+        "page": 39,
+        "rank": 1,
+        "score": 73.3544,
+        "content_type": "text",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p095:v00",
+        "page": 95,
+        "rank": 2,
+        "score": 22.5555,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p091:v01",
+        "page": 91,
+        "rank": 3,
+        "score": 21.2792,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p138:v00",
+        "page": 138,
+        "rank": 4,
+        "score": 20.8514,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p116:v00",
+        "page": 116,
+        "rank": 5,
+        "score": 20.1185,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p011:t00",
+        "page": 11,
+        "rank": 6,
+        "score": 17.6159,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p040:t00",
+        "page": 40,
+        "rank": 7,
+        "score": 17.4095,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p091:v00",
+        "page": 91,
+        "rank": 8,
+        "score": 16.8591,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p095:t00",
+        "page": 95,
+        "rank": 9,
+        "score": 16.4267,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p101:v00",
+        "page": 101,
+        "rank": 10,
+        "score": 16.2244,
+        "content_type": "visual",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "method": "bm25",
+    "query_id": "t3_tx4",
+    "split": "test",
+    "group": "text",
+    "query": "Vì sao cần phân bố độ to nhỏ của từng con chữ cho phù hợp (lỗi 'không có chính phụ')?",
+    "filter": null,
+    "first_hit_rank": 1,
+    "results": [
+      {
+        "id": "B4:colorme3:p116:t00",
+        "page": 116,
+        "rank": 1,
+        "score": 117.5084,
+        "content_type": "text",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p039:t00",
+        "page": 39,
+        "rank": 2,
+        "score": 30.5749,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p009:t00",
+        "page": 9,
+        "rank": 3,
+        "score": 27.3435,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p133:t00",
+        "page": 133,
+        "rank": 4,
+        "score": 24.2545,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p014:t00",
+        "page": 14,
+        "rank": 5,
+        "score": 22.7102,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p009:t01",
+        "page": 9,
+        "rank": 6,
+        "score": 21.9038,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p002:t01",
+        "page": 2,
+        "rank": 7,
+        "score": 19.982,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p136:t01",
+        "page": 136,
+        "rank": 8,
+        "score": 19.8765,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p155:t00",
+        "page": 155,
+        "rank": 9,
+        "score": 19.5601,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p010:t01",
+        "page": 10,
+        "rank": 10,
+        "score": 19.2097,
+        "content_type": "text",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "method": "hybrid",
+    "query_id": "t3_tab1",
+    "split": "test",
+    "group": "table",
+    "query": "Trong bảng phím tắt nhóm FILE, CTRL + W và CTRL + ALT + S dùng để làm gì?",
+    "filter": null,
+    "first_hit_rank": 1,
+    "results": [
+      {
+        "id": "B4:colorme3:p174:t00",
+        "page": 174,
+        "rank": 1,
+        "score": 0.03279,
+        "content_type": "text",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p175:t01",
+        "page": 175,
+        "rank": 2,
+        "score": 0.032,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p174:v00",
+        "page": 174,
+        "rank": 3,
+        "score": 0.03151,
+        "content_type": "visual",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p175:t02",
+        "page": 175,
+        "rank": 4,
+        "score": 0.03102,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p176:t00",
+        "page": 176,
+        "rank": 5,
+        "score": 0.03101,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p175:v00",
+        "page": 175,
+        "rank": 6,
+        "score": 0.03078,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p174:t01",
+        "page": 174,
+        "rank": 7,
+        "score": 0.02942,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p176:v00",
+        "page": 176,
+        "rank": 8,
+        "score": 0.02941,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p023:t00",
+        "page": 23,
+        "rank": 9,
+        "score": 0.02778,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p173:t00",
+        "page": 173,
+        "rank": 10,
+        "score": 0.02758,
+        "content_type": "text",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "method": "hybrid",
+    "query_id": "t3_tab2",
+    "split": "test",
+    "group": "table",
+    "query": "Trong nhóm lệnh EDIT của bảng phím tắt, CTRL + ALT + Z và CTRL + SHIFT + C làm gì?",
+    "filter": null,
+    "first_hit_rank": 1,
+    "results": [
+      {
+        "id": "B4:colorme3:p175:t01",
+        "page": 175,
+        "rank": 1,
+        "score": 0.03279,
+        "content_type": "text",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p175:v00",
+        "page": 175,
+        "rank": 2,
+        "score": 0.03151,
+        "content_type": "visual",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p175:t02",
+        "page": 175,
+        "rank": 3,
+        "score": 0.03128,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p174:t00",
+        "page": 174,
+        "rank": 4,
+        "score": 0.03125,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p176:t00",
+        "page": 176,
+        "rank": 5,
+        "score": 0.03058,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p174:v00",
+        "page": 174,
+        "rank": 6,
+        "score": 0.03037,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p174:t01",
+        "page": 174,
+        "rank": 7,
+        "score": 0.03009,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p176:v00",
+        "page": 176,
+        "rank": 8,
+        "score": 0.02942,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p173:t00",
+        "page": 173,
+        "rank": 9,
+        "score": 0.02781,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p021:t00",
+        "page": 21,
+        "rank": 10,
+        "score": 0.02762,
+        "content_type": "text",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "method": "hybrid",
+    "query_id": "t3_tab3",
+    "split": "test",
+    "group": "table",
+    "query": "Trong bảng phím tắt Toolbar, phím G và phím E tương ứng công cụ gì?",
+    "filter": null,
+    "first_hit_rank": 1,
+    "results": [
+      {
+        "id": "B4:colorme3:p176:v00",
+        "page": 176,
+        "rank": 1,
+        "score": 0.03279,
+        "content_type": "visual",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p176:t00",
+        "page": 176,
+        "rank": 2,
+        "score": 0.03226,
+        "content_type": "text",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p174:t00",
+        "page": 174,
+        "rank": 3,
+        "score": 0.03008,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p174:v00",
+        "page": 174,
+        "rank": 4,
+        "score": 0.02988,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p175:v00",
+        "page": 175,
+        "rank": 5,
+        "score": 0.02932,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p175:t01",
+        "page": 175,
+        "rank": 6,
+        "score": 0.02872,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p023:t00",
+        "page": 23,
+        "rank": 7,
+        "score": 0.02862,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p175:t00",
+        "page": 175,
+        "rank": 8,
+        "score": 0.02831,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p022:t00",
+        "page": 22,
+        "rank": 9,
+        "score": 0.02813,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p025:t00",
+        "page": 25,
+        "rank": 10,
+        "score": 0.02801,
+        "content_type": "text",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "method": "hybrid",
+    "query_id": "t3_tab4",
+    "split": "test",
+    "group": "table",
+    "query": "Trong ảnh Adobe Kuler, ô màu đầu tiên (đang được chọn) có giá trị RGB và mã HEX nào?",
+    "filter": null,
+    "first_hit_rank": 2,
+    "results": [
+      {
+        "id": "B4:colorme3:p086:v00",
+        "page": 86,
+        "rank": 1,
+        "score": 0.03252,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p086:v01",
+        "page": 86,
+        "rank": 2,
+        "score": 0.03252,
+        "content_type": "visual",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p086:v02",
+        "page": 86,
+        "rank": 3,
+        "score": 0.03175,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p086:t00",
+        "page": 86,
+        "rank": 4,
+        "score": 0.02991,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p034:v00",
+        "page": 34,
+        "rank": 5,
+        "score": 0.01562,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p016:t00",
+        "page": 16,
+        "rank": 6,
+        "score": 0.01538,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p031:v00",
+        "page": 31,
+        "rank": 7,
+        "score": 0.01538,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p007:t01",
+        "page": 7,
+        "rank": 8,
+        "score": 0.01515,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p016:v00",
+        "page": 16,
+        "rank": 9,
+        "score": 0.01515,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p061:t00",
+        "page": 61,
+        "rank": 10,
+        "score": 0.01493,
+        "content_type": "text",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "method": "hybrid",
+    "query_id": "t3_tab5",
+    "split": "test",
+    "group": "table",
+    "query": "Trong bảng 8 ô màu kèm từ khóa cảm nhận (tiếng Anh), màu pink gắn với những từ khóa nào?",
+    "filter": null,
+    "first_hit_rank": 1,
+    "results": [
+      {
+        "id": "B4:colorme3:p077:v00",
+        "page": 77,
+        "rank": 1,
+        "score": 0.03279,
+        "content_type": "visual",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p078:v00",
+        "page": 78,
+        "rank": 2,
+        "score": 0.032,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p077:t00",
+        "page": 77,
+        "rank": 3,
+        "score": 0.02912,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p086:v01",
+        "page": 86,
+        "rank": 4,
+        "score": 0.01587,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p040:v00",
+        "page": 40,
+        "rank": 5,
+        "score": 0.01562,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p086:v00",
+        "page": 86,
+        "rank": 6,
+        "score": 0.01562,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p067:v01",
+        "page": 67,
+        "rank": 7,
+        "score": 0.01538,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p094:v00",
+        "page": 94,
+        "rank": 8,
+        "score": 0.01538,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p009:t00",
+        "page": 9,
+        "rank": 9,
+        "score": 0.01515,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p136:v00",
+        "page": 136,
+        "rank": 10,
+        "score": 0.01515,
+        "content_type": "visual",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "method": "hybrid",
+    "query_id": "t3_tab6",
+    "split": "test",
+    "group": "table",
+    "query": "Trong bảng màu dành cho logo, thanh màu hồng gắn với những tính từ nào?",
+    "filter": null,
+    "first_hit_rank": 1,
+    "results": [
+      {
+        "id": "B4:colorme3:p136:v00",
+        "page": 136,
+        "rank": 1,
+        "score": 0.03227,
+        "content_type": "visual",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p141:v00",
+        "page": 141,
+        "rank": 2,
+        "score": 0.03008,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p136:t00",
+        "page": 136,
+        "rank": 3,
+        "score": 0.02822,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p077:v00",
+        "page": 77,
+        "rank": 4,
+        "score": 0.02797,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p070:v00",
+        "page": 70,
+        "rank": 5,
+        "score": 0.01639,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p009:t00",
+        "page": 9,
+        "rank": 6,
+        "score": 0.01613,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p086:v01",
+        "page": 86,
+        "rank": 7,
+        "score": 0.01613,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p151:v00",
+        "page": 151,
+        "rank": 8,
+        "score": 0.01587,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p015:v00",
+        "page": 15,
+        "rank": 9,
+        "score": 0.01562,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p072:v00",
+        "page": 72,
+        "rank": 10,
+        "score": 0.01562,
+        "content_type": "visual",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "method": "hybrid",
+    "query_id": "t3_img1",
+    "split": "test",
+    "group": "image",
+    "query": "Chiếc iPod trong ảnh minh họa mục 'Apple với iPod' có màu gì?",
+    "filter": null,
+    "first_hit_rank": 1,
+    "results": [
+      {
+        "id": "B4:colorme3:p064:t00",
+        "page": 64,
+        "rank": 1,
+        "score": 0.03252,
+        "content_type": "text",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p064:v00",
+        "page": 64,
+        "rank": 2,
+        "score": 0.03252,
+        "content_type": "visual",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p137:v00",
+        "page": 137,
+        "rank": 3,
+        "score": 0.0315,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p051:v00",
+        "page": 51,
+        "rank": 4,
+        "score": 0.02996,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p133:v00",
+        "page": 133,
+        "rank": 5,
+        "score": 0.02879,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p149:v00",
+        "page": 149,
+        "rank": 6,
+        "score": 0.02837,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p170:t00",
+        "page": 170,
+        "rank": 7,
+        "score": 0.02715,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p055:v00",
+        "page": 55,
+        "rank": 8,
+        "score": 0.02615,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p085:v01",
+        "page": 85,
+        "rank": 9,
+        "score": 0.01562,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p042:v02",
+        "page": 42,
+        "rank": 10,
+        "score": 0.01538,
+        "content_type": "visual",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "method": "hybrid",
+    "query_id": "t3_img2",
+    "split": "test",
+    "group": "image",
+    "query": "Hai poster phim minh họa phối màu tương đồng (Gradient Tool) là những phim nào?",
+    "filter": null,
+    "first_hit_rank": 2,
+    "results": [
+      {
+        "id": "B4:colorme3:p069:t00",
+        "page": 69,
+        "rank": 1,
+        "score": 0.03279,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p069:v00",
+        "page": 69,
+        "rank": 2,
+        "score": 0.03226,
+        "content_type": "visual",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p069:v01",
+        "page": 69,
+        "rank": 3,
+        "score": 0.0315,
+        "content_type": "visual",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p080:v01",
+        "page": 80,
+        "rank": 4,
+        "score": 0.02996,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p068:v00",
+        "page": 68,
+        "rank": 5,
+        "score": 0.02967,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p068:t00",
+        "page": 68,
+        "rank": 6,
+        "score": 0.02896,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p080:v00",
+        "page": 80,
+        "rank": 7,
+        "score": 0.02831,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p086:v02",
+        "page": 86,
+        "rank": 8,
+        "score": 0.02817,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p080:v02",
+        "page": 80,
+        "rank": 9,
+        "score": 0.02804,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p049:v00",
+        "page": 49,
+        "rank": 10,
+        "score": 0.01515,
+        "content_type": "visual",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "method": "hybrid",
+    "query_id": "t3_img3",
+    "split": "test",
+    "group": "image",
+    "query": "Poster sự kiện minh họa nhóm màu neon có tên sự kiện gì và diễn ra vào ngày nào?",
+    "filter": null,
+    "first_hit_rank": 1,
+    "results": [
+      {
+        "id": "B4:colorme3:p083:v03",
+        "page": 83,
+        "rank": 1,
+        "score": 0.03252,
+        "content_type": "visual",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p083:v02",
+        "page": 83,
+        "rank": 2,
+        "score": 0.03202,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p083:v00",
+        "page": 83,
+        "rank": 3,
+        "score": 0.032,
+        "content_type": "visual",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p082:v00",
+        "page": 82,
+        "rank": 4,
+        "score": 0.03054,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p082:t00",
+        "page": 82,
+        "rank": 5,
+        "score": 0.03037,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p083:v01",
+        "page": 83,
+        "rank": 6,
+        "score": 0.03012,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p083:v04",
+        "page": 83,
+        "rank": 7,
+        "score": 0.02921,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p107:v00",
+        "page": 107,
+        "rank": 8,
+        "score": 0.02921,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p083:v06",
+        "page": 83,
+        "rank": 9,
+        "score": 0.02867,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p083:v05",
+        "page": 83,
+        "rank": 10,
+        "score": 0.0284,
+        "content_type": "visual",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "method": "hybrid",
+    "query_id": "t3_img4",
+    "split": "test",
+    "group": "image",
+    "query": "Ví dụ 'thay đổi kích thước' với 1 typeface là poster phim nào, và hình chính là gì?",
+    "filter": null,
+    "first_hit_rank": 2,
+    "results": [
+      {
+        "id": "B4:colorme3:p095:t00",
+        "page": 95,
+        "rank": 1,
+        "score": 0.03252,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p095:v00",
+        "page": 95,
+        "rank": 2,
+        "score": 0.03252,
+        "content_type": "visual",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p096:t00",
+        "page": 96,
+        "rank": 3,
+        "score": 0.03077,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p097:v00",
+        "page": 97,
+        "rank": 4,
+        "score": 0.03012,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p097:t00",
+        "page": 97,
+        "rank": 5,
+        "score": 0.02963,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p096:v00",
+        "page": 96,
+        "rank": 6,
+        "score": 0.02899,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p039:t00",
+        "page": 39,
+        "rank": 7,
+        "score": 0.01587,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p092:v03",
+        "page": 92,
+        "rank": 8,
+        "score": 0.01587,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p011:t00",
+        "page": 11,
+        "rank": 9,
+        "score": 0.01562,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p092:v02",
+        "page": 92,
+        "rank": 10,
+        "score": 0.01515,
+        "content_type": "visual",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "method": "hybrid",
+    "query_id": "t3_img5",
+    "split": "test",
+    "group": "image",
+    "query": "Ba logo ví dụ cho loại logo kết hợp là của những thương hiệu nào?",
+    "filter": null,
+    "first_hit_rank": 1,
+    "results": [
+      {
+        "id": "B4:colorme3:p135:v00",
+        "page": 135,
+        "rank": 1,
+        "score": 0.03279,
+        "content_type": "visual",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p135:t00",
+        "page": 135,
+        "rank": 2,
+        "score": 0.032,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p133:t00",
+        "page": 133,
+        "rank": 3,
+        "score": 0.03175,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p133:v00",
+        "page": 133,
+        "rank": 4,
+        "score": 0.0308,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p134:v00",
+        "page": 134,
+        "rank": 5,
+        "score": 0.03078,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p134:v01",
+        "page": 134,
+        "rank": 6,
+        "score": 0.03031,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p134:v02",
+        "page": 134,
+        "rank": 7,
+        "score": 0.02944,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p134:t00",
+        "page": 134,
+        "rank": 8,
+        "score": 0.0284,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p142:v01",
+        "page": 142,
+        "rank": 9,
+        "score": 0.02804,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p143:v01",
+        "page": 143,
+        "rank": 10,
+        "score": 0.02765,
+        "content_type": "visual",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "method": "hybrid",
+    "query_id": "t3_ch1",
+    "split": "test",
+    "group": "chart",
+    "query": "Trong biểu đồ 'Color Emotion Guide', dải màu xanh lá thể hiện những cảm xúc nào?",
+    "filter": null,
+    "first_hit_rank": 1,
+    "results": [
+      {
+        "id": "B4:colorme3:p078:v00",
+        "page": 78,
+        "rank": 1,
+        "score": 0.03279,
+        "content_type": "visual",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p077:t00",
+        "page": 77,
+        "rank": 2,
+        "score": 0.03077,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p086:v02",
+        "page": 86,
+        "rank": 3,
+        "score": 0.02996,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p082:t00",
+        "page": 82,
+        "rank": 4,
+        "score": 0.02669,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p166:v00",
+        "page": 166,
+        "rank": 5,
+        "score": 0.02655,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p017:v00",
+        "page": 17,
+        "rank": 6,
+        "score": 0.01613,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p077:v00",
+        "page": 77,
+        "rank": 7,
+        "score": 0.01613,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p055:v00",
+        "page": 55,
+        "rank": 8,
+        "score": 0.01587,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p041:v05",
+        "page": 41,
+        "rank": 9,
+        "score": 0.01562,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p086:v01",
+        "page": 86,
+        "rank": 10,
+        "score": 0.01562,
+        "content_type": "visual",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "method": "hybrid",
+    "query_id": "t3_ch2",
+    "split": "test",
+    "group": "chart",
+    "query": "Trong biểu đồ 'Color Emotion Guide', cảm xúc TRUST nằm ở dải màu gì và đi cùng những từ nào?",
+    "filter": null,
+    "first_hit_rank": 1,
+    "results": [
+      {
+        "id": "B4:colorme3:p078:v00",
+        "page": 78,
+        "rank": 1,
+        "score": 0.03279,
+        "content_type": "visual",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p068:t00",
+        "page": 68,
+        "rank": 2,
+        "score": 0.032,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p082:t00",
+        "page": 82,
+        "rank": 3,
+        "score": 0.02861,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p086:v02",
+        "page": 86,
+        "rank": 4,
+        "score": 0.02686,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p077:v00",
+        "page": 77,
+        "rank": 5,
+        "score": 0.01613,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p084:v00",
+        "page": 84,
+        "rank": 6,
+        "score": 0.01587,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p055:v00",
+        "page": 55,
+        "rank": 7,
+        "score": 0.01562,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p017:v00",
+        "page": 17,
+        "rank": 8,
+        "score": 0.01538,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p070:v00",
+        "page": 70,
+        "rank": 9,
+        "score": 0.01538,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p062:t00",
+        "page": 62,
+        "rank": 10,
+        "score": 0.01515,
+        "content_type": "text",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "method": "hybrid",
+    "query_id": "t3_ch3",
+    "split": "test",
+    "group": "chart",
+    "query": "Trong trang 'CV – Charts', thanh tiến trình ngang được tô màu nhiều hơn hay ít hơn một nửa chiều dài?",
+    "filter": null,
+    "first_hit_rank": null,
+    "results": [
+      {
+        "id": "B4:colorme3:p160:v03",
+        "page": 160,
+        "rank": 1,
+        "score": 0.03279,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p160:t00",
+        "page": 160,
+        "rank": 2,
+        "score": 0.03126,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p160:v01",
+        "page": 160,
+        "rank": 3,
+        "score": 0.03102,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p160:v02",
+        "page": 160,
+        "rank": 4,
+        "score": 0.03062,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p160:v00",
+        "page": 160,
+        "rank": 5,
+        "score": 0.03055,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p066:v01",
+        "page": 66,
+        "rank": 6,
+        "score": 0.02711,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p126:v00",
+        "page": 126,
+        "rank": 7,
+        "score": 0.02516,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p161:t00",
+        "page": 161,
+        "rank": 8,
+        "score": 0.01613,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p010:v01",
+        "page": 10,
+        "rank": 9,
+        "score": 0.01562,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p161:v00",
+        "page": 161,
+        "rank": 10,
+        "score": 0.01538,
+        "content_type": "visual",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "method": "hybrid",
+    "query_id": "t3_ch4",
+    "split": "test",
+    "group": "chart",
+    "query": "Trong biểu đồ bong bóng 'Các bài toán thường gặp', bong bóng 'Nhận diện thương hiệu' lớn hơn hay nhỏ hơn bong bóng 'Chỉnh sửa ảnh'?",
+    "filter": null,
+    "first_hit_rank": 3,
+    "results": [
+      {
+        "id": "B4:colorme3:p138:v00",
+        "page": 138,
+        "rank": 1,
+        "score": 0.02889,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p132:t00",
+        "page": 132,
+        "rank": 2,
+        "score": 0.02801,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p006:v01",
+        "page": 6,
+        "rank": 3,
+        "score": 0.01639,
+        "content_type": "visual",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p006:t00",
+        "page": 6,
+        "rank": 4,
+        "score": 0.01613,
+        "content_type": "text",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p143:v00",
+        "page": 143,
+        "rank": 5,
+        "score": 0.01613,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p006:t01",
+        "page": 6,
+        "rank": 6,
+        "score": 0.01587,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p133:v00",
+        "page": 133,
+        "rank": 7,
+        "score": 0.01587,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p006:v00",
+        "page": 6,
+        "rank": 8,
+        "score": 0.01562,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p143:v01",
+        "page": 143,
+        "rank": 9,
+        "score": 0.01562,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p008:t00",
+        "page": 8,
+        "rank": 10,
+        "score": 0.01538,
+        "content_type": "text",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "method": "hybrid",
+    "query_id": "t3_ch5",
+    "split": "test",
+    "group": "chart",
+    "query": "Trong sơ đồ vòng tròn màu minh họa hệ RGB, biểu tượng ở tâm vòng tròn thể hiện trạng thái các đèn led thế nào?",
+    "filter": null,
+    "first_hit_rank": 1,
+    "results": [
+      {
+        "id": "B4:colorme3:p017:v00",
+        "page": 17,
+        "rank": 1,
+        "score": 0.03279,
+        "content_type": "visual",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p016:t00",
+        "page": 16,
+        "rank": 2,
+        "score": 0.03175,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p017:t00",
+        "page": 17,
+        "rank": 3,
+        "score": 0.03175,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p016:v00",
+        "page": 16,
+        "rank": 4,
+        "score": 0.03151,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p086:v02",
+        "page": 86,
+        "rank": 5,
+        "score": 0.02986,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p068:v00",
+        "page": 68,
+        "rank": 6,
+        "score": 0.02862,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p070:v00",
+        "page": 70,
+        "rank": 7,
+        "score": 0.02831,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p056:t00",
+        "page": 56,
+        "rank": 8,
+        "score": 0.025,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p076:v00",
+        "page": 76,
+        "rank": 9,
+        "score": 0.01562,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p086:v01",
+        "page": 86,
+        "rank": 10,
+        "score": 0.01538,
+        "content_type": "visual",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "method": "hybrid",
+    "query_id": "t3_mh1",
+    "split": "test",
+    "group": "multihop",
+    "query": "Hiệu ứng làm mờ mở đầu chương 5 tên là gì, và ở chương xu hướng thiết kế nó được ứng dụng kết hợp với phong cách nào?",
+    "filter": null,
+    "first_hit_rank": 1,
+    "results": [
+      {
+        "id": "B4:colorme3:p124:t00",
+        "page": 124,
+        "rank": 1,
+        "score": 0.03178,
+        "content_type": "text",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p124:v01",
+        "page": 124,
+        "rank": 2,
+        "score": 0.03175,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p124:v00",
+        "page": 124,
+        "rank": 3,
+        "score": 0.03175,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p004:t00",
+        "page": 4,
+        "rank": 4,
+        "score": 0.03012,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p163:t00",
+        "page": 163,
+        "rank": 5,
+        "score": 0.02946,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p172:t00",
+        "page": 172,
+        "rank": 6,
+        "score": 0.02691,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p153:v00",
+        "page": 153,
+        "rank": 7,
+        "score": 0.02669,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p123:t00",
+        "page": 123,
+        "rank": 8,
+        "score": 0.02636,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p171:t00",
+        "page": 171,
+        "rank": 9,
+        "score": 0.01639,
+        "content_type": "text",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p001:v01",
+        "page": 1,
+        "rank": 10,
+        "score": 0.01538,
+        "content_type": "visual",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "method": "hybrid",
+    "query_id": "t3_mh2",
+    "split": "test",
+    "group": "multihop",
+    "query": "Font serif và font sans-serif lần lượt được dùng nhiều trong những lĩnh vực nào?",
+    "filter": null,
+    "first_hit_rank": 2,
+    "results": [
+      {
+        "id": "B4:colorme3:p101:t00",
+        "page": 101,
+        "rank": 1,
+        "score": 0.03202,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p091:t00",
+        "page": 91,
+        "rank": 2,
+        "score": 0.03175,
+        "content_type": "text",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p099:t00",
+        "page": 99,
+        "rank": 3,
+        "score": 0.0311,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p101:v00",
+        "page": 101,
+        "rank": 4,
+        "score": 0.03105,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p099:v00",
+        "page": 99,
+        "rank": 5,
+        "score": 0.03054,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p091:v01",
+        "page": 91,
+        "rank": 6,
+        "score": 0.03008,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p089:t00",
+        "page": 89,
+        "rank": 7,
+        "score": 0.02983,
+        "content_type": "text",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p091:v00",
+        "page": 91,
+        "rank": 8,
+        "score": 0.02971,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p093:t00",
+        "page": 93,
+        "rank": 9,
+        "score": 0.02908,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p100:v00",
+        "page": 100,
+        "rank": 10,
+        "score": 0.02899,
+        "content_type": "visual",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "method": "hybrid",
+    "query_id": "t3_mh3",
+    "split": "test",
+    "group": "multihop",
+    "query": "Kĩ thuật đóng khung và kĩ thuật line trong typography khác nhau thế nào?",
+    "filter": null,
+    "first_hit_rank": 1,
+    "results": [
+      {
+        "id": "B4:colorme3:p102:t00",
+        "page": 102,
+        "rank": 1,
+        "score": 0.03252,
+        "content_type": "text",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p106:t00",
+        "page": 106,
+        "rank": 2,
+        "score": 0.03252,
+        "content_type": "text",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p103:t00",
+        "page": 103,
+        "rank": 3,
+        "score": 0.03055,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p106:v00",
+        "page": 106,
+        "rank": 4,
+        "score": 0.02967,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p106:v01",
+        "page": 106,
+        "rank": 5,
+        "score": 0.02904,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p102:v00",
+        "page": 102,
+        "rank": 6,
+        "score": 0.02903,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p105:t00",
+        "page": 105,
+        "rank": 7,
+        "score": 0.02879,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p112:t00",
+        "page": 112,
+        "rank": 8,
+        "score": 0.02867,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p103:v01",
+        "page": 103,
+        "rank": 9,
+        "score": 0.02636,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p095:v00",
+        "page": 95,
+        "rank": 10,
+        "score": 0.02583,
+        "content_type": "visual",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "method": "hybrid",
+    "query_id": "t3_mh4",
+    "split": "test",
+    "group": "multihop",
+    "query": "Logo mô thức (Pattern and Shape) và logo hình khối (Geometric Shape) được định nghĩa khác nhau thế nào?",
+    "filter": null,
+    "first_hit_rank": 1,
+    "results": [
+      {
+        "id": "B4:colorme3:p143:t00",
+        "page": 143,
+        "rank": 1,
+        "score": 0.03279,
+        "content_type": "text",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p143:v00",
+        "page": 143,
+        "rank": 2,
+        "score": 0.032,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p144:t00",
+        "page": 144,
+        "rank": 3,
+        "score": 0.03175,
+        "content_type": "text",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p143:v01",
+        "page": 143,
+        "rank": 4,
+        "score": 0.0315,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p144:v00",
+        "page": 144,
+        "rank": 5,
+        "score": 0.03077,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p142:v01",
+        "page": 142,
+        "rank": 6,
+        "score": 0.02878,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p142:v00",
+        "page": 142,
+        "rank": 7,
+        "score": 0.02715,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p132:t00",
+        "page": 132,
+        "rank": 8,
+        "score": 0.02707,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p141:v00",
+        "page": 141,
+        "rank": 9,
+        "score": 0.02614,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p136:v00",
+        "page": 136,
+        "rank": 10,
+        "score": 0.01515,
+        "content_type": "visual",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "method": "hybrid",
+    "query_id": "t3_tx1",
+    "split": "test",
+    "group": "text",
+    "query": "Theo sách, sai lầm lớn nhất thường gặp của người mới bắt đầu thiết kế là gì?",
+    "filter": null,
+    "first_hit_rank": 7,
+    "results": [
+      {
+        "id": "B4:colorme3:p006:t00",
+        "page": 6,
+        "rank": 1,
+        "score": 0.03105,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p005:t00",
+        "page": 5,
+        "rank": 2,
+        "score": 0.02996,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p172:t00",
+        "page": 172,
+        "rank": 3,
+        "score": 0.02927,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p004:t00",
+        "page": 4,
+        "rank": 4,
+        "score": 0.02715,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p053:t00",
+        "page": 53,
+        "rank": 5,
+        "score": 0.02614,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p007:t01",
+        "page": 7,
+        "rank": 6,
+        "score": 0.01639,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p062:t00",
+        "page": 62,
+        "rank": 7,
+        "score": 0.01639,
+        "content_type": "text",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p001:v01",
+        "page": 1,
+        "rank": 8,
+        "score": 0.01613,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p001:v00",
+        "page": 1,
+        "rank": 9,
+        "score": 0.01587,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p010:t00",
+        "page": 10,
+        "rank": 10,
+        "score": 0.01562,
+        "content_type": "text",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "method": "hybrid",
+    "query_id": "t3_tx2",
+    "split": "test",
+    "group": "text",
+    "query": "Khi tác giả hỏi lớp học colorME ai cần một CV đẹp, tỉ lệ người giơ tay thế nào?",
+    "filter": null,
+    "first_hit_rank": 1,
+    "results": [
+      {
+        "id": "B4:colorme3:p153:t00",
+        "page": 153,
+        "rank": 1,
+        "score": 0.03279,
+        "content_type": "text",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p177:t00",
+        "page": 177,
+        "rank": 2,
+        "score": 0.02901,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p160:v03",
+        "page": 160,
+        "rank": 3,
+        "score": 0.0284,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p160:v01",
+        "page": 160,
+        "rank": 4,
+        "score": 0.02649,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p160:v00",
+        "page": 160,
+        "rank": 5,
+        "score": 0.02598,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p160:v02",
+        "page": 160,
+        "rank": 6,
+        "score": 0.025,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p003:t00",
+        "page": 3,
+        "rank": 7,
+        "score": 0.01613,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p066:v00",
+        "page": 66,
+        "rank": 8,
+        "score": 0.01613,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p066:v01",
+        "page": 66,
+        "rank": 9,
+        "score": 0.01587,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p178:v00",
+        "page": 178,
+        "rank": 10,
+        "score": 0.01587,
+        "content_type": "visual",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "method": "hybrid",
+    "query_id": "t3_tx3",
+    "split": "test",
+    "group": "text",
+    "query": "Theo sách, kích thước chữ phụ thuộc vào điều gì của nội dung?",
+    "filter": null,
+    "first_hit_rank": 1,
+    "results": [
+      {
+        "id": "B4:colorme3:p039:t00",
+        "page": 39,
+        "rank": 1,
+        "score": 0.03279,
+        "content_type": "text",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p095:v00",
+        "page": 95,
+        "rank": 2,
+        "score": 0.03041,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p095:t00",
+        "page": 95,
+        "rank": 3,
+        "score": 0.03012,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p011:t00",
+        "page": 11,
+        "rank": 4,
+        "score": 0.02831,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p039:v00",
+        "page": 39,
+        "rank": 5,
+        "score": 0.02565,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p116:t00",
+        "page": 116,
+        "rank": 6,
+        "score": 0.01613,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p091:v01",
+        "page": 91,
+        "rank": 7,
+        "score": 0.01587,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p108:t00",
+        "page": 108,
+        "rank": 8,
+        "score": 0.01587,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p138:v00",
+        "page": 138,
+        "rank": 9,
+        "score": 0.01562,
+        "content_type": "visual",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p116:v00",
+        "page": 116,
+        "rank": 10,
+        "score": 0.01538,
+        "content_type": "visual",
+        "hit": false
+      }
+    ]
+  },
+  {
+    "method": "hybrid",
+    "query_id": "t3_tx4",
+    "split": "test",
+    "group": "text",
+    "query": "Vì sao cần phân bố độ to nhỏ của từng con chữ cho phù hợp (lỗi 'không có chính phụ')?",
+    "filter": null,
+    "first_hit_rank": 1,
+    "results": [
+      {
+        "id": "B4:colorme3:p116:t00",
+        "page": 116,
+        "rank": 1,
+        "score": 0.03279,
+        "content_type": "text",
+        "hit": true
+      },
+      {
+        "id": "B4:colorme3:p039:t00",
+        "page": 39,
+        "rank": 2,
+        "score": 0.03175,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p115:t00",
+        "page": 115,
+        "rank": 3,
+        "score": 0.02837,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p119:t00",
+        "page": 119,
+        "rank": 4,
+        "score": 0.01613,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p009:t00",
+        "page": 9,
+        "rank": 5,
+        "score": 0.01587,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p095:t00",
+        "page": 95,
+        "rank": 6,
+        "score": 0.01587,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p133:t00",
+        "page": 133,
+        "rank": 7,
+        "score": 0.01562,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p014:t00",
+        "page": 14,
+        "rank": 8,
+        "score": 0.01538,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p009:t01",
+        "page": 9,
+        "rank": 9,
+        "score": 0.01515,
+        "content_type": "text",
+        "hit": false
+      },
+      {
+        "id": "B4:colorme3:p118:t00",
+        "page": 118,
+        "rank": 10,
+        "score": 0.01515,
+        "content_type": "text",
+        "hit": false
+      }
+    ]
+  }
+]

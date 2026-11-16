@@ -1,0 +1,121 @@
+{
+  "round": 3,
+  "selection_rule": "Chốt trước khi chạy test_v3: (1) số câu dev đạt (28 câu, chấm tay), (2) chi phí dev, (3) median latency.",
+  "rows": [
+    {
+      "config": "dense",
+      "model": "gpt-4.1-mini",
+      "collection": "colorme3_B",
+      "prompt": "v1",
+      "filter_mode": "agent",
+      "verify": null,
+      "pass": "20/28",
+      "cost_usd": 0.0705,
+      "median_latency_s": 3.08,
+      "context_evidence_rate": "19/23"
+    },
+    {
+      "config": "hpv2_b",
+      "model": "gpt-4.1-mini",
+      "collection": "colorme3_B",
+      "prompt": "v3",
+      "filter_mode": "agent",
+      "verify": "v2",
+      "pass": "25/28",
+      "cost_usd": 0.098,
+      "median_latency_s": 3.69,
+      "context_evidence_rate": "21/23"
+    },
+    {
+      "config": "hpv2_b_v4fb",
+      "model": "gpt-4.1-mini",
+      "collection": "colorme3_B",
+      "prompt": "v4",
+      "filter_mode": "fallback",
+      "verify": "v3",
+      "pass": "26/28",
+      "cost_usd": 0.091,
+      "median_latency_s": 4.0,
+      "context_evidence_rate": "22/23"
+    },
+    {
+      "config": "luna_hpv2_b",
+      "model": "gpt-5.6-luna",
+      "collection": "colorme3_B",
+      "prompt": "v3",
+      "filter_mode": "agent",
+      "verify": "v2",
+      "pass": "25/28",
+      "cost_usd": 0.0443,
+      "median_latency_s": 8.82,
+      "context_evidence_rate": "20/23"
+    },
+    {
+      "config": "luna_v4_fb",
+      "model": "gpt-5.6-luna",
+      "collection": "colorme3_B",
+      "prompt": "v4",
+      "filter_mode": "fallback",
+      "verify": "v3",
+      "pass": "27/28",
+      "cost_usd": 0.0432,
+      "median_latency_s": 7.43,
+      "context_evidence_rate": "22/23"
+    },
+    {
+      "config": "luna_v4_none",
+      "model": "gpt-5.6-luna",
+      "collection": "colorme3_B",
+      "prompt": "v4",
+      "filter_mode": "none",
+      "verify": "v3",
+      "pass": "25/28",
+      "cost_usd": 0.0408,
+      "median_latency_s": 6.81,
+      "context_evidence_rate": "21/23"
+    },
+    {
+      "config": "luna_v4_fb_med",
+      "model": "gpt-5.6-luna",
+      "collection": "colorme3_B",
+      "prompt": "v4",
+      "filter_mode": "fallback",
+      "verify": "v3",
+      "pass": "27/28",
+      "cost_usd": 0.0443,
+      "median_latency_s": 7.74,
+      "context_evidence_rate": "22/23"
+    },
+    {
+      "config": "luna_v4_fb_b3",
+      "model": "gpt-5.6-luna",
+      "collection": "colorme3_B3",
+      "prompt": "v4",
+      "filter_mode": "fallback",
+      "verify": "v3",
+      "pass": "27/28",
+      "cost_usd": 0.0425,
+      "median_latency_s": 7.36,
+      "context_evidence_rate": "23/23"
+    },
+    {
+      "config": "luna_v4_fb_b4",
+      "model": "gpt-5.6-luna",
+      "collection": "colorme3_B4",
+      "prompt": "v4",
+      "filter_mode": "fallback",
+      "verify": "v3",
+      "pass": "28/28",
+      "cost_usd": 0.0449,
+      "median_latency_s": 7.61,
+      "context_evidence_rate": "23/23"
+    }
+  ],
+  "selected": "luna_v4_fb_b4",
+  "baselines_for_test": [
+    "dense",
+    "hpv2_b"
+  ],
+  "reason": "luna_v4_fb_b4 đạt 28/28 dev (duy nhất). Index B4 (mô tả hình bằng gpt-5.6-luna) sửa lỗi đếm dv_img4 mà vẫn giữ vị trí/chữ trong hình; prompt v4 + filter fallback sửa các lỗi filter chương (dv_img7, dv_img8, dv_ch2).",
+  "frozen_at_utc": "2026-11-15T18:11:52+00:00"
+}

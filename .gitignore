@@ -9,3 +9,12 @@ __pycache__/
 # Local datasets and generated output; share permitted artifacts deliberately
 starter/data/
 starter/results/
+
+# Day 7 solution: caches are re-creatable (query embeddings, rerank scores)
+results/cache/
+
+# Full-book text exported from Day 6 Chroma: redistribution right not verified (DATA_NOT_INCLUDED.md)
+data/colorme_chunks*.json
+
+# Local working notes, not part of the submission
+CHANGE.md

@@ -1,0 +1,73 @@
+{
+  "config": "rerank_page_strict",
+  "agent_config": {
+    "name": "rerank_page_strict",
+    "method": "rerank",
+    "top_k": 5,
+    "budget": 12000,
+    "max_steps": 6,
+    "allow_read_page": true,
+    "allow_filters": true,
+    "model": "gpt-4.1-mini",
+    "prompt": "v2",
+    "notes": "improvement 4: rerank_page + strict grounding prompt",
+    "extra": {}
+  },
+  "split": "dev",
+  "benchmark_sha256": "a92ff13c92d40dc2177238c2fc03110b17601323308e5d87d7625d5fab8ef2b7",
+  "run_at": "2026-11-15T17:00:40+00:00",
+  "N": 19,
+  "status": {
+    "answered": 16,
+    "abstain": 3,
+    "error": 0
+  },
+  "context_evidence_rate": "16/16",
+  "context_evidence_by_group": {
+    "table": "3/3",
+    "image": "3/3",
+    "chart": "3/3",
+    "multihop": "3/3",
+    "text": "4/4"
+  },
+  "answered_on_answerable": "16/16",
+  "abstained_on_unanswerable": "3/3",
+  "tool_use": "19/19",
+  "retrieval_calls": {
+    "mean": 1.58,
+    "dist": {
+      "1": 15,
+      "2": 2,
+      "5": 1,
+      "6": 1
+    }
+  },
+  "context_chars_mean": 3695.6,
+  "latency_s": {
+    "median": 2.83,
+    "max": 8.42,
+    "wall_total": 21.4
+  },
+  "usage": {
+    "agent": {
+      "calls": 49,
+      "tokens_in": 99664,
+      "tokens_out": 2547,
+      "cost_usd": 0.043941
+    },
+    "query_embedding": {
+      "calls": 1,
+      "tokens_in": 9,
+      "tokens_out": 0,
+      "cost_usd": 0.0
+    },
+    "rerank": {
+      "calls": 5,
+      "tokens_in": 12222,
+      "tokens_out": 1129,
+      "cost_usd": 0.006695
+    }
+  },
+  "cost_usd_total": 0.0506,
+  "errors": []
+}

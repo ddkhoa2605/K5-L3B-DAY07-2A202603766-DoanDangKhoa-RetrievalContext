@@ -1,0 +1,4537 @@
+[
+  {
+    "query_id": "tv2_tab1",
+    "status": "answered",
+    "events": [
+      {
+        "event": "model",
+        "tokens_in": 880,
+        "tokens_out": 34,
+        "latency_s": 1.62,
+        "step": 0,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "phím tắt gộp layer tạo nhóm layer",
+        "filter": {
+          "chapter": "ch1",
+          "content_type": "text"
+        },
+        "method": "dense",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B:colorme3:p021:t00",
+            "page": 21,
+            "rank": 1,
+            "score": 0.65495,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p020:t01",
+            "page": 20,
+            "rank": 2,
+            "score": 0.60914,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p020:t00",
+            "page": 20,
+            "rank": 3,
+            "score": 0.58037,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p023:t00",
+            "page": 23,
+            "rank": 4,
+            "score": 0.50496,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p024:t00",
+            "page": 24,
+            "rank": 5,
+            "score": 0.50399,
+            "content_type": "text"
+          }
+        ],
+        "added_ids": [
+          "B:colorme3:p021:t00",
+          "B:colorme3:p020:t01",
+          "B:colorme3:p020:t00",
+          "B:colorme3:p023:t00",
+          "B:colorme3:p024:t00"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.024
+      },
+      {
+        "event": "model",
+        "tokens_in": 1913,
+        "tokens_out": 63,
+        "latency_s": 1.14,
+        "step": 1,
+        "forced_final": false
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "citations": [
+      "B:colorme3:p021:t00"
+    ]
+  },
+  {
+    "query_id": "tv2_tab2",
+    "status": "answered",
+    "events": [
+      {
+        "event": "model",
+        "tokens_in": 868,
+        "tokens_out": 40,
+        "latency_s": 1.74,
+        "step": 0,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "phím tắt CTRL + D CTRL + ALT + D nhóm lệnh chọn SELECT",
+        "filter": {
+          "chapter": "appendix",
+          "content_type": "text"
+        },
+        "method": "dense",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B:colorme3:p174:t01",
+            "page": 174,
+            "rank": 1,
+            "score": 0.69542,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p175:t01",
+            "page": 175,
+            "rank": 2,
+            "score": 0.65375,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p175:t02",
+            "page": 175,
+            "rank": 3,
+            "score": 0.65034,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p176:t00",
+            "page": 176,
+            "rank": 4,
+            "score": 0.62692,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p174:t00",
+            "page": 174,
+            "rank": 5,
+            "score": 0.62061,
+            "content_type": "text"
+          }
+        ],
+        "added_ids": [
+          "B:colorme3:p174:t01",
+          "B:colorme3:p175:t01",
+          "B:colorme3:p175:t02",
+          "B:colorme3:p176:t00",
+          "B:colorme3:p174:t00"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.007
+      },
+      {
+        "event": "model",
+        "tokens_in": 2174,
+        "tokens_out": 72,
+        "latency_s": 1.19,
+        "step": 1,
+        "forced_final": false
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "citations": [
+      "B:colorme3:p174:t01"
+    ]
+  },
+  {
+    "query_id": "tv2_tab3",
+    "status": "answered",
+    "events": [
+      {
+        "event": "model",
+        "tokens_in": 870,
+        "tokens_out": 31,
+        "latency_s": 1.88,
+        "step": 0,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "phím tắt viết chữ Hand Tool",
+        "filter": {
+          "chapter": "appendix",
+          "content_type": "text"
+        },
+        "method": "dense",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B:colorme3:p176:t00",
+            "page": 176,
+            "rank": 1,
+            "score": 0.58718,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p175:t02",
+            "page": 175,
+            "rank": 2,
+            "score": 0.53729,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p174:t00",
+            "page": 174,
+            "rank": 3,
+            "score": 0.52716,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p175:t01",
+            "page": 175,
+            "rank": 4,
+            "score": 0.52071,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p173:t00",
+            "page": 173,
+            "rank": 5,
+            "score": 0.49869,
+            "content_type": "text"
+          }
+        ],
+        "added_ids": [
+          "B:colorme3:p176:t00",
+          "B:colorme3:p175:t02",
+          "B:colorme3:p174:t00",
+          "B:colorme3:p175:t01",
+          "B:colorme3:p173:t00"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.006
+      },
+      {
+        "event": "model",
+        "tokens_in": 2111,
+        "tokens_out": 78,
+        "latency_s": 1.04,
+        "step": 1,
+        "forced_final": false
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "citations": [
+      "B:colorme3:p176:t00"
+    ]
+  },
+  {
+    "query_id": "tv2_tab4",
+    "status": "answered",
+    "events": [
+      {
+        "event": "model",
+        "tokens_in": 863,
+        "tokens_out": 34,
+        "latency_s": 2.04,
+        "step": 0,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "phím tắt VIEW CTRL + R CTRL + Y",
+        "filter": {
+          "chapter": "appendix",
+          "content_type": "text"
+        },
+        "method": "dense",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B:colorme3:p175:t02",
+            "page": 175,
+            "rank": 1,
+            "score": 0.6444,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p175:t01",
+            "page": 175,
+            "rank": 2,
+            "score": 0.62453,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p174:t00",
+            "page": 174,
+            "rank": 3,
+            "score": 0.55374,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p176:t00",
+            "page": 176,
+            "rank": 4,
+            "score": 0.54918,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p174:t01",
+            "page": 174,
+            "rank": 5,
+            "score": 0.53565,
+            "content_type": "text"
+          }
+        ],
+        "added_ids": [
+          "B:colorme3:p175:t02",
+          "B:colorme3:p175:t01",
+          "B:colorme3:p174:t00",
+          "B:colorme3:p176:t00",
+          "B:colorme3:p174:t01"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.491
+      },
+      {
+        "event": "model",
+        "tokens_in": 2163,
+        "tokens_out": 113,
+        "latency_s": 1.46,
+        "step": 1,
+        "forced_final": false
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "citations": [
+      "B:colorme3:p175:t02",
+      "B:colorme3:p175:t01"
+    ]
+  },
+  {
+    "query_id": "tv2_tab5",
+    "status": "answered",
+    "events": [
+      {
+        "event": "model",
+        "tokens_in": 869,
+        "tokens_out": 32,
+        "latency_s": 0.83,
+        "step": 0,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "bảng màu logo màu đen tính từ",
+        "filter": {
+          "chapter": "ch6",
+          "content_type": "visual"
+        },
+        "method": "dense",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B:colorme3:p136:v00",
+            "page": 136,
+            "rank": 1,
+            "score": 0.53569,
+            "content_type": "visual"
+          },
+          {
+            "id": "B:colorme3:p145:v00",
+            "page": 145,
+            "rank": 2,
+            "score": 0.5249,
+            "content_type": "visual"
+          },
+          {
+            "id": "B:colorme3:p133:v00",
+            "page": 133,
+            "rank": 3,
+            "score": 0.5128,
+            "content_type": "visual"
+          },
+          {
+            "id": "B:colorme3:p139:v01",
+            "page": 139,
+            "rank": 4,
+            "score": 0.50009,
+            "content_type": "visual"
+          },
+          {
+            "id": "B:colorme3:p141:v00",
+            "page": 141,
+            "rank": 5,
+            "score": 0.49895,
+            "content_type": "visual"
+          }
+        ],
+        "added_ids": [
+          "B:colorme3:p136:v00",
+          "B:colorme3:p145:v00",
+          "B:colorme3:p133:v00",
+          "B:colorme3:p139:v01",
+          "B:colorme3:p141:v00"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.006
+      },
+      {
+        "event": "model",
+        "tokens_in": 2059,
+        "tokens_out": 69,
+        "latency_s": 1.05,
+        "step": 1,
+        "forced_final": false
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "citations": [
+      "B:colorme3:p136:v00"
+    ]
+  },
+  {
+    "query_id": "tv2_tab6",
+    "status": "answered",
+    "events": [
+      {
+        "event": "model",
+        "tokens_in": 870,
+        "tokens_out": 32,
+        "latency_s": 0.88,
+        "step": 0,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "bảng 8 ô màu từ khóa black",
+        "filter": {
+          "chapter": "ch3",
+          "content_type": "visual"
+        },
+        "method": "dense",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B:colorme3:p077:v00",
+            "page": 77,
+            "rank": 1,
+            "score": 0.53969,
+            "content_type": "visual"
+          },
+          {
+            "id": "B:colorme3:p086:v00",
+            "page": 86,
+            "rank": 2,
+            "score": 0.5213,
+            "content_type": "visual"
+          },
+          {
+            "id": "B:colorme3:p067:v00",
+            "page": 67,
+            "rank": 3,
+            "score": 0.50734,
+            "content_type": "visual"
+          },
+          {
+            "id": "B:colorme3:p058:v00",
+            "page": 58,
+            "rank": 4,
+            "score": 0.50236,
+            "content_type": "visual"
+          },
+          {
+            "id": "B:colorme3:p070:v00",
+            "page": 70,
+            "rank": 5,
+            "score": 0.49639,
+            "content_type": "visual"
+          }
+        ],
+        "added_ids": [
+          "B:colorme3:p077:v00",
+          "B:colorme3:p086:v00",
+          "B:colorme3:p067:v00",
+          "B:colorme3:p058:v00",
+          "B:colorme3:p070:v00"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.767
+      },
+      {
+        "event": "model",
+        "tokens_in": 2475,
+        "tokens_out": 72,
+        "latency_s": 1.26,
+        "step": 1,
+        "forced_final": false
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "citations": [
+      "B:colorme3:p077:v00"
+    ]
+  },
+  {
+    "query_id": "tv2_img1",
+    "status": "answered",
+    "events": [
+      {
+        "event": "model",
+        "tokens_in": 864,
+        "tokens_out": 28,
+        "latency_s": 0.84,
+        "step": 0,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "biểu tượng Adobe Illustrator",
+        "filter": {
+          "chapter": "ch1",
+          "content_type": "visual"
+        },
+        "method": "dense",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B:colorme3:p008:v01",
+            "page": 8,
+            "rank": 1,
+            "score": 0.59218,
+            "content_type": "visual"
+          },
+          {
+            "id": "B:colorme3:p008:v02",
+            "page": 8,
+            "rank": 2,
+            "score": 0.56986,
+            "content_type": "visual"
+          },
+          {
+            "id": "B:colorme3:p008:v00",
+            "page": 8,
+            "rank": 3,
+            "score": 0.56367,
+            "content_type": "visual"
+          },
+          {
+            "id": "B:colorme3:p008:v03",
+            "page": 8,
+            "rank": 4,
+            "score": 0.56118,
+            "content_type": "visual"
+          },
+          {
+            "id": "B:colorme3:p030:v00",
+            "page": 30,
+            "rank": 5,
+            "score": 0.51873,
+            "content_type": "visual"
+          }
+        ],
+        "added_ids": [
+          "B:colorme3:p008:v01",
+          "B:colorme3:p008:v02",
+          "B:colorme3:p008:v00",
+          "B:colorme3:p008:v03",
+          "B:colorme3:p030:v00"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.817
+      },
+      {
+        "event": "model",
+        "tokens_in": 1863,
+        "tokens_out": 60,
+        "latency_s": 1.09,
+        "step": 1,
+        "forced_final": false
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "citations": [
+      "B:colorme3:p008:v01"
+    ]
+  },
+  {
+    "query_id": "tv2_img2",
+    "status": "answered",
+    "events": [
+      {
+        "event": "model",
+        "tokens_in": 874,
+        "tokens_out": 31,
+        "latency_s": 1.3,
+        "step": 0,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "poster phim lưới trong thiết kế",
+        "filter": {
+          "chapter": "ch2",
+          "content_type": "visual"
+        },
+        "method": "dense",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B:colorme3:p046:v00",
+            "page": 46,
+            "rank": 1,
+            "score": 0.52792,
+            "content_type": "visual"
+          },
+          {
+            "id": "B:colorme3:p043:v00",
+            "page": 43,
+            "rank": 2,
+            "score": 0.52128,
+            "content_type": "visual"
+          },
+          {
+            "id": "B:colorme3:p044:v00",
+            "page": 44,
+            "rank": 3,
+            "score": 0.46519,
+            "content_type": "visual"
+          },
+          {
+            "id": "B:colorme3:p045:v01",
+            "page": 45,
+            "rank": 4,
+            "score": 0.45951,
+            "content_type": "visual"
+          },
+          {
+            "id": "B:colorme3:p039:v02",
+            "page": 39,
+            "rank": 5,
+            "score": 0.44037,
+            "content_type": "visual"
+          }
+        ],
+        "added_ids": [
+          "B:colorme3:p046:v00",
+          "B:colorme3:p043:v00",
+          "B:colorme3:p044:v00",
+          "B:colorme3:p045:v01",
+          "B:colorme3:p039:v02"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.006
+      },
+      {
+        "event": "model",
+        "tokens_in": 2468,
+        "tokens_out": 74,
+        "latency_s": 1.37,
+        "step": 1,
+        "forced_final": false
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "citations": [
+      "B:colorme3:p046:v00"
+    ]
+  },
+  {
+    "query_id": "tv2_img3",
+    "status": "abstain",
+    "events": [
+      {
+        "event": "model",
+        "tokens_in": 873,
+        "tokens_out": 32,
+        "latency_s": 0.94,
+        "step": 0,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "Do You Vespa? vòng tròn màu",
+        "filter": {
+          "chapter": "ch6",
+          "content_type": "visual"
+        },
+        "method": "dense",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B:colorme3:p136:v00",
+            "page": 136,
+            "rank": 1,
+            "score": 0.35297,
+            "content_type": "visual"
+          },
+          {
+            "id": "B:colorme3:p135:v01",
+            "page": 135,
+            "rank": 2,
+            "score": 0.33998,
+            "content_type": "visual"
+          },
+          {
+            "id": "B:colorme3:p133:v00",
+            "page": 133,
+            "rank": 3,
+            "score": 0.33749,
+            "content_type": "visual"
+          },
+          {
+            "id": "B:colorme3:p137:v00",
+            "page": 137,
+            "rank": 4,
+            "score": 0.33641,
+            "content_type": "visual"
+          },
+          {
+            "id": "B:colorme3:p148:v00",
+            "page": 148,
+            "rank": 5,
+            "score": 0.33615,
+            "content_type": "visual"
+          }
+        ],
+        "added_ids": [
+          "B:colorme3:p136:v00",
+          "B:colorme3:p135:v01",
+          "B:colorme3:p133:v00",
+          "B:colorme3:p137:v00",
+          "B:colorme3:p148:v00"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.924
+      },
+      {
+        "event": "model",
+        "tokens_in": 2030,
+        "tokens_out": 31,
+        "latency_s": 1.42,
+        "step": 1,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "Do You Vespa vòng tròn màu",
+        "filter": {
+          "chapter": "ch6",
+          "content_type": "visual"
+        },
+        "method": "dense",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B:colorme3:p136:v00",
+            "page": 136,
+            "rank": 1,
+            "score": 0.38986,
+            "content_type": "visual"
+          },
+          {
+            "id": "B:colorme3:p137:v00",
+            "page": 137,
+            "rank": 2,
+            "score": 0.36979,
+            "content_type": "visual"
+          },
+          {
+            "id": "B:colorme3:p135:v01",
+            "page": 135,
+            "rank": 3,
+            "score": 0.36352,
+            "content_type": "visual"
+          },
+          {
+            "id": "B:colorme3:p148:v00",
+            "page": 148,
+            "rank": 4,
+            "score": 0.36351,
+            "content_type": "visual"
+          },
+          {
+            "id": "B:colorme3:p145:v00",
+            "page": 145,
+            "rank": 5,
+            "score": 0.35478,
+            "content_type": "visual"
+          }
+        ],
+        "added_ids": [
+          "B:colorme3:p145:v00"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.699
+      },
+      {
+        "event": "model",
+        "tokens_in": 2348,
+        "tokens_out": 31,
+        "latency_s": 0.85,
+        "step": 2,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "Do You Vespa vòng tròn màu",
+        "filter": {
+          "chapter": "ch6",
+          "content_type": "text"
+        },
+        "method": "dense",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B:colorme3:p136:t00",
+            "page": 136,
+            "rank": 1,
+            "score": 0.37363,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p137:t00",
+            "page": 137,
+            "rank": 2,
+            "score": 0.35416,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p138:t00",
+            "page": 138,
+            "rank": 3,
+            "score": 0.33004,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p136:t01",
+            "page": 136,
+            "rank": 4,
+            "score": 0.32845,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p148:t00",
+            "page": 148,
+            "rank": 5,
+            "score": 0.3278,
+            "content_type": "text"
+          }
+        ],
+        "added_ids": [
+          "B:colorme3:p136:t00",
+          "B:colorme3:p137:t00",
+          "B:colorme3:p138:t00",
+          "B:colorme3:p136:t01",
+          "B:colorme3:p148:t00"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.011
+      },
+      {
+        "event": "model",
+        "tokens_in": 3229,
+        "tokens_out": 31,
+        "latency_s": 0.86,
+        "step": 3,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "Do You Vespa vòng tròn màu",
+        "filter": {
+          "chapter": "ch6",
+          "content_type": "visual"
+        },
+        "method": "dense",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B:colorme3:p136:v00",
+            "page": 136,
+            "rank": 1,
+            "score": 0.38986,
+            "content_type": "visual"
+          },
+          {
+            "id": "B:colorme3:p137:v00",
+            "page": 137,
+            "rank": 2,
+            "score": 0.36979,
+            "content_type": "visual"
+          },
+          {
+            "id": "B:colorme3:p135:v01",
+            "page": 135,
+            "rank": 3,
+            "score": 0.36352,
+            "content_type": "visual"
+          },
+          {
+            "id": "B:colorme3:p148:v00",
+            "page": 148,
+            "rank": 4,
+            "score": 0.36351,
+            "content_type": "visual"
+          },
+          {
+            "id": "B:colorme3:p145:v00",
+            "page": 145,
+            "rank": 5,
+            "score": 0.35478,
+            "content_type": "visual"
+          }
+        ],
+        "added_ids": [],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.01
+      },
+      {
+        "event": "model",
+        "tokens_in": 3398,
+        "tokens_out": 62,
+        "latency_s": 1.1,
+        "step": 4,
+        "forced_final": false
+      },
+      {
+        "event": "answer",
+        "abstain": true
+      }
+    ],
+    "citations": []
+  },
+  {
+    "query_id": "tv2_img4",
+    "status": "answered",
+    "events": [
+      {
+        "event": "model",
+        "tokens_in": 871,
+        "tokens_out": 32,
+        "latency_s": 0.84,
+        "step": 0,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "bìa album MIN chữ lớn đóng khung",
+        "filter": {
+          "content_type": "visual"
+        },
+        "method": "dense",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B:colorme3:p103:v01",
+            "page": 103,
+            "rank": 1,
+            "score": 0.49802,
+            "content_type": "visual"
+          },
+          {
+            "id": "B:colorme3:p103:v00",
+            "page": 103,
+            "rank": 2,
+            "score": 0.49485,
+            "content_type": "visual"
+          },
+          {
+            "id": "B:colorme3:p001:v00",
+            "page": 1,
+            "rank": 3,
+            "score": 0.37507,
+            "content_type": "visual"
+          },
+          {
+            "id": "B:colorme3:p092:v05",
+            "page": 92,
+            "rank": 4,
+            "score": 0.3504,
+            "content_type": "visual"
+          },
+          {
+            "id": "B:colorme3:p001:v01",
+            "page": 1,
+            "rank": 5,
+            "score": 0.34937,
+            "content_type": "visual"
+          }
+        ],
+        "added_ids": [
+          "B:colorme3:p103:v01",
+          "B:colorme3:p103:v00",
+          "B:colorme3:p001:v00",
+          "B:colorme3:p092:v05",
+          "B:colorme3:p001:v01"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 1.277
+      },
+      {
+        "event": "model",
+        "tokens_in": 1780,
+        "tokens_out": 142,
+        "latency_s": 1.4,
+        "step": 1,
+        "forced_final": false
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "citations": [
+      "B:colorme3:p103:v00",
+      "B:colorme3:p103:v01"
+    ]
+  },
+  {
+    "query_id": "tv2_img5",
+    "status": "answered",
+    "events": [
+      {
+        "event": "model",
+        "tokens_in": 877,
+        "tokens_out": 33,
+        "latency_s": 0.83,
+        "step": 0,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "logo không gian âm Unique Idea 1234 club",
+        "filter": {
+          "chapter": "ch6"
+        },
+        "method": "dense",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B:colorme3:p147:v00",
+            "page": 147,
+            "rank": 1,
+            "score": 0.52031,
+            "content_type": "visual"
+          },
+          {
+            "id": "B:colorme3:p147:v01",
+            "page": 147,
+            "rank": 2,
+            "score": 0.51812,
+            "content_type": "visual"
+          },
+          {
+            "id": "B:colorme3:p147:t00",
+            "page": 147,
+            "rank": 3,
+            "score": 0.49631,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p139:t00",
+            "page": 139,
+            "rank": 4,
+            "score": 0.47614,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p139:v01",
+            "page": 139,
+            "rank": 5,
+            "score": 0.46695,
+            "content_type": "visual"
+          }
+        ],
+        "added_ids": [
+          "B:colorme3:p147:v00",
+          "B:colorme3:p147:v01",
+          "B:colorme3:p147:t00",
+          "B:colorme3:p139:t00",
+          "B:colorme3:p139:v01"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 1.149
+      },
+      {
+        "event": "model",
+        "tokens_in": 1627,
+        "tokens_out": 107,
+        "latency_s": 1.21,
+        "step": 1,
+        "forced_final": false
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "citations": [
+      "B:colorme3:p147:t00",
+      "B:colorme3:p147:v00",
+      "B:colorme3:p147:v01"
+    ]
+  },
+  {
+    "query_id": "tv2_ch1",
+    "status": "answered",
+    "events": [
+      {
+        "event": "model",
+        "tokens_in": 862,
+        "tokens_out": 26,
+        "latency_s": 1.14,
+        "step": 0,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "Color Emotion Guide",
+        "filter": {
+          "chapter": "ch3",
+          "content_type": "visual"
+        },
+        "method": "dense",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B:colorme3:p078:v00",
+            "page": 78,
+            "rank": 1,
+            "score": 0.57471,
+            "content_type": "visual"
+          },
+          {
+            "id": "B:colorme3:p077:v00",
+            "page": 77,
+            "rank": 2,
+            "score": 0.50805,
+            "content_type": "visual"
+          },
+          {
+            "id": "B:colorme3:p086:v00",
+            "page": 86,
+            "rank": 3,
+            "score": 0.44687,
+            "content_type": "visual"
+          },
+          {
+            "id": "B:colorme3:p061:v00",
+            "page": 61,
+            "rank": 4,
+            "score": 0.41818,
+            "content_type": "visual"
+          },
+          {
+            "id": "B:colorme3:p060:v00",
+            "page": 60,
+            "rank": 5,
+            "score": 0.41656,
+            "content_type": "visual"
+          }
+        ],
+        "added_ids": [
+          "B:colorme3:p078:v00",
+          "B:colorme3:p077:v00",
+          "B:colorme3:p086:v00",
+          "B:colorme3:p061:v00",
+          "B:colorme3:p060:v00"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.01
+      },
+      {
+        "event": "model",
+        "tokens_in": 2436,
+        "tokens_out": 69,
+        "latency_s": 1.29,
+        "step": 1,
+        "forced_final": false
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "citations": [
+      "B:colorme3:p078:v00"
+    ]
+  },
+  {
+    "query_id": "tv2_ch2",
+    "status": "answered",
+    "events": [
+      {
+        "event": "model",
+        "tokens_in": 861,
+        "tokens_out": 26,
+        "latency_s": 0.76,
+        "step": 0,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "Color Emotion Guide",
+        "filter": {
+          "chapter": "ch3",
+          "content_type": "visual"
+        },
+        "method": "dense",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B:colorme3:p078:v00",
+            "page": 78,
+            "rank": 1,
+            "score": 0.57471,
+            "content_type": "visual"
+          },
+          {
+            "id": "B:colorme3:p077:v00",
+            "page": 77,
+            "rank": 2,
+            "score": 0.50805,
+            "content_type": "visual"
+          },
+          {
+            "id": "B:colorme3:p086:v00",
+            "page": 86,
+            "rank": 3,
+            "score": 0.44687,
+            "content_type": "visual"
+          },
+          {
+            "id": "B:colorme3:p061:v00",
+            "page": 61,
+            "rank": 4,
+            "score": 0.41818,
+            "content_type": "visual"
+          },
+          {
+            "id": "B:colorme3:p060:v00",
+            "page": 60,
+            "rank": 5,
+            "score": 0.41656,
+            "content_type": "visual"
+          }
+        ],
+        "added_ids": [
+          "B:colorme3:p078:v00",
+          "B:colorme3:p077:v00",
+          "B:colorme3:p086:v00",
+          "B:colorme3:p061:v00",
+          "B:colorme3:p060:v00"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.01
+      },
+      {
+        "event": "model",
+        "tokens_in": 2435,
+        "tokens_out": 75,
+        "latency_s": 1.29,
+        "step": 1,
+        "forced_final": false
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "citations": [
+      "B:colorme3:p078:v00"
+    ]
+  },
+  {
+    "query_id": "tv2_ch3",
+    "status": "answered",
+    "events": [
+      {
+        "event": "model",
+        "tokens_in": 879,
+        "tokens_out": 32,
+        "latency_s": 1.15,
+        "step": 0,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "biểu đồ bong bóng Các bài toán thường gặp",
+        "filter": {
+          "content_type": "visual"
+        },
+        "method": "dense",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B:colorme3:p006:v00",
+            "page": 6,
+            "rank": 1,
+            "score": 0.52355,
+            "content_type": "visual"
+          },
+          {
+            "id": "B:colorme3:p043:v00",
+            "page": 43,
+            "rank": 2,
+            "score": 0.48081,
+            "content_type": "visual"
+          },
+          {
+            "id": "B:colorme3:p027:v00",
+            "page": 27,
+            "rank": 3,
+            "score": 0.46606,
+            "content_type": "visual"
+          },
+          {
+            "id": "B:colorme3:p028:v00",
+            "page": 28,
+            "rank": 4,
+            "score": 0.46573,
+            "content_type": "visual"
+          },
+          {
+            "id": "B:colorme3:p026:v00",
+            "page": 26,
+            "rank": 5,
+            "score": 0.46437,
+            "content_type": "visual"
+          }
+        ],
+        "added_ids": [
+          "B:colorme3:p006:v00",
+          "B:colorme3:p043:v00",
+          "B:colorme3:p027:v00",
+          "B:colorme3:p028:v00",
+          "B:colorme3:p026:v00"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.01
+      },
+      {
+        "event": "model",
+        "tokens_in": 1925,
+        "tokens_out": 66,
+        "latency_s": 1.2,
+        "step": 1,
+        "forced_final": false
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "citations": [
+      "B:colorme3:p006:v00"
+    ]
+  },
+  {
+    "query_id": "tv2_ch4",
+    "status": "answered",
+    "events": [
+      {
+        "event": "model",
+        "tokens_in": 875,
+        "tokens_out": 26,
+        "latency_s": 0.89,
+        "step": 0,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "CV – Charts",
+        "filter": {
+          "chapter": "ch7",
+          "content_type": "visual"
+        },
+        "method": "dense",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B:colorme3:p160:v00",
+            "page": 160,
+            "rank": 1,
+            "score": 0.56586,
+            "content_type": "visual"
+          },
+          {
+            "id": "B:colorme3:p160:v01",
+            "page": 160,
+            "rank": 2,
+            "score": 0.55705,
+            "content_type": "visual"
+          },
+          {
+            "id": "B:colorme3:p160:v02",
+            "page": 160,
+            "rank": 3,
+            "score": 0.52672,
+            "content_type": "visual"
+          },
+          {
+            "id": "B:colorme3:p160:v03",
+            "page": 160,
+            "rank": 4,
+            "score": 0.52136,
+            "content_type": "visual"
+          },
+          {
+            "id": "B:colorme3:p154:v01",
+            "page": 154,
+            "rank": 5,
+            "score": 0.44506,
+            "content_type": "visual"
+          }
+        ],
+        "added_ids": [
+          "B:colorme3:p160:v00",
+          "B:colorme3:p160:v01",
+          "B:colorme3:p160:v02",
+          "B:colorme3:p160:v03",
+          "B:colorme3:p154:v01"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.014
+      },
+      {
+        "event": "model",
+        "tokens_in": 1703,
+        "tokens_out": 62,
+        "latency_s": 0.89,
+        "step": 1,
+        "forced_final": false
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "citations": [
+      "B:colorme3:p160:v01"
+    ]
+  },
+  {
+    "query_id": "tv2_ch5",
+    "status": "answered",
+    "events": [
+      {
+        "event": "model",
+        "tokens_in": 878,
+        "tokens_out": 36,
+        "latency_s": 1.24,
+        "step": 0,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "cặp màu bổ túc sơ đồ 6 vòng tròn",
+        "filter": {
+          "chapter": "ch3",
+          "content_type": "visual"
+        },
+        "method": "dense",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B:colorme3:p076:v00",
+            "page": 76,
+            "rank": 1,
+            "score": 0.59358,
+            "content_type": "visual"
+          },
+          {
+            "id": "B:colorme3:p070:v00",
+            "page": 70,
+            "rank": 2,
+            "score": 0.57653,
+            "content_type": "visual"
+          },
+          {
+            "id": "B:colorme3:p075:v00",
+            "page": 75,
+            "rank": 3,
+            "score": 0.57325,
+            "content_type": "visual"
+          },
+          {
+            "id": "B:colorme3:p068:v00",
+            "page": 68,
+            "rank": 4,
+            "score": 0.56919,
+            "content_type": "visual"
+          },
+          {
+            "id": "B:colorme3:p056:v00",
+            "page": 56,
+            "rank": 5,
+            "score": 0.56041,
+            "content_type": "visual"
+          }
+        ],
+        "added_ids": [
+          "B:colorme3:p076:v00",
+          "B:colorme3:p070:v00",
+          "B:colorme3:p075:v00",
+          "B:colorme3:p068:v00",
+          "B:colorme3:p056:v00"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.67
+      },
+      {
+        "event": "model",
+        "tokens_in": 2026,
+        "tokens_out": 152,
+        "latency_s": 1.98,
+        "step": 1,
+        "forced_final": false
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "citations": [
+      "B:colorme3:p070:v00"
+    ]
+  },
+  {
+    "query_id": "tv2_mh1",
+    "status": "answered",
+    "events": [
+      {
+        "event": "model",
+        "tokens_in": 878,
+        "tokens_out": 29,
+        "latency_s": 0.84,
+        "step": 0,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "phím tắt Move Tool",
+        "filter": {
+          "chapter": "ch1",
+          "content_type": "text"
+        },
+        "method": "dense",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B:colorme3:p022:t00",
+            "page": 22,
+            "rank": 1,
+            "score": 0.62931,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p024:t00",
+            "page": 24,
+            "rank": 2,
+            "score": 0.58156,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p028:t00",
+            "page": 28,
+            "rank": 3,
+            "score": 0.5676,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p023:t00",
+            "page": 23,
+            "rank": 4,
+            "score": 0.56685,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p026:t00",
+            "page": 26,
+            "rank": 5,
+            "score": 0.56679,
+            "content_type": "text"
+          }
+        ],
+        "added_ids": [
+          "B:colorme3:p022:t00",
+          "B:colorme3:p024:t00",
+          "B:colorme3:p028:t00",
+          "B:colorme3:p023:t00",
+          "B:colorme3:p026:t00"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.01
+      },
+      {
+        "event": "model",
+        "tokens_in": 1835,
+        "tokens_out": 26,
+        "latency_s": 1.13,
+        "step": 1,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "phím M",
+        "filter": {
+          "chapter": "appendix",
+          "content_type": "text"
+        },
+        "method": "dense",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B:colorme3:p174:t00",
+            "page": 174,
+            "rank": 1,
+            "score": 0.39979,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p173:t00",
+            "page": 173,
+            "rank": 2,
+            "score": 0.38877,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p175:t01",
+            "page": 175,
+            "rank": 3,
+            "score": 0.37613,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p175:t00",
+            "page": 175,
+            "rank": 4,
+            "score": 0.37415,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p176:t00",
+            "page": 176,
+            "rank": 5,
+            "score": 0.37154,
+            "content_type": "text"
+          }
+        ],
+        "added_ids": [
+          "B:colorme3:p174:t00",
+          "B:colorme3:p173:t00",
+          "B:colorme3:p175:t01",
+          "B:colorme3:p175:t00",
+          "B:colorme3:p176:t00"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.008
+      },
+      {
+        "event": "model",
+        "tokens_in": 2970,
+        "tokens_out": 78,
+        "latency_s": 1.23,
+        "step": 2,
+        "forced_final": false
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "citations": [
+      "B:colorme3:p022:t00",
+      "B:colorme3:p176:t00"
+    ]
+  },
+  {
+    "query_id": "tv2_mh2",
+    "status": "answered",
+    "events": [
+      {
+        "event": "model",
+        "tokens_in": 877,
+        "tokens_out": 31,
+        "latency_s": 0.78,
+        "step": 0,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "nghịch đảo màu ca khúc",
+        "filter": {
+          "chapter": "ch5",
+          "content_type": "text"
+        },
+        "method": "dense",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B:colorme3:p129:t00",
+            "page": 129,
+            "rank": 1,
+            "score": 0.38135,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p127:t00",
+            "page": 127,
+            "rank": 2,
+            "score": 0.34089,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p126:t00",
+            "page": 126,
+            "rank": 3,
+            "score": 0.33652,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p130:t00",
+            "page": 130,
+            "rank": 4,
+            "score": 0.30982,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p124:t00",
+            "page": 124,
+            "rank": 5,
+            "score": 0.2826,
+            "content_type": "text"
+          }
+        ],
+        "added_ids": [
+          "B:colorme3:p129:t00",
+          "B:colorme3:p127:t00",
+          "B:colorme3:p126:t00",
+          "B:colorme3:p130:t00",
+          "B:colorme3:p124:t00"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.008
+      },
+      {
+        "event": "model",
+        "tokens_in": 1669,
+        "tokens_out": 33,
+        "latency_s": 1.16,
+        "step": 1,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "phím tắt nghịch đảo vùng chọn Photoshop",
+        "filter": {
+          "chapter": "ch1",
+          "content_type": "text"
+        },
+        "method": "dense",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B:colorme3:p033:t00",
+            "page": 33,
+            "rank": 1,
+            "score": 0.55004,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p034:t00",
+            "page": 34,
+            "rank": 2,
+            "score": 0.54962,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p030:t00",
+            "page": 30,
+            "rank": 3,
+            "score": 0.54784,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p031:t00",
+            "page": 31,
+            "rank": 4,
+            "score": 0.54511,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p035:t00",
+            "page": 35,
+            "rank": 5,
+            "score": 0.54111,
+            "content_type": "text"
+          }
+        ],
+        "added_ids": [
+          "B:colorme3:p033:t00",
+          "B:colorme3:p034:t00",
+          "B:colorme3:p030:t00",
+          "B:colorme3:p031:t00",
+          "B:colorme3:p035:t00"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.009
+      },
+      {
+        "event": "model",
+        "tokens_in": 2571,
+        "tokens_out": 32,
+        "latency_s": 0.85,
+        "step": 2,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "phím tắt nghịch đảo vùng chọn",
+        "filter": {
+          "chapter": "ch1",
+          "content_type": "text"
+        },
+        "method": "dense",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B:colorme3:p030:t00",
+            "page": 30,
+            "rank": 1,
+            "score": 0.40365,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p033:t00",
+            "page": 33,
+            "rank": 2,
+            "score": 0.40359,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p032:t00",
+            "page": 32,
+            "rank": 3,
+            "score": 0.40135,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p029:t00",
+            "page": 29,
+            "rank": 4,
+            "score": 0.39705,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p031:t00",
+            "page": 31,
+            "rank": 5,
+            "score": 0.39694,
+            "content_type": "text"
+          }
+        ],
+        "added_ids": [
+          "B:colorme3:p032:t00",
+          "B:colorme3:p029:t00"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.636
+      },
+      {
+        "event": "model",
+        "tokens_in": 3031,
+        "tokens_out": 33,
+        "latency_s": 0.89,
+        "step": 3,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "phím tắt nghịch đảo vùng chọn Photoshop",
+        "filter": {
+          "chapter": "ch1",
+          "content_type": "text"
+        },
+        "method": "dense",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B:colorme3:p033:t00",
+            "page": 33,
+            "rank": 1,
+            "score": 0.55004,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p034:t00",
+            "page": 34,
+            "rank": 2,
+            "score": 0.54962,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p030:t00",
+            "page": 30,
+            "rank": 3,
+            "score": 0.54784,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p031:t00",
+            "page": 31,
+            "rank": 4,
+            "score": 0.54511,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p035:t00",
+            "page": 35,
+            "rank": 5,
+            "score": 0.54111,
+            "content_type": "text"
+          }
+        ],
+        "added_ids": [],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.008
+      },
+      {
+        "event": "model",
+        "tokens_in": 3202,
+        "tokens_out": 32,
+        "latency_s": 1.26,
+        "step": 4,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "phím tắt nghịch đảo vùng chọn",
+        "filter": {
+          "chapter": "ch1",
+          "content_type": "visual"
+        },
+        "method": "dense",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B:colorme3:p030:v00",
+            "page": 30,
+            "rank": 1,
+            "score": 0.3743,
+            "content_type": "visual"
+          },
+          {
+            "id": "B:colorme3:p034:v00",
+            "page": 34,
+            "rank": 2,
+            "score": 0.37242,
+            "content_type": "visual"
+          },
+          {
+            "id": "B:colorme3:p032:v00",
+            "page": 32,
+            "rank": 3,
+            "score": 0.37217,
+            "content_type": "visual"
+          },
+          {
+            "id": "B:colorme3:p029:v00",
+            "page": 29,
+            "rank": 4,
+            "score": 0.37014,
+            "content_type": "visual"
+          },
+          {
+            "id": "B:colorme3:p035:v00",
+            "page": 35,
+            "rank": 5,
+            "score": 0.35697,
+            "content_type": "visual"
+          }
+        ],
+        "added_ids": [
+          "B:colorme3:p030:v00",
+          "B:colorme3:p034:v00",
+          "B:colorme3:p032:v00",
+          "B:colorme3:p029:v00",
+          "B:colorme3:p035:v00"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.012
+      },
+      {
+        "event": "model",
+        "tokens_in": 4625,
+        "tokens_out": 33,
+        "latency_s": 0.93,
+        "step": 5,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "phím tắt nghịch đảo vùng chọn Photoshop",
+        "filter": {
+          "chapter": "ch1",
+          "content_type": "text"
+        },
+        "method": "dense",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B:colorme3:p033:t00",
+            "page": 33,
+            "rank": 1,
+            "score": 0.55004,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p034:t00",
+            "page": 34,
+            "rank": 2,
+            "score": 0.54962,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p030:t00",
+            "page": 30,
+            "rank": 3,
+            "score": 0.54784,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p031:t00",
+            "page": 31,
+            "rank": 4,
+            "score": 0.54511,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p035:t00",
+            "page": 35,
+            "rank": 5,
+            "score": 0.54111,
+            "content_type": "text"
+          }
+        ],
+        "added_ids": [],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.008
+      },
+      {
+        "event": "model",
+        "tokens_in": 4805,
+        "tokens_out": 92,
+        "latency_s": 1.22,
+        "step": 6,
+        "forced_final": true
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "citations": [
+      "B:colorme3:p129:t00"
+    ]
+  },
+  {
+    "query_id": "tv2_mh3",
+    "status": "answered",
+    "events": [
+      {
+        "event": "model",
+        "tokens_in": 872,
+        "tokens_out": 29,
+        "latency_s": 0.81,
+        "step": 0,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "logo tượng hình nhược điểm",
+        "filter": {
+          "chapter": "ch6",
+          "content_type": "text"
+        },
+        "method": "dense",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B:colorme3:p144:t00",
+            "page": 144,
+            "rank": 1,
+            "score": 0.50513,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p143:t00",
+            "page": 143,
+            "rank": 2,
+            "score": 0.50312,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p133:t00",
+            "page": 133,
+            "rank": 3,
+            "score": 0.50146,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p134:t00",
+            "page": 134,
+            "rank": 4,
+            "score": 0.50006,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p145:t00",
+            "page": 145,
+            "rank": 5,
+            "score": 0.49579,
+            "content_type": "text"
+          }
+        ],
+        "added_ids": [
+          "B:colorme3:p144:t00",
+          "B:colorme3:p143:t00",
+          "B:colorme3:p133:t00",
+          "B:colorme3:p134:t00",
+          "B:colorme3:p145:t00"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.008
+      },
+      {
+        "event": "model",
+        "tokens_in": 1479,
+        "tokens_out": 32,
+        "latency_s": 1.25,
+        "step": 1,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "logo kết hợp loại bỏ phần chữ khỏi logo",
+        "filter": {
+          "chapter": "ch6",
+          "content_type": "text"
+        },
+        "method": "dense",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B:colorme3:p135:t00",
+            "page": 135,
+            "rank": 1,
+            "score": 0.62561,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p134:t00",
+            "page": 134,
+            "rank": 2,
+            "score": 0.57501,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p141:t00",
+            "page": 141,
+            "rank": 3,
+            "score": 0.56763,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p142:t00",
+            "page": 142,
+            "rank": 4,
+            "score": 0.5662,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p146:t00",
+            "page": 146,
+            "rank": 5,
+            "score": 0.56,
+            "content_type": "text"
+          }
+        ],
+        "added_ids": [
+          "B:colorme3:p135:t00",
+          "B:colorme3:p141:t00",
+          "B:colorme3:p142:t00",
+          "B:colorme3:p146:t00"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.723
+      },
+      {
+        "event": "model",
+        "tokens_in": 2057,
+        "tokens_out": 103,
+        "latency_s": 1.24,
+        "step": 2,
+        "forced_final": false
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "citations": [
+      "B:colorme3:p133:t00",
+      "B:colorme3:p135:t00"
+    ]
+  },
+  {
+    "query_id": "tv2_mh4",
+    "status": "answered",
+    "events": [
+      {
+        "event": "model",
+        "tokens_in": 872,
+        "tokens_out": 33,
+        "latency_s": 0.97,
+        "step": 0,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "xu hướng thiết kế phẳng Google Apple hiệu ứng",
+        "filter": {
+          "chapter": "ch8",
+          "content_type": "text"
+        },
+        "method": "dense",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B:colorme3:p170:t00",
+            "page": 170,
+            "rank": 1,
+            "score": 0.67569,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p167:t00",
+            "page": 167,
+            "rank": 2,
+            "score": 0.65926,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p168:t00",
+            "page": 168,
+            "rank": 3,
+            "score": 0.63583,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p166:t00",
+            "page": 166,
+            "rank": 4,
+            "score": 0.57696,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p165:t00",
+            "page": 165,
+            "rank": 5,
+            "score": 0.56265,
+            "content_type": "text"
+          }
+        ],
+        "added_ids": [
+          "B:colorme3:p170:t00",
+          "B:colorme3:p167:t00",
+          "B:colorme3:p168:t00",
+          "B:colorme3:p166:t00",
+          "B:colorme3:p165:t00"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.008
+      },
+      {
+        "event": "model",
+        "tokens_in": 1646,
+        "tokens_out": 96,
+        "latency_s": 1.22,
+        "step": 1,
+        "forced_final": false
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "citations": [
+      "B:colorme3:p167:t00",
+      "B:colorme3:p170:t00"
+    ]
+  },
+  {
+    "query_id": "tv2_tx1",
+    "status": "answered",
+    "events": [
+      {
+        "event": "model",
+        "tokens_in": 856,
+        "tokens_out": 26,
+        "latency_s": 0.8,
+        "step": 0,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "phần mềm",
+        "filter": {
+          "chapter": "ch2",
+          "content_type": "text"
+        },
+        "method": "dense",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B:colorme3:p047:t00",
+            "page": 47,
+            "rank": 1,
+            "score": 0.48469,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p040:t00",
+            "page": 40,
+            "rank": 2,
+            "score": 0.42459,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p038:t00",
+            "page": 38,
+            "rank": 3,
+            "score": 0.42174,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p045:t00",
+            "page": 45,
+            "rank": 4,
+            "score": 0.39826,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p039:t00",
+            "page": 39,
+            "rank": 5,
+            "score": 0.37932,
+            "content_type": "text"
+          }
+        ],
+        "added_ids": [
+          "B:colorme3:p047:t00",
+          "B:colorme3:p040:t00",
+          "B:colorme3:p038:t00",
+          "B:colorme3:p045:t00",
+          "B:colorme3:p039:t00"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.72
+      },
+      {
+        "event": "model",
+        "tokens_in": 1800,
+        "tokens_out": 133,
+        "latency_s": 1.47,
+        "step": 1,
+        "forced_final": false
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "citations": [
+      "B:colorme3:p047:t00"
+    ]
+  },
+  {
+    "query_id": "tv2_tx2",
+    "status": "answered",
+    "events": [
+      {
+        "event": "model",
+        "tokens_in": 858,
+        "tokens_out": 31,
+        "latency_s": 0.87,
+        "step": 0,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "tối kị khi dùng chữ typography",
+        "filter": {
+          "chapter": "ch4",
+          "content_type": "text"
+        },
+        "method": "dense",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B:colorme3:p115:t00",
+            "page": 115,
+            "rank": 1,
+            "score": 0.63882,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p107:t00",
+            "page": 107,
+            "rank": 2,
+            "score": 0.61893,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p116:t00",
+            "page": 116,
+            "rank": 3,
+            "score": 0.61589,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p111:t00",
+            "page": 111,
+            "rank": 4,
+            "score": 0.61299,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p104:t00",
+            "page": 104,
+            "rank": 5,
+            "score": 0.60901,
+            "content_type": "text"
+          }
+        ],
+        "added_ids": [
+          "B:colorme3:p115:t00",
+          "B:colorme3:p107:t00",
+          "B:colorme3:p116:t00",
+          "B:colorme3:p111:t00",
+          "B:colorme3:p104:t00"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.68
+      },
+      {
+        "event": "model",
+        "tokens_in": 1522,
+        "tokens_out": 92,
+        "latency_s": 1.22,
+        "step": 1,
+        "forced_final": false
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "citations": [
+      "B:colorme3:p115:t00"
+    ]
+  },
+  {
+    "query_id": "tv2_tx3",
+    "status": "answered",
+    "events": [
+      {
+        "event": "model",
+        "tokens_in": 857,
+        "tokens_out": 29,
+        "latency_s": 0.81,
+        "step": 0,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "CV ảnh đại diện lợi ích",
+        "filter": {
+          "chapter": "ch7",
+          "content_type": "text"
+        },
+        "method": "dense",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B:colorme3:p158:t00",
+            "page": 158,
+            "rank": 1,
+            "score": 0.52444,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p162:t00",
+            "page": 162,
+            "rank": 2,
+            "score": 0.45204,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p160:t00",
+            "page": 160,
+            "rank": 3,
+            "score": 0.41879,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p156:t00",
+            "page": 156,
+            "rank": 4,
+            "score": 0.39332,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p157:t00",
+            "page": 157,
+            "rank": 5,
+            "score": 0.39254,
+            "content_type": "text"
+          }
+        ],
+        "added_ids": [
+          "B:colorme3:p158:t00",
+          "B:colorme3:p162:t00",
+          "B:colorme3:p160:t00",
+          "B:colorme3:p156:t00",
+          "B:colorme3:p157:t00"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.009
+      },
+      {
+        "event": "model",
+        "tokens_in": 1664,
+        "tokens_out": 73,
+        "latency_s": 1.15,
+        "step": 1,
+        "forced_final": false
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "citations": [
+      "B:colorme3:p158:t00"
+    ]
+  },
+  {
+    "query_id": "tv2_tx4",
+    "status": "answered",
+    "events": [
+      {
+        "event": "model",
+        "tokens_in": 862,
+        "tokens_out": 29,
+        "latency_s": 0.83,
+        "step": 0,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "Photoshop dùng thử bao lâu",
+        "filter": {
+          "chapter": "ch1",
+          "content_type": "text"
+        },
+        "method": "dense",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B:colorme3:p008:t00",
+            "page": 8,
+            "rank": 1,
+            "score": 0.55223,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p009:t00",
+            "page": 9,
+            "rank": 2,
+            "score": 0.54337,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p009:t01",
+            "page": 9,
+            "rank": 3,
+            "score": 0.53568,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p008:t01",
+            "page": 8,
+            "rank": 4,
+            "score": 0.5245,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p018:t00",
+            "page": 18,
+            "rank": 5,
+            "score": 0.50906,
+            "content_type": "text"
+          }
+        ],
+        "added_ids": [
+          "B:colorme3:p008:t00",
+          "B:colorme3:p009:t00",
+          "B:colorme3:p009:t01",
+          "B:colorme3:p008:t01",
+          "B:colorme3:p018:t00"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.008
+      },
+      {
+        "event": "model",
+        "tokens_in": 1974,
+        "tokens_out": 72,
+        "latency_s": 1.33,
+        "step": 1,
+        "forced_final": false
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "citations": [
+      "B:colorme3:p008:t00"
+    ]
+  },
+  {
+    "query_id": "tv2_un1",
+    "status": "answered",
+    "events": [
+      {
+        "event": "model",
+        "tokens_in": 856,
+        "tokens_out": 31,
+        "latency_s": 0.86,
+        "step": 0,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "phím tắt mở bảng Layers Photoshop",
+        "filter": {
+          "chapter": "ch1",
+          "content_type": "text"
+        },
+        "method": "dense",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B:colorme3:p021:t00",
+            "page": 21,
+            "rank": 1,
+            "score": 0.62233,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p020:t00",
+            "page": 20,
+            "rank": 2,
+            "score": 0.59669,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p022:t00",
+            "page": 22,
+            "rank": 3,
+            "score": 0.57053,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p019:t00",
+            "page": 19,
+            "rank": 4,
+            "score": 0.54966,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p020:t01",
+            "page": 20,
+            "rank": 5,
+            "score": 0.54925,
+            "content_type": "text"
+          }
+        ],
+        "added_ids": [
+          "B:colorme3:p021:t00",
+          "B:colorme3:p020:t00",
+          "B:colorme3:p022:t00",
+          "B:colorme3:p019:t00",
+          "B:colorme3:p020:t01"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.007
+      },
+      {
+        "event": "model",
+        "tokens_in": 1864,
+        "tokens_out": 31,
+        "latency_s": 0.89,
+        "step": 1,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "phím tắt mở bảng Layers Photoshop",
+        "filter": {
+          "chapter": "ch1",
+          "content_type": "text"
+        },
+        "method": "dense",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B:colorme3:p021:t00",
+            "page": 21,
+            "rank": 1,
+            "score": 0.62233,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p020:t00",
+            "page": 20,
+            "rank": 2,
+            "score": 0.59669,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p022:t00",
+            "page": 22,
+            "rank": 3,
+            "score": 0.57053,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p019:t00",
+            "page": 19,
+            "rank": 4,
+            "score": 0.54966,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p020:t01",
+            "page": 20,
+            "rank": 5,
+            "score": 0.54925,
+            "content_type": "text"
+          }
+        ],
+        "added_ids": [],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.015
+      },
+      {
+        "event": "model",
+        "tokens_in": 2033,
+        "tokens_out": 105,
+        "latency_s": 1.56,
+        "step": 2,
+        "forced_final": false
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "citations": [
+      "B:colorme3:p021:t00"
+    ]
+  },
+  {
+    "query_id": "tv2_un2",
+    "status": "abstain",
+    "events": [
+      {
+        "event": "model",
+        "tokens_in": 861,
+        "tokens_out": 30,
+        "latency_s": 0.91,
+        "step": 0,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "hệ màu RGB số lượng màu",
+        "filter": {
+          "chapter": "ch1",
+          "content_type": "text"
+        },
+        "method": "dense",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B:colorme3:p016:t00",
+            "page": 16,
+            "rank": 1,
+            "score": 0.70642,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p017:t00",
+            "page": 17,
+            "rank": 2,
+            "score": 0.64015,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p015:t00",
+            "page": 15,
+            "rank": 3,
+            "score": 0.60379,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p015:t01",
+            "page": 15,
+            "rank": 4,
+            "score": 0.52716,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p020:t01",
+            "page": 20,
+            "rank": 5,
+            "score": 0.4043,
+            "content_type": "text"
+          }
+        ],
+        "added_ids": [
+          "B:colorme3:p016:t00",
+          "B:colorme3:p017:t00",
+          "B:colorme3:p015:t00",
+          "B:colorme3:p015:t01",
+          "B:colorme3:p020:t01"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.669
+      },
+      {
+        "event": "model",
+        "tokens_in": 1852,
+        "tokens_out": 33,
+        "latency_s": 0.92,
+        "step": 1,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "hệ màu RGB số lượng màu hiển thị",
+        "filter": {
+          "chapter": "ch1",
+          "content_type": "text"
+        },
+        "method": "dense",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B:colorme3:p016:t00",
+            "page": 16,
+            "rank": 1,
+            "score": 0.72542,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p017:t00",
+            "page": 17,
+            "rank": 2,
+            "score": 0.65144,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p015:t00",
+            "page": 15,
+            "rank": 3,
+            "score": 0.60222,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p015:t01",
+            "page": 15,
+            "rank": 4,
+            "score": 0.5088,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p014:t00",
+            "page": 14,
+            "rank": 5,
+            "score": 0.45494,
+            "content_type": "text"
+          }
+        ],
+        "added_ids": [
+          "B:colorme3:p014:t00"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.661
+      },
+      {
+        "event": "model",
+        "tokens_in": 2181,
+        "tokens_out": 35,
+        "latency_s": 0.84,
+        "step": 2,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "hệ màu RGB hiển thị bao nhiêu triệu màu",
+        "filter": {
+          "chapter": "ch1",
+          "content_type": "text"
+        },
+        "method": "dense",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B:colorme3:p016:t00",
+            "page": 16,
+            "rank": 1,
+            "score": 0.70353,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p017:t00",
+            "page": 17,
+            "rank": 2,
+            "score": 0.63318,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p015:t00",
+            "page": 15,
+            "rank": 3,
+            "score": 0.5918,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p015:t01",
+            "page": 15,
+            "rank": 4,
+            "score": 0.50576,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p012:t00",
+            "page": 12,
+            "rank": 5,
+            "score": 0.44482,
+            "content_type": "text"
+          }
+        ],
+        "added_ids": [
+          "B:colorme3:p012:t00"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 1.035
+      },
+      {
+        "event": "model",
+        "tokens_in": 2577,
+        "tokens_out": 34,
+        "latency_s": 1.15,
+        "step": 3,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "hệ màu RGB hiển thị bao nhiêu triệu màu",
+        "filter": {
+          "content_type": "text"
+        },
+        "method": "dense",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B:colorme3:p016:t00",
+            "page": 16,
+            "rank": 1,
+            "score": 0.70353,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p017:t00",
+            "page": 17,
+            "rank": 2,
+            "score": 0.63318,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p015:t00",
+            "page": 15,
+            "rank": 3,
+            "score": 0.5918,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p060:t00",
+            "page": 60,
+            "rank": 4,
+            "score": 0.57207,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p086:t00",
+            "page": 86,
+            "rank": 5,
+            "score": 0.56602,
+            "content_type": "text"
+          }
+        ],
+        "added_ids": [
+          "B:colorme3:p060:t00",
+          "B:colorme3:p086:t00"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.009
+      },
+      {
+        "event": "model",
+        "tokens_in": 3025,
+        "tokens_out": 114,
+        "latency_s": 1.53,
+        "step": 4,
+        "forced_final": false
+      },
+      {
+        "event": "answer",
+        "abstain": true
+      }
+    ],
+    "citations": []
+  },
+  {
+    "query_id": "tv2_un3",
+    "status": "abstain",
+    "events": [
+      {
+        "event": "model",
+        "tokens_in": 853,
+        "tokens_out": 25,
+        "latency_s": 0.82,
+        "step": 0,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "giảng viên",
+        "filter": {
+          "chapter": "front",
+          "content_type": "text"
+        },
+        "method": "dense",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B:colorme3:p003:t01",
+            "page": 3,
+            "rank": 1,
+            "score": 0.40103,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p003:t00",
+            "page": 3,
+            "rank": 2,
+            "score": 0.39781,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p002:t00",
+            "page": 2,
+            "rank": 3,
+            "score": 0.31559,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p002:t01",
+            "page": 2,
+            "rank": 4,
+            "score": 0.31085,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p004:t00",
+            "page": 4,
+            "rank": 5,
+            "score": 0.28128,
+            "content_type": "text"
+          }
+        ],
+        "added_ids": [
+          "B:colorme3:p003:t01",
+          "B:colorme3:p003:t00",
+          "B:colorme3:p002:t00",
+          "B:colorme3:p002:t01",
+          "B:colorme3:p004:t00"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.017
+      },
+      {
+        "event": "model",
+        "tokens_in": 1754,
+        "tokens_out": 25,
+        "latency_s": 0.84,
+        "step": 1,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "giảng viên",
+        "filter": {
+          "content_type": "text"
+        },
+        "method": "dense",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B:colorme3:p182:t00",
+            "page": 182,
+            "rank": 1,
+            "score": 0.48824,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p177:t00",
+            "page": 177,
+            "rank": 2,
+            "score": 0.43543,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p003:t01",
+            "page": 3,
+            "rank": 3,
+            "score": 0.40103,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p003:t00",
+            "page": 3,
+            "rank": 4,
+            "score": 0.39781,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p180:t00",
+            "page": 180,
+            "rank": 5,
+            "score": 0.34173,
+            "content_type": "text"
+          }
+        ],
+        "added_ids": [
+          "B:colorme3:p182:t00",
+          "B:colorme3:p177:t00",
+          "B:colorme3:p180:t00"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.008
+      },
+      {
+        "event": "model",
+        "tokens_in": 2502,
+        "tokens_out": 25,
+        "latency_s": 0.78,
+        "step": 2,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "giảng viên",
+        "filter": {
+          "chapter": "front",
+          "content_type": "text"
+        },
+        "method": "dense",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B:colorme3:p003:t01",
+            "page": 3,
+            "rank": 1,
+            "score": 0.40103,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p003:t00",
+            "page": 3,
+            "rank": 2,
+            "score": 0.39781,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p002:t00",
+            "page": 2,
+            "rank": 3,
+            "score": 0.31559,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p002:t01",
+            "page": 2,
+            "rank": 4,
+            "score": 0.31085,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p004:t00",
+            "page": 4,
+            "rank": 5,
+            "score": 0.28128,
+            "content_type": "text"
+          }
+        ],
+        "added_ids": [],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.004
+      },
+      {
+        "event": "model",
+        "tokens_in": 2665,
+        "tokens_out": 39,
+        "latency_s": 1.34,
+        "step": 3,
+        "forced_final": false
+      },
+      {
+        "event": "answer",
+        "abstain": true
+      }
+    ],
+    "citations": []
+  },
+  {
+    "query_id": "tv2_un4",
+    "status": "answered",
+    "events": [
+      {
+        "event": "model",
+        "tokens_in": 863,
+        "tokens_out": 31,
+        "latency_s": 1.58,
+        "step": 0,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "logo kích thước tối thiểu pixel",
+        "filter": {
+          "chapter": "ch6",
+          "content_type": "text"
+        },
+        "method": "dense",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B:colorme3:p137:t00",
+            "page": 137,
+            "rank": 1,
+            "score": 0.48825,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p145:t00",
+            "page": 145,
+            "rank": 2,
+            "score": 0.45285,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p141:t00",
+            "page": 141,
+            "rank": 3,
+            "score": 0.42998,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p142:t00",
+            "page": 142,
+            "rank": 4,
+            "score": 0.426,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p144:t00",
+            "page": 144,
+            "rank": 5,
+            "score": 0.42255,
+            "content_type": "text"
+          }
+        ],
+        "added_ids": [
+          "B:colorme3:p137:t00",
+          "B:colorme3:p145:t00",
+          "B:colorme3:p141:t00",
+          "B:colorme3:p142:t00",
+          "B:colorme3:p144:t00"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.015
+      },
+      {
+        "event": "model",
+        "tokens_in": 1448,
+        "tokens_out": 33,
+        "latency_s": 0.77,
+        "step": 1,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "logo đọc được kích thước tối thiểu pixel",
+        "filter": {
+          "chapter": "ch6",
+          "content_type": "text"
+        },
+        "method": "dense",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B:colorme3:p137:t00",
+            "page": 137,
+            "rank": 1,
+            "score": 0.49156,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p145:t00",
+            "page": 145,
+            "rank": 2,
+            "score": 0.46673,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p141:t00",
+            "page": 141,
+            "rank": 3,
+            "score": 0.44584,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p142:t00",
+            "page": 142,
+            "rank": 4,
+            "score": 0.44178,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p144:t00",
+            "page": 144,
+            "rank": 5,
+            "score": 0.42928,
+            "content_type": "text"
+          }
+        ],
+        "added_ids": [],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 1.087
+      },
+      {
+        "event": "model",
+        "tokens_in": 1619,
+        "tokens_out": 32,
+        "latency_s": 1.13,
+        "step": 2,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "kích thước tối thiểu logo pixel",
+        "filter": {
+          "chapter": "ch6",
+          "content_type": "visual"
+        },
+        "method": "dense",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B:colorme3:p138:v00",
+            "page": 138,
+            "rank": 1,
+            "score": 0.50798,
+            "content_type": "visual"
+          },
+          {
+            "id": "B:colorme3:p145:v00",
+            "page": 145,
+            "rank": 2,
+            "score": 0.49335,
+            "content_type": "visual"
+          },
+          {
+            "id": "B:colorme3:p137:v00",
+            "page": 137,
+            "rank": 3,
+            "score": 0.47463,
+            "content_type": "visual"
+          },
+          {
+            "id": "B:colorme3:p145:v01",
+            "page": 145,
+            "rank": 4,
+            "score": 0.4673,
+            "content_type": "visual"
+          },
+          {
+            "id": "B:colorme3:p141:v01",
+            "page": 141,
+            "rank": 5,
+            "score": 0.45073,
+            "content_type": "visual"
+          }
+        ],
+        "added_ids": [
+          "B:colorme3:p138:v00",
+          "B:colorme3:p145:v00",
+          "B:colorme3:p137:v00",
+          "B:colorme3:p145:v01",
+          "B:colorme3:p141:v01"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.676
+      },
+      {
+        "event": "model",
+        "tokens_in": 2502,
+        "tokens_out": 33,
+        "latency_s": 0.93,
+        "step": 3,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "logo đọc được kích thước tối thiểu pixel",
+        "filter": {
+          "chapter": "ch6",
+          "content_type": "text"
+        },
+        "method": "dense",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B:colorme3:p137:t00",
+            "page": 137,
+            "rank": 1,
+            "score": 0.49156,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p145:t00",
+            "page": 145,
+            "rank": 2,
+            "score": 0.46673,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p141:t00",
+            "page": 141,
+            "rank": 3,
+            "score": 0.44584,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p142:t00",
+            "page": 142,
+            "rank": 4,
+            "score": 0.44178,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p144:t00",
+            "page": 144,
+            "rank": 5,
+            "score": 0.42928,
+            "content_type": "text"
+          }
+        ],
+        "added_ids": [],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.009
+      },
+      {
+        "event": "model",
+        "tokens_in": 2673,
+        "tokens_out": 35,
+        "latency_s": 1.34,
+        "step": 4,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "logo đọc được kích thước tối thiểu 50 pixel",
+        "filter": {
+          "chapter": "ch6",
+          "content_type": "text"
+        },
+        "method": "dense",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B:colorme3:p137:t00",
+            "page": 137,
+            "rank": 1,
+            "score": 0.50111,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p145:t00",
+            "page": 145,
+            "rank": 2,
+            "score": 0.45981,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p141:t00",
+            "page": 141,
+            "rank": 3,
+            "score": 0.44972,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p142:t00",
+            "page": 142,
+            "rank": 4,
+            "score": 0.44476,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p144:t00",
+            "page": 144,
+            "rank": 5,
+            "score": 0.44456,
+            "content_type": "text"
+          }
+        ],
+        "added_ids": [],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.694
+      },
+      {
+        "event": "model",
+        "tokens_in": 2846,
+        "tokens_out": 32,
+        "latency_s": 1.03,
+        "step": 5,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "logo đọc được kích thước tối thiểu",
+        "filter": {
+          "chapter": "ch6",
+          "content_type": "text"
+        },
+        "method": "dense",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B:colorme3:p137:t00",
+            "page": 137,
+            "rank": 1,
+            "score": 0.46411,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p144:t00",
+            "page": 144,
+            "rank": 2,
+            "score": 0.46015,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p145:t00",
+            "page": 145,
+            "rank": 3,
+            "score": 0.44855,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p138:t00",
+            "page": 138,
+            "rank": 4,
+            "score": 0.43691,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p141:t00",
+            "page": 141,
+            "rank": 5,
+            "score": 0.42887,
+            "content_type": "text"
+          }
+        ],
+        "added_ids": [
+          "B:colorme3:p138:t00"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.709
+      },
+      {
+        "event": "model",
+        "tokens_in": 3145,
+        "tokens_out": 85,
+        "latency_s": 1.25,
+        "step": 6,
+        "forced_final": true
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "citations": [
+      "B:colorme3:p138:t00"
+    ]
+  },
+  {
+    "query_id": "tv2_un5",
+    "status": "abstain",
+    "events": [
+      {
+        "event": "model",
+        "tokens_in": 858,
+        "tokens_out": 29,
+        "latency_s": 0.83,
+        "step": 0,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "tải font chữ miễn phí",
+        "filter": {
+          "chapter": "ch4",
+          "content_type": "text"
+        },
+        "method": "dense",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B:colorme3:p099:t00",
+            "page": 99,
+            "rank": 1,
+            "score": 0.48381,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p093:t00",
+            "page": 93,
+            "rank": 2,
+            "score": 0.47537,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p100:t00",
+            "page": 100,
+            "rank": 3,
+            "score": 0.47269,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p088:t00",
+            "page": 88,
+            "rank": 4,
+            "score": 0.46963,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p091:t00",
+            "page": 91,
+            "rank": 5,
+            "score": 0.46071,
+            "content_type": "text"
+          }
+        ],
+        "added_ids": [
+          "B:colorme3:p099:t00",
+          "B:colorme3:p093:t00",
+          "B:colorme3:p100:t00",
+          "B:colorme3:p088:t00",
+          "B:colorme3:p091:t00"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.009
+      },
+      {
+        "event": "model",
+        "tokens_in": 1675,
+        "tokens_out": 28,
+        "latency_s": 1.1,
+        "step": 1,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "website tải font miễn phí",
+        "filter": {
+          "chapter": "ch4",
+          "content_type": "text"
+        },
+        "method": "dense",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B:colorme3:p100:t00",
+            "page": 100,
+            "rank": 1,
+            "score": 0.45335,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p098:t00",
+            "page": 98,
+            "rank": 2,
+            "score": 0.4486,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p099:t00",
+            "page": 99,
+            "rank": 3,
+            "score": 0.44823,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p096:t00",
+            "page": 96,
+            "rank": 4,
+            "score": 0.43749,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p093:t00",
+            "page": 93,
+            "rank": 5,
+            "score": 0.432,
+            "content_type": "text"
+          }
+        ],
+        "added_ids": [
+          "B:colorme3:p098:t00",
+          "B:colorme3:p096:t00"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.009
+      },
+      {
+        "event": "model",
+        "tokens_in": 2031,
+        "tokens_out": 27,
+        "latency_s": 0.95,
+        "step": 2,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "font chữ miễn phí website",
+        "filter": {
+          "content_type": "text"
+        },
+        "method": "dense",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B:colorme3:p091:t00",
+            "page": 91,
+            "rank": 1,
+            "score": 0.45319,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p100:t00",
+            "page": 100,
+            "rank": 2,
+            "score": 0.4454,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p093:t00",
+            "page": 93,
+            "rank": 3,
+            "score": 0.44102,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p099:t00",
+            "page": 99,
+            "rank": 4,
+            "score": 0.4377,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p119:t00",
+            "page": 119,
+            "rank": 5,
+            "score": 0.43418,
+            "content_type": "text"
+          }
+        ],
+        "added_ids": [
+          "B:colorme3:p119:t00"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.01
+      },
+      {
+        "event": "model",
+        "tokens_in": 2277,
+        "tokens_out": 28,
+        "latency_s": 0.8,
+        "step": 3,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "website tải font miễn phí",
+        "filter": {
+          "chapter": "appendix",
+          "content_type": "text"
+        },
+        "method": "dense",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B:colorme3:p183:t00",
+            "page": 183,
+            "rank": 1,
+            "score": 0.34777,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p174:t00",
+            "page": 174,
+            "rank": 2,
+            "score": 0.34676,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p176:t00",
+            "page": 176,
+            "rank": 3,
+            "score": 0.31958,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p175:t01",
+            "page": 175,
+            "rank": 4,
+            "score": 0.31435,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p173:t00",
+            "page": 173,
+            "rank": 5,
+            "score": 0.31015,
+            "content_type": "text"
+          }
+        ],
+        "added_ids": [
+          "B:colorme3:p183:t00",
+          "B:colorme3:p174:t00",
+          "B:colorme3:p176:t00",
+          "B:colorme3:p175:t01",
+          "B:colorme3:p173:t00"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.013
+      },
+      {
+        "event": "model",
+        "tokens_in": 3525,
+        "tokens_out": 28,
+        "latency_s": 0.96,
+        "step": 4,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "font chữ miễn phí website",
+        "filter": {
+          "chapter": "ch4",
+          "content_type": "visual"
+        },
+        "method": "dense",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B:colorme3:p091:v00",
+            "page": 91,
+            "rank": 1,
+            "score": 0.45387,
+            "content_type": "visual"
+          },
+          {
+            "id": "B:colorme3:p098:v00",
+            "page": 98,
+            "rank": 2,
+            "score": 0.44681,
+            "content_type": "visual"
+          },
+          {
+            "id": "B:colorme3:p091:v01",
+            "page": 91,
+            "rank": 3,
+            "score": 0.4367,
+            "content_type": "visual"
+          },
+          {
+            "id": "B:colorme3:p099:v01",
+            "page": 99,
+            "rank": 4,
+            "score": 0.43487,
+            "content_type": "visual"
+          },
+          {
+            "id": "B:colorme3:p106:v01",
+            "page": 106,
+            "rank": 5,
+            "score": 0.43187,
+            "content_type": "visual"
+          }
+        ],
+        "added_ids": [
+          "B:colorme3:p091:v00",
+          "B:colorme3:p098:v00",
+          "B:colorme3:p091:v01",
+          "B:colorme3:p099:v01",
+          "B:colorme3:p106:v01"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.01
+      },
+      {
+        "event": "model",
+        "tokens_in": 4593,
+        "tokens_out": 27,
+        "latency_s": 1.27,
+        "step": 5,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "font chữ miễn phí",
+        "filter": {
+          "chapter": "ch4",
+          "content_type": "text"
+        },
+        "method": "dense",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B:colorme3:p093:t00",
+            "page": 93,
+            "rank": 1,
+            "score": 0.47934,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p091:t00",
+            "page": 91,
+            "rank": 2,
+            "score": 0.47483,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p100:t00",
+            "page": 100,
+            "rank": 3,
+            "score": 0.4737,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p089:t00",
+            "page": 89,
+            "rank": 4,
+            "score": 0.47069,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p099:t00",
+            "page": 99,
+            "rank": 5,
+            "score": 0.46087,
+            "content_type": "text"
+          }
+        ],
+        "added_ids": [
+          "B:colorme3:p089:t00"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.013
+      },
+      {
+        "event": "model",
+        "tokens_in": 4983,
+        "tokens_out": 32,
+        "latency_s": 0.94,
+        "step": 6,
+        "forced_final": true
+      },
+      {
+        "event": "answer",
+        "abstain": true
+      }
+    ],
+    "citations": []
+  },
+  {
+    "query_id": "tv2_un6",
+    "status": "abstain",
+    "events": [
+      {
+        "event": "model",
+        "tokens_in": 866,
+        "tokens_out": 31,
+        "latency_s": 1.04,
+        "step": 0,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "kích thước ảnh bìa Facebook",
+        "filter": {
+          "content_type": "text"
+        },
+        "method": "dense",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B:colorme3:p011:t00",
+            "page": 11,
+            "rank": 1,
+            "score": 0.49319,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p012:t00",
+            "page": 12,
+            "rank": 2,
+            "score": 0.45705,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p014:t00",
+            "page": 14,
+            "rank": 3,
+            "score": 0.44589,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p112:t00",
+            "page": 112,
+            "rank": 4,
+            "score": 0.44448,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p067:t00",
+            "page": 67,
+            "rank": 5,
+            "score": 0.44209,
+            "content_type": "text"
+          }
+        ],
+        "added_ids": [
+          "B:colorme3:p011:t00",
+          "B:colorme3:p012:t00",
+          "B:colorme3:p014:t00",
+          "B:colorme3:p112:t00",
+          "B:colorme3:p067:t00"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.009
+      },
+      {
+        "event": "model",
+        "tokens_in": 1872,
+        "tokens_out": 32,
+        "latency_s": 1.2,
+        "step": 1,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "kích thước chuẩn ảnh bìa Facebook",
+        "filter": {
+          "content_type": "visual"
+        },
+        "method": "dense",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B:colorme3:p011:v01",
+            "page": 11,
+            "rank": 1,
+            "score": 0.5225,
+            "content_type": "visual"
+          },
+          {
+            "id": "B:colorme3:p011:v00",
+            "page": 11,
+            "rank": 2,
+            "score": 0.51016,
+            "content_type": "visual"
+          },
+          {
+            "id": "B:colorme3:p067:v00",
+            "page": 67,
+            "rank": 3,
+            "score": 0.47808,
+            "content_type": "visual"
+          },
+          {
+            "id": "B:colorme3:p014:v00",
+            "page": 14,
+            "rank": 4,
+            "score": 0.46651,
+            "content_type": "visual"
+          },
+          {
+            "id": "B:colorme3:p012:v00",
+            "page": 12,
+            "rank": 5,
+            "score": 0.44416,
+            "content_type": "visual"
+          }
+        ],
+        "added_ids": [
+          "B:colorme3:p011:v01",
+          "B:colorme3:p011:v00",
+          "B:colorme3:p067:v00",
+          "B:colorme3:p014:v00",
+          "B:colorme3:p012:v00"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.634
+      },
+      {
+        "event": "model",
+        "tokens_in": 3118,
+        "tokens_out": 30,
+        "latency_s": 1.01,
+        "step": 2,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "kích thước chuẩn cover Facebook",
+        "filter": {
+          "chapter": "ch1",
+          "content_type": "text"
+        },
+        "method": "dense",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B:colorme3:p011:t00",
+            "page": 11,
+            "rank": 1,
+            "score": 0.41527,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p006:t01",
+            "page": 6,
+            "rank": 2,
+            "score": 0.39844,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p012:t00",
+            "page": 12,
+            "rank": 3,
+            "score": 0.3919,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p023:t00",
+            "page": 23,
+            "rank": 4,
+            "score": 0.37365,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p012:t01",
+            "page": 12,
+            "rank": 5,
+            "score": 0.37212,
+            "content_type": "text"
+          }
+        ],
+        "added_ids": [
+          "B:colorme3:p006:t01",
+          "B:colorme3:p023:t00",
+          "B:colorme3:p012:t01"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.665
+      },
+      {
+        "event": "model",
+        "tokens_in": 3648,
+        "tokens_out": 30,
+        "latency_s": 1.2,
+        "step": 3,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "kích thước chuẩn cover Facebook",
+        "filter": {
+          "chapter": "ch7",
+          "content_type": "text"
+        },
+        "method": "dense",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B:colorme3:p160:t00",
+            "page": 160,
+            "rank": 1,
+            "score": 0.35781,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p162:t00",
+            "page": 162,
+            "rank": 2,
+            "score": 0.34745,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p155:t00",
+            "page": 155,
+            "rank": 3,
+            "score": 0.34524,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p158:t00",
+            "page": 158,
+            "rank": 4,
+            "score": 0.32876,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p153:t00",
+            "page": 153,
+            "rank": 5,
+            "score": 0.32859,
+            "content_type": "text"
+          }
+        ],
+        "added_ids": [
+          "B:colorme3:p160:t00",
+          "B:colorme3:p162:t00",
+          "B:colorme3:p155:t00",
+          "B:colorme3:p158:t00",
+          "B:colorme3:p153:t00"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.008
+      },
+      {
+        "event": "model",
+        "tokens_in": 4450,
+        "tokens_out": 30,
+        "latency_s": 1.25,
+        "step": 4,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "kích thước chuẩn cover Facebook",
+        "filter": {
+          "chapter": "ch6",
+          "content_type": "text"
+        },
+        "method": "dense",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B:colorme3:p137:t00",
+            "page": 137,
+            "rank": 1,
+            "score": 0.37614,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p138:t00",
+            "page": 138,
+            "rank": 2,
+            "score": 0.34844,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p144:t00",
+            "page": 144,
+            "rank": 3,
+            "score": 0.34216,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p141:t00",
+            "page": 141,
+            "rank": 4,
+            "score": 0.32624,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p142:t00",
+            "page": 142,
+            "rank": 5,
+            "score": 0.32542,
+            "content_type": "text"
+          }
+        ],
+        "added_ids": [
+          "B:colorme3:p137:t00",
+          "B:colorme3:p138:t00",
+          "B:colorme3:p144:t00",
+          "B:colorme3:p141:t00",
+          "B:colorme3:p142:t00"
+        ],
+        "dropped_ids": [],
+        "error": null,
+        "latency_s": 0.007
+      },
+      {
+        "event": "model",
+        "tokens_in": 5077,
+        "tokens_out": 29,
+        "latency_s": 0.94,
+        "step": 5,
+        "forced_final": false
+      },
+      {
+        "event": "search",
+        "tool": "search_docs",
+        "query": "kích thước chuẩn cover Facebook",
+        "filter": {
+          "chapter": "front",
+          "content_type": "text"
+        },
+        "method": "dense",
+        "top_k": 5,
+        "results": [
+          {
+            "id": "B:colorme3:p004:t00",
+            "page": 4,
+            "rank": 1,
+            "score": 0.33982,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p003:t01",
+            "page": 3,
+            "rank": 2,
+            "score": 0.3352,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p002:t01",
+            "page": 2,
+            "rank": 3,
+            "score": 0.30664,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p002:t00",
+            "page": 2,
+            "rank": 4,
+            "score": 0.27941,
+            "content_type": "text"
+          },
+          {
+            "id": "B:colorme3:p003:t00",
+            "page": 3,
+            "rank": 5,
+            "score": 0.27301,
+            "content_type": "text"
+          }
+        ],
+        "added_ids": [
+          "B:colorme3:p004:t00",
+          "B:colorme3:p003:t01",
+          "B:colorme3:p002:t01",
+          "B:colorme3:p003:t00"
+        ],
+        "dropped_ids": [
+          "B:colorme3:p002:t00"
+        ],
+        "error": null,
+        "latency_s": 0.008
+      },
+      {
+        "event": "model",
+        "tokens_in": 5752,
+        "tokens_out": 39,
+        "latency_s": 0.94,
+        "step": 6,
+        "forced_final": true
+      },
+      {
+        "event": "answer",
+        "abstain": true
+      }
+    ],
+    "citations": []
+  }
+]

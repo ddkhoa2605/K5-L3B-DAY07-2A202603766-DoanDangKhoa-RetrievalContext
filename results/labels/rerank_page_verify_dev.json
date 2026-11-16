@@ -1,0 +1,212 @@
+[
+ {
+  "query_id": "dv_ch1",
+  "group": "chart",
+  "pass": true,
+  "answer_grade": 2,
+  "citation_support": [
+   true,
+   true
+  ],
+  "reason": "Đúng và đủ so với expected/evidence; citation trỏ đúng trang",
+  "labeler": "agent"
+ },
+ {
+  "query_id": "dv_ch2",
+  "group": "chart",
+  "pass": true,
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng và đủ so với expected/evidence; citation trỏ đúng trang",
+  "labeler": "agent"
+ },
+ {
+  "query_id": "dv_ch3",
+  "group": "chart",
+  "pass": true,
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng và đủ so với expected/evidence; citation trỏ đúng trang",
+  "labeler": "agent"
+ },
+ {
+  "query_id": "dv_img1",
+  "group": "image",
+  "pass": true,
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng và đủ so với expected/evidence; citation trỏ đúng trang",
+  "labeler": "agent"
+ },
+ {
+  "query_id": "dv_img2",
+  "group": "image",
+  "pass": true,
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng và đủ so với expected/evidence; citation trỏ đúng trang",
+  "labeler": "agent"
+ },
+ {
+  "query_id": "dv_img3",
+  "group": "image",
+  "pass": true,
+  "answer_grade": 2,
+  "citation_support": [
+   true,
+   true
+  ],
+  "reason": "Đúng và đủ so với expected/evidence; citation trỏ đúng trang",
+  "labeler": "agent"
+ },
+ {
+  "query_id": "dv_mh1",
+  "group": "multihop",
+  "pass": true,
+  "answer_grade": 2,
+  "citation_support": [
+   true,
+   true,
+   true
+  ],
+  "reason": "Đúng và đủ so với expected/evidence; citation trỏ đúng trang",
+  "labeler": "agent"
+ },
+ {
+  "query_id": "dv_mh2",
+  "group": "multihop",
+  "pass": true,
+  "answer_grade": 2,
+  "citation_support": [
+   true,
+   true
+  ],
+  "reason": "Đúng và đủ so với expected/evidence; citation trỏ đúng trang",
+  "labeler": "agent"
+ },
+ {
+  "query_id": "dv_mh3",
+  "group": "multihop",
+  "pass": true,
+  "answer_grade": 2,
+  "citation_support": [
+   true,
+   true
+  ],
+  "reason": "Đúng và đủ so với expected/evidence; citation trỏ đúng trang",
+  "labeler": "agent"
+ },
+ {
+  "query_id": "dv_tab1",
+  "group": "table",
+  "pass": true,
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng và đủ so với expected/evidence; citation trỏ đúng trang",
+  "labeler": "agent"
+ },
+ {
+  "query_id": "dv_tab2",
+  "group": "table",
+  "pass": true,
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng và đủ so với expected/evidence; citation trỏ đúng trang",
+  "labeler": "agent"
+ },
+ {
+  "query_id": "dv_tab3",
+  "group": "table",
+  "pass": true,
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng và đủ so với expected/evidence; citation trỏ đúng trang",
+  "labeler": "agent"
+ },
+ {
+  "query_id": "dv_tx1",
+  "group": "text",
+  "pass": true,
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng và đủ so với expected/evidence; citation trỏ đúng trang",
+  "labeler": "agent"
+ },
+ {
+  "query_id": "dv_tx2",
+  "group": "text",
+  "pass": true,
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng và đủ so với expected/evidence; citation trỏ đúng trang",
+  "labeler": "agent"
+ },
+ {
+  "query_id": "dv_tx3",
+  "group": "text",
+  "pass": true,
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng và đủ so với expected/evidence; citation trỏ đúng trang",
+  "labeler": "agent"
+ },
+ {
+  "query_id": "dv_tx4",
+  "group": "text",
+  "pass": true,
+  "answer_grade": 2,
+  "citation_support": [
+   true,
+   true
+  ],
+  "reason": "Đúng và đủ so với expected/evidence; citation trỏ đúng trang",
+  "labeler": "agent"
+ },
+ {
+  "query_id": "dv_un1",
+  "group": "unanswerable",
+  "pass": true,
+  "abstention_correct": true,
+  "citation_support": [],
+  "reason": "Từ chối, nói rõ sách không có thông tin, không khẳng định thêm",
+  "labeler": "agent"
+ },
+ {
+  "query_id": "dv_un2",
+  "group": "unanswerable",
+  "pass": true,
+  "abstention_correct": true,
+  "citation_support": [],
+  "reason": "Từ chối, nói rõ sách không có thông tin, không khẳng định thêm",
+  "labeler": "agent"
+ },
+ {
+  "query_id": "dv_un3",
+  "group": "unanswerable",
+  "pass": true,
+  "abstention_correct": true,
+  "citation_support": [],
+  "reason": "Từ chối, nói rõ sách không có thông tin, không khẳng định thêm",
+  "labeler": "agent"
+ }
+]

@@ -1,0 +1,324 @@
+[
+ {
+  "query_id": "t3_tab1",
+  "group": "table",
+  "pass": true,
+  "reason": "Đạt: đúng/đủ so với ảnh/text gốc; citation đúng trang/vùng",
+  "labeler": "agent",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ]
+ },
+ {
+  "query_id": "t3_tab2",
+  "group": "table",
+  "pass": true,
+  "reason": "Đạt: đúng/đủ so với ảnh/text gốc; citation đúng trang/vùng",
+  "labeler": "agent",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ]
+ },
+ {
+  "query_id": "t3_tab3",
+  "group": "table",
+  "pass": true,
+  "reason": "Đạt: đúng/đủ so với ảnh/text gốc; citation đúng trang/vùng",
+  "labeler": "agent",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ]
+ },
+ {
+  "query_id": "t3_tab4",
+  "group": "table",
+  "pass": true,
+  "reason": "Đạt: đúng/đủ so với ảnh/text gốc; citation đúng trang/vùng",
+  "labeler": "agent",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ]
+ },
+ {
+  "query_id": "t3_tab5",
+  "group": "table",
+  "pass": true,
+  "reason": "Đạt: đúng/đủ so với ảnh/text gốc; citation đúng trang/vùng",
+  "labeler": "agent",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ]
+ },
+ {
+  "query_id": "t3_tab6",
+  "group": "table",
+  "pass": true,
+  "reason": "Đạt: đúng/đủ so với ảnh/text gốc; citation đúng trang/vùng",
+  "labeler": "agent",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ]
+ },
+ {
+  "query_id": "t3_img1",
+  "group": "image",
+  "pass": true,
+  "reason": "Đạt: đúng/đủ so với ảnh/text gốc; citation đúng trang/vùng",
+  "labeler": "agent",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ]
+ },
+ {
+  "query_id": "t3_img2",
+  "group": "image",
+  "pass": true,
+  "reason": "Đạt: đúng/đủ so với ảnh/text gốc; citation đúng trang/vùng",
+  "labeler": "agent",
+  "answer_grade": 2,
+  "citation_support": [
+   true,
+   true
+  ]
+ },
+ {
+  "query_id": "t3_img3",
+  "group": "image",
+  "pass": true,
+  "reason": "Đạt: đúng/đủ so với ảnh/text gốc; citation đúng trang/vùng",
+  "labeler": "agent",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ]
+ },
+ {
+  "query_id": "t3_img4",
+  "group": "image",
+  "pass": true,
+  "reason": "Đạt: đúng/đủ so với ảnh/text gốc; citation đúng trang/vùng",
+  "labeler": "agent",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ]
+ },
+ {
+  "query_id": "t3_img5",
+  "group": "image",
+  "pass": true,
+  "reason": "Đạt: đúng/đủ so với ảnh/text gốc; citation đúng trang/vùng",
+  "labeler": "agent",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ]
+ },
+ {
+  "query_id": "t3_ch1",
+  "group": "chart",
+  "pass": true,
+  "reason": "Đạt: đúng/đủ so với ảnh/text gốc; citation đúng trang/vùng",
+  "labeler": "agent",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ]
+ },
+ {
+  "query_id": "t3_ch2",
+  "group": "chart",
+  "pass": true,
+  "reason": "Đạt: đúng/đủ so với ảnh/text gốc; citation đúng trang/vùng",
+  "labeler": "agent",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ]
+ },
+ {
+  "query_id": "t3_ch3",
+  "group": "chart",
+  "pass": true,
+  "reason": "Đạt: đúng/đủ so với ảnh/text gốc; citation đúng trang/vùng",
+  "labeler": "agent",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ]
+ },
+ {
+  "query_id": "t3_ch4",
+  "group": "chart",
+  "pass": false,
+  "reason": "Từ chối: bản nháp đúng ('Nhận diện thương hiệu' lớn hơn) nhưng verifier v3 xóa hết ý (quá chặt) → abstain.",
+  "labeler": "agent",
+  "answer_grade": 0,
+  "citation_support": []
+ },
+ {
+  "query_id": "t3_ch5",
+  "group": "chart",
+  "pass": false,
+  "reason": "Từ chối: bản nháp đúng (cả 3 đèn bật → trắng) nhưng verifier v3 xóa hết ý → abstain.",
+  "labeler": "agent",
+  "answer_grade": 0,
+  "citation_support": []
+ },
+ {
+  "query_id": "t3_mh1",
+  "group": "multihop",
+  "pass": true,
+  "reason": "Đạt: đúng/đủ so với ảnh/text gốc; citation đúng trang/vùng",
+  "labeler": "agent",
+  "answer_grade": 2,
+  "citation_support": [
+   true,
+   true
+  ]
+ },
+ {
+  "query_id": "t3_mh2",
+  "group": "multihop",
+  "pass": true,
+  "reason": "Đạt: đúng/đủ so với ảnh/text gốc; citation đúng trang/vùng",
+  "labeler": "agent",
+  "answer_grade": 2,
+  "citation_support": [
+   true,
+   true
+  ]
+ },
+ {
+  "query_id": "t3_mh3",
+  "group": "multihop",
+  "pass": true,
+  "reason": "Đạt: đúng/đủ so với ảnh/text gốc; citation đúng trang/vùng",
+  "labeler": "agent",
+  "answer_grade": 2,
+  "citation_support": [
+   true,
+   true,
+   true
+  ]
+ },
+ {
+  "query_id": "t3_mh4",
+  "group": "multihop",
+  "pass": true,
+  "reason": "Đạt: đúng/đủ so với ảnh/text gốc; citation đúng trang/vùng",
+  "labeler": "agent",
+  "answer_grade": 2,
+  "citation_support": [
+   true,
+   true
+  ]
+ },
+ {
+  "query_id": "t3_tx1",
+  "group": "text",
+  "pass": true,
+  "reason": "Đạt: đúng/đủ so với ảnh/text gốc; citation đúng trang/vùng",
+  "labeler": "agent",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ]
+ },
+ {
+  "query_id": "t3_tx2",
+  "group": "text",
+  "pass": true,
+  "reason": "Đạt: đúng/đủ so với ảnh/text gốc; citation đúng trang/vùng",
+  "labeler": "agent",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ]
+ },
+ {
+  "query_id": "t3_tx3",
+  "group": "text",
+  "pass": true,
+  "reason": "Đạt: đúng/đủ so với ảnh/text gốc; citation đúng trang/vùng",
+  "labeler": "agent",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ]
+ },
+ {
+  "query_id": "t3_tx4",
+  "group": "text",
+  "pass": true,
+  "reason": "Đạt: đúng/đủ so với ảnh/text gốc; citation đúng trang/vùng",
+  "labeler": "agent",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ]
+ },
+ {
+  "query_id": "t3_un1",
+  "group": "unanswerable",
+  "pass": true,
+  "reason": "Từ chối/nêu rõ sách không có thông tin, không khẳng định thêm",
+  "labeler": "agent",
+  "abstention_correct": true,
+  "citation_support": []
+ },
+ {
+  "query_id": "t3_un2",
+  "group": "unanswerable",
+  "pass": true,
+  "reason": "Từ chối/nêu rõ sách không có thông tin, không khẳng định thêm",
+  "labeler": "agent",
+  "abstention_correct": true,
+  "citation_support": []
+ },
+ {
+  "query_id": "t3_un3",
+  "group": "unanswerable",
+  "pass": true,
+  "reason": "Từ chối/nêu rõ sách không có thông tin, không khẳng định thêm",
+  "labeler": "agent",
+  "abstention_correct": true,
+  "citation_support": []
+ },
+ {
+  "query_id": "t3_un4",
+  "group": "unanswerable",
+  "pass": false,
+  "reason": "Bịa: gán mã FF0000 (ô màu ảnh Kuler p86) cho logo colorME; verifier không xóa.",
+  "labeler": "agent",
+  "abstention_correct": false,
+  "citation_support": [
+   false
+  ]
+ },
+ {
+  "query_id": "t3_un5",
+  "group": "unanswerable",
+  "pass": true,
+  "reason": "Từ chối/nêu rõ sách không có thông tin, không khẳng định thêm",
+  "labeler": "agent",
+  "abstention_correct": true,
+  "citation_support": []
+ },
+ {
+  "query_id": "t3_un6",
+  "group": "unanswerable",
+  "pass": true,
+  "reason": "Từ chối/nêu rõ sách không có thông tin, không khẳng định thêm",
+  "labeler": "agent",
+  "abstention_correct": true,
+  "citation_support": []
+ }
+]

@@ -1,0 +1,39 @@
+{
+  "config": "luna_v4_fb_b4",
+  "split": "test",
+  "by_group": {
+    "table": {
+      "pass": 6,
+      "N": 6
+    },
+    "image": {
+      "pass": 5,
+      "N": 5
+    },
+    "chart": {
+      "pass": 3,
+      "N": 5
+    },
+    "multihop": {
+      "pass": 4,
+      "N": 4
+    },
+    "text": {
+      "pass": 4,
+      "N": 4
+    },
+    "unanswerable": {
+      "pass": 5,
+      "N": 6
+    }
+  },
+  "pass": 27,
+  "N": 30,
+  "pass_rate": 0.9,
+  "system_errors": 0,
+  "failed_ids": [
+    "t3_ch4",
+    "t3_ch5",
+    "t3_un4"
+  ]
+}

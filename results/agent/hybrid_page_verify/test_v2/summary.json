@@ -1,0 +1,76 @@
+{
+  "config": "hybrid_page_verify",
+  "agent_config": {
+    "name": "hybrid_page_verify",
+    "method": "hybrid",
+    "top_k": 5,
+    "budget": 12000,
+    "max_steps": 6,
+    "allow_read_page": true,
+    "allow_filters": true,
+    "model": "gpt-4.1-mini",
+    "prompt": "v2",
+    "verify": true,
+    "verify_version": "v1",
+    "collection": "colorme3_B",
+    "notes": "improvement 6: hybrid_page_strict + answer verifier (removes unsupported claims)",
+    "extra": {}
+  },
+  "split": "test",
+  "benchmark_sha256": "ee68e74054b1c5d1ca5ad7f621deeea983831b47a61e00fece67c3f458594c2d",
+  "run_at": "2026-11-15T17:36:38+00:00",
+  "N": 30,
+  "status": {
+    "answered": 22,
+    "abstain": 8,
+    "error": 0
+  },
+  "context_evidence_rate": "20/24",
+  "context_evidence_by_group": {
+    "table": "5/6",
+    "image": "3/5",
+    "chart": "5/5",
+    "multihop": "3/4",
+    "text": "4/4"
+  },
+  "answered_on_answerable": "21/24",
+  "abstained_on_unanswerable": "5/6",
+  "tool_use": "30/30",
+  "retrieval_calls": {
+    "mean": 2,
+    "dist": {
+      "1": 20,
+      "2": 4,
+      "4": 2,
+      "6": 4
+    }
+  },
+  "context_chars_mean": 3591.3,
+  "latency_s": {
+    "median": 3.9,
+    "max": 8.05,
+    "wall_total": 35.6
+  },
+  "usage": {
+    "agent": {
+      "calls": 90,
+      "tokens_in": 194917,
+      "tokens_out": 4178,
+      "cost_usd": 0.084652
+    },
+    "query_embedding": {
+      "calls": 8,
+      "tokens_in": 75,
+      "tokens_out": 0,
+      "cost_usd": 2e-06
+    },
+    "verifier": {
+      "calls": 22,
+      "tokens_in": 14801,
+      "tokens_out": 2222,
+      "cost_usd": 0.009476
+    }
+  },
+  "cost_usd_total": 0.0941,
+  "errors": []
+}

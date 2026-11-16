@@ -1,0 +1,152 @@
+[
+  {
+    "id": "ts_tab1",
+    "split": "test",
+    "answerable": true
+  },
+  {
+    "id": "ts_tab2",
+    "split": "test",
+    "answerable": true
+  },
+  {
+    "id": "ts_tab3",
+    "split": "test",
+    "answerable": true
+  },
+  {
+    "id": "ts_tab4",
+    "split": "test",
+    "answerable": true
+  },
+  {
+    "id": "ts_tab5",
+    "split": "test",
+    "answerable": true
+  },
+  {
+    "id": "ts_tab6",
+    "split": "test",
+    "answerable": true
+  },
+  {
+    "id": "ts_img1",
+    "split": "test",
+    "answerable": true
+  },
+  {
+    "id": "ts_img2",
+    "split": "test",
+    "answerable": true
+  },
+  {
+    "id": "ts_img3",
+    "split": "test",
+    "answerable": true
+  },
+  {
+    "id": "ts_img4",
+    "split": "test",
+    "answerable": true
+  },
+  {
+    "id": "ts_img5",
+    "split": "test",
+    "answerable": true
+  },
+  {
+    "id": "ts_ch1",
+    "split": "test",
+    "answerable": true
+  },
+  {
+    "id": "ts_ch2",
+    "split": "test",
+    "answerable": true
+  },
+  {
+    "id": "ts_ch3",
+    "split": "test",
+    "answerable": true
+  },
+  {
+    "id": "ts_ch4",
+    "split": "test",
+    "answerable": true
+  },
+  {
+    "id": "ts_ch5",
+    "split": "test",
+    "answerable": true
+  },
+  {
+    "id": "ts_mh1",
+    "split": "test",
+    "answerable": true
+  },
+  {
+    "id": "ts_mh2",
+    "split": "test",
+    "answerable": true
+  },
+  {
+    "id": "ts_mh3",
+    "split": "test",
+    "answerable": true
+  },
+  {
+    "id": "ts_mh4",
+    "split": "test",
+    "answerable": true
+  },
+  {
+    "id": "ts_tx1",
+    "split": "test",
+    "answerable": true
+  },
+  {
+    "id": "ts_tx2",
+    "split": "test",
+    "answerable": true
+  },
+  {
+    "id": "ts_tx3",
+    "split": "test",
+    "answerable": true
+  },
+  {
+    "id": "ts_tx4",
+    "split": "test",
+    "answerable": true
+  },
+  {
+    "id": "ts_un1",
+    "split": "test",
+    "answerable": false
+  },
+  {
+    "id": "ts_un2",
+    "split": "test",
+    "answerable": false
+  },
+  {
+    "id": "ts_un3",
+    "split": "test",
+    "answerable": false
+  },
+  {
+    "id": "ts_un4",
+    "split": "test",
+    "answerable": false
+  },
+  {
+    "id": "ts_un5",
+    "split": "test",
+    "answerable": false
+  },
+  {
+    "id": "ts_un6",
+    "split": "test",
+    "answerable": false
+  }
+]

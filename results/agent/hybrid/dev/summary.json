@@ -1,0 +1,66 @@
+{
+  "config": "hybrid",
+  "agent_config": {
+    "name": "hybrid",
+    "method": "hybrid",
+    "top_k": 5,
+    "budget": 12000,
+    "max_steps": 6,
+    "allow_read_page": false,
+    "allow_filters": true,
+    "model": "gpt-4.1-mini",
+    "notes": "RRF(dense, BM25)",
+    "extra": {}
+  },
+  "split": "dev",
+  "benchmark_sha256": "a92ff13c92d40dc2177238c2fc03110b17601323308e5d87d7625d5fab8ef2b7",
+  "run_at": "2026-11-15T16:58:01+00:00",
+  "N": 19,
+  "status": {
+    "answered": 16,
+    "abstain": 3,
+    "error": 0
+  },
+  "context_evidence_rate": "16/16",
+  "context_evidence_by_group": {
+    "table": "3/3",
+    "image": "3/3",
+    "chart": "3/3",
+    "multihop": "3/3",
+    "text": "4/4"
+  },
+  "answered_on_answerable": "16/16",
+  "abstained_on_unanswerable": "3/3",
+  "tool_use": "19/19",
+  "retrieval_calls": {
+    "mean": 1.68,
+    "dist": {
+      "1": 13,
+      "2": 3,
+      "3": 1,
+      "5": 2
+    }
+  },
+  "context_chars_mean": 3638.7,
+  "latency_s": {
+    "median": 2.88,
+    "max": 7.38,
+    "wall_total": 17.9
+  },
+  "usage": {
+    "agent": {
+      "calls": 51,
+      "tokens_in": 94042,
+      "tokens_out": 2774,
+      "cost_usd": 0.042055
+    },
+    "query_embedding": {
+      "calls": 7,
+      "tokens_in": 108,
+      "tokens_out": 0,
+      "cost_usd": 2e-06
+    }
+  },
+  "cost_usd_total": 0.0421,
+  "errors": []
+}

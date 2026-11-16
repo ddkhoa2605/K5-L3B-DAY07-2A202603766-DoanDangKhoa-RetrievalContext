@@ -1,0 +1,71 @@
+{
+  "config": "dense",
+  "agent_config": {
+    "name": "dense",
+    "method": "dense",
+    "top_k": 5,
+    "budget": 12000,
+    "max_steps": 6,
+    "allow_read_page": false,
+    "allow_filters": true,
+    "model": "gpt-4.1-mini",
+    "prompt": "v1",
+    "verify": false,
+    "verify_version": "v1",
+    "collection": "colorme3_B",
+    "notes": "baseline: dense Day 6 index only",
+    "extra": {}
+  },
+  "split": "test",
+  "benchmark_sha256": "ee68e74054b1c5d1ca5ad7f621deeea983831b47a61e00fece67c3f458594c2d",
+  "run_at": "2026-11-15T17:35:58+00:00",
+  "N": 30,
+  "status": {
+    "answered": 25,
+    "abstain": 5,
+    "error": 0
+  },
+  "context_evidence_rate": "21/24",
+  "context_evidence_by_group": {
+    "table": "6/6",
+    "image": "4/5",
+    "chart": "4/5",
+    "multihop": "3/4",
+    "text": "4/4"
+  },
+  "answered_on_answerable": "23/24",
+  "abstained_on_unanswerable": "4/6",
+  "tool_use": "30/30",
+  "retrieval_calls": {
+    "mean": 2.03,
+    "dist": {
+      "1": 20,
+      "2": 3,
+      "3": 1,
+      "4": 2,
+      "6": 4
+    }
+  },
+  "context_chars_mean": 3818.4,
+  "latency_s": {
+    "median": 2.96,
+    "max": 11.22,
+    "wall_total": 32.0
+  },
+  "usage": {
+    "agent": {
+      "calls": 91,
+      "tokens_in": 182723,
+      "tokens_out": 4359,
+      "cost_usd": 0.080064
+    },
+    "query_embedding": {
+      "calls": 21,
+      "tokens_in": 293,
+      "tokens_out": 0,
+      "cost_usd": 6e-06
+    }
+  },
+  "cost_usd_total": 0.0801,
+  "errors": []
+}

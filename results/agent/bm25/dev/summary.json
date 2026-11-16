@@ -1,0 +1,60 @@
+{
+  "config": "bm25",
+  "agent_config": {
+    "name": "bm25",
+    "method": "bm25",
+    "top_k": 5,
+    "budget": 12000,
+    "max_steps": 6,
+    "allow_read_page": false,
+    "allow_filters": true,
+    "model": "gpt-4.1-mini",
+    "notes": "lexical BM25 (syllable uni+bigram)",
+    "extra": {}
+  },
+  "split": "dev",
+  "benchmark_sha256": "a92ff13c92d40dc2177238c2fc03110b17601323308e5d87d7625d5fab8ef2b7",
+  "run_at": "2026-11-15T16:57:39+00:00",
+  "N": 19,
+  "status": {
+    "answered": 16,
+    "abstain": 3,
+    "error": 0
+  },
+  "context_evidence_rate": "16/16",
+  "context_evidence_by_group": {
+    "table": "3/3",
+    "image": "3/3",
+    "chart": "3/3",
+    "multihop": "3/3",
+    "text": "4/4"
+  },
+  "answered_on_answerable": "16/16",
+  "abstained_on_unanswerable": "3/3",
+  "tool_use": "19/19",
+  "retrieval_calls": {
+    "mean": 1.53,
+    "dist": {
+      "1": 13,
+      "2": 3,
+      "3": 2,
+      "4": 1
+    }
+  },
+  "context_chars_mean": 3522.2,
+  "latency_s": {
+    "median": 2.84,
+    "max": 4.54,
+    "wall_total": 14.9
+  },
+  "usage": {
+    "agent": {
+      "calls": 48,
+      "tokens_in": 80991,
+      "tokens_out": 2669,
+      "cost_usd": 0.036667
+    }
+  },
+  "cost_usd_total": 0.0367,
+  "errors": []
+}

@@ -1,0 +1,93 @@
+{
+  "round": 2,
+  "selection_rule": "Như vòng 1, chốt trước khi chạy test_v2: (1) số câu dev đạt (24 câu, chấm tay), (2) chi phí dev, (3) median latency.",
+  "rows": [
+    {
+      "config": "dense",
+      "collection": "colorme3_B",
+      "prompt": "v1",
+      "verify": null,
+      "pass": "18/24",
+      "cost_usd": 0.0571,
+      "median_latency_s": 3.07,
+      "context_evidence_rate": "17/19"
+    },
+    {
+      "config": "hybrid_page_verify",
+      "collection": "colorme3_B",
+      "prompt": "v2",
+      "verify": "v1",
+      "pass": "21/24",
+      "cost_usd": 0.0728,
+      "median_latency_s": 4.13,
+      "context_evidence_rate": "18/19"
+    },
+    {
+      "config": "hpv2_b",
+      "collection": "colorme3_B",
+      "prompt": "v3",
+      "verify": "v2",
+      "pass": "22/24",
+      "cost_usd": 0.0807,
+      "median_latency_s": 4.08,
+      "context_evidence_rate": "18/19"
+    },
+    {
+      "config": "hybrid_page_verify_b2",
+      "collection": "colorme3_B2",
+      "prompt": "v2",
+      "verify": "v1",
+      "pass": "20/24",
+      "cost_usd": 0.0801,
+      "median_latency_s": 4.2,
+      "context_evidence_rate": "17/19"
+    },
+    {
+      "config": "hpv2_b2",
+      "collection": "colorme3_B2",
+      "prompt": "v3",
+      "verify": "v2",
+      "pass": "20/24",
+      "cost_usd": 0.0846,
+      "median_latency_s": 3.9,
+      "context_evidence_rate": "17/19"
+    },
+    {
+      "config": "hpv2_b3",
+      "collection": "colorme3_B3",
+      "prompt": "v3",
+      "verify": "v2",
+      "pass": "21/24",
+      "cost_usd": 0.0762,
+      "median_latency_s": 4.07,
+      "context_evidence_rate": "19/19"
+    },
+    {
+      "config": "rpv2_b3",
+      "collection": "colorme3_B3",
+      "prompt": "v3",
+      "verify": "v2",
+      "pass": "20/24",
+      "cost_usd": 0.1511,
+      "median_latency_s": 6.78,
+      "context_evidence_rate": "19/19"
+    },
+    {
+      "config": "hpv2_b3_k8",
+      "collection": "colorme3_B3",
+      "prompt": "v3",
+      "verify": "v2",
+      "pass": "21/24",
+      "cost_usd": 0.0864,
+      "median_latency_s": 3.88,
+      "context_evidence_rate": "19/19"
+    }
+  ],
+  "selected": "hpv2_b",
+  "baselines_for_test": [
+    "dense",
+    "hybrid_page_verify"
+  ],
+  "reason": "hpv2_b đạt 22/24 dev, cao nhất. Index B2 (vision v3) và B3 (v2+v3) không thắng trên dev: v3 sửa lỗi đếm (dv_img4) nhưng làm mất vị trí/chữ trong hình (dv_img1, dv_img2) và gây nhầm trang (dv_img3).",
+  "frozen_at_utc": "2026-11-15T17:33:09+00:00"
+}

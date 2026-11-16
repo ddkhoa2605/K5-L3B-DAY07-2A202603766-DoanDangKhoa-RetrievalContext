@@ -1,0 +1,15 @@
+{
+  "day6_root": "D:\\Project\\VinUni\\day6\\K5-L3-Day06-ColorME",
+  "collection": "colorme3_B2",
+  "collection_metadata": {
+    "dimensions": 1536,
+    "embedding_model": "text-embedding-3-small"
+  },
+  "chunks": 488,
+  "by_content_type": {
+    "visual": 307,
+    "text": 181
+  },
+  "pages_covered": 183,
+  "exported_at": "2026-11-15T17:25:08+00:00"
+}

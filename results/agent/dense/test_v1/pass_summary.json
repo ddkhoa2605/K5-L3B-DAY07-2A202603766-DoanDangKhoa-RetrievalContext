@@ -1,0 +1,44 @@
+{
+  "config": "dense",
+  "split": "test",
+  "by_group": {
+    "table": {
+      "pass": 6,
+      "N": 6
+    },
+    "image": {
+      "pass": 4,
+      "N": 5
+    },
+    "chart": {
+      "pass": 2,
+      "N": 5
+    },
+    "multihop": {
+      "pass": 3,
+      "N": 4
+    },
+    "text": {
+      "pass": 3,
+      "N": 4
+    },
+    "unanswerable": {
+      "pass": 4,
+      "N": 6
+    }
+  },
+  "pass": 22,
+  "N": 30,
+  "pass_rate": 0.7333,
+  "system_errors": 0,
+  "failed_ids": [
+    "ts_ch1",
+    "ts_ch2",
+    "ts_ch3",
+    "ts_img3",
+    "ts_mh1",
+    "ts_tx2",
+    "ts_un1",
+    "ts_un5"
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "benchmark_sha256": "a92ff13c92d40dc2177238c2fc03110b17601323308e5d87d7625d5fab8ef2b7",
+  "frozen_at_utc": "2026-11-15T16:56:03+00:00",
+  "note": "Benchmark (dev+test, gold, split) frozen before any retrieval/agent run. Config selection uses dev only. Only change after writing: ts_ch3 evidence key phrase \"5\" -> \"chấm\" (matcher fix, before any run)."
+}

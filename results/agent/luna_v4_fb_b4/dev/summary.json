@@ -1,0 +1,78 @@
+{
+  "config": "luna_v4_fb_b4",
+  "agent_config": {
+    "name": "luna_v4_fb_b4",
+    "method": "hybrid",
+    "top_k": 5,
+    "budget": 12000,
+    "max_steps": 6,
+    "allow_read_page": true,
+    "allow_filters": true,
+    "model": "gpt-5.6-luna",
+    "prompt": "v4",
+    "verify": true,
+    "verify_version": "v3",
+    "collection": "colorme3_B4",
+    "filter_mode": "fallback",
+    "reasoning": "low",
+    "notes": "luna_v4_fb on index B4 = text + gpt-5.6-luna vision descriptions",
+    "extra": {}
+  },
+  "split": "dev",
+  "benchmark_sha256": "a08313c0be07401b10847b16981a9a6015245a0de45cee24fe52be44559b344c",
+  "run_at": "2026-11-15T18:10:27+00:00",
+  "N": 28,
+  "status": {
+    "answered": 24,
+    "abstain": 4,
+    "error": 0
+  },
+  "context_evidence_rate": "23/23",
+  "context_evidence_by_group": {
+    "table": "3/3",
+    "image": "9/9",
+    "chart": "4/4",
+    "multihop": "3/3",
+    "text": "4/4"
+  },
+  "answered_on_answerable": "23/23",
+  "abstained_on_unanswerable": "4/5",
+  "tool_use": "28/28",
+  "retrieval_calls": {
+    "mean": 1.39,
+    "dist": {
+      "1": 20,
+      "2": 6,
+      "3": 1,
+      "4": 1
+    }
+  },
+  "context_chars_mean": 3970.1,
+  "latency_s": {
+    "median": 7.61,
+    "max": 15.64,
+    "wall_total": 66.2
+  },
+  "usage": {
+    "agent": {
+      "calls": 67,
+      "tokens_in": 155830,
+      "tokens_out": 5290,
+      "cost_usd": 0.037514
+    },
+    "verifier": {
+      "calls": 24,
+      "tokens_in": 21631,
+      "tokens_out": 2570,
+      "cost_usd": 0.00741
+    },
+    "query_embedding": {
+      "calls": 18,
+      "tokens_in": 541,
+      "tokens_out": 0,
+      "cost_usd": 1.1e-05
+    }
+  },
+  "cost_usd_total": 0.0449,
+  "errors": []
+}

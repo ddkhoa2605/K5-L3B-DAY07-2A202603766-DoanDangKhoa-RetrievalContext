@@ -1,0 +1,7 @@
+# Day 7 solution (Python 3.11+; tested with Python 3.13.5, Windows 11)
+chromadb==1.5.9        # đọc Chroma của Day 6
+openai==2.14.0         # embedding truy vấn, agent (Chat Completions + Responses API), verifier, rerank
+python-dotenv==1.1.0   # đọc OPENAI_API_KEY từ .env
+# UI test (app.py)
+streamlit==1.45.1
+pandas==2.2.3

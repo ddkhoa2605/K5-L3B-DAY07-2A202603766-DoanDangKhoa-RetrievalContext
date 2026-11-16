@@ -1,0 +1,311 @@
+[
+ {
+  "query_id": "dv_ch1",
+  "group": "chart",
+  "pass": true,
+  "reason": "Đạt: đúng/đủ, citation đúng trang",
+  "labeler": "agent",
+  "answer_grade": 2,
+  "citation_support": [
+   true,
+   true
+  ]
+ },
+ {
+  "query_id": "dv_ch2",
+  "group": "chart",
+  "pass": true,
+  "reason": "Đạt: đúng/đủ, citation đúng trang",
+  "labeler": "agent",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ]
+ },
+ {
+  "query_id": "dv_ch3",
+  "group": "chart",
+  "pass": true,
+  "reason": "Đạt: đúng/đủ, citation đúng trang",
+  "labeler": "agent",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ]
+ },
+ {
+  "query_id": "dv_ch4",
+  "group": "chart",
+  "pass": true,
+  "reason": "Đạt: đúng/đủ, citation đúng trang",
+  "labeler": "agent",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ]
+ },
+ {
+  "query_id": "dv_img1",
+  "group": "image",
+  "pass": true,
+  "reason": "Đạt: đúng/đủ, citation đúng trang",
+  "labeler": "agent",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ]
+ },
+ {
+  "query_id": "dv_img2",
+  "group": "image",
+  "pass": true,
+  "reason": "Đạt: đúng/đủ, citation đúng trang",
+  "labeler": "agent",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ]
+ },
+ {
+  "query_id": "dv_img3",
+  "group": "image",
+  "pass": true,
+  "reason": "Đạt: đúng/đủ, citation đúng trang",
+  "labeler": "agent",
+  "answer_grade": 2,
+  "citation_support": [
+   true,
+   true
+  ]
+ },
+ {
+  "query_id": "dv_img4",
+  "group": "image",
+  "pass": false,
+  "reason": "Trả lời 11 biểu tượng; ảnh gốc 10 (lỗi mô tả vision v2 của index)",
+  "labeler": "agent",
+  "answer_grade": 1,
+  "citation_support": [
+   true
+  ]
+ },
+ {
+  "query_id": "dv_img5",
+  "group": "image",
+  "pass": true,
+  "reason": "Đạt: đúng/đủ, citation đúng trang",
+  "labeler": "agent",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ]
+ },
+ {
+  "query_id": "dv_img6",
+  "group": "image",
+  "pass": true,
+  "reason": "Đạt: đúng/đủ, citation đúng trang",
+  "labeler": "agent",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ]
+ },
+ {
+  "query_id": "dv_img7",
+  "group": "image",
+  "pass": true,
+  "reason": "Đạt: đúng/đủ, citation đúng trang",
+  "labeler": "agent",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ]
+ },
+ {
+  "query_id": "dv_img8",
+  "group": "image",
+  "pass": true,
+  "reason": "Đạt: đúng/đủ, citation đúng trang",
+  "labeler": "agent",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ]
+ },
+ {
+  "query_id": "dv_img9",
+  "group": "image",
+  "pass": true,
+  "reason": "Đạt: đúng/đủ, citation đúng trang",
+  "labeler": "agent",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ]
+ },
+ {
+  "query_id": "dv_mh1",
+  "group": "multihop",
+  "pass": true,
+  "reason": "Đạt: đúng/đủ, citation đúng trang",
+  "labeler": "agent",
+  "answer_grade": 2,
+  "citation_support": [
+   true,
+   true,
+   true
+  ]
+ },
+ {
+  "query_id": "dv_mh2",
+  "group": "multihop",
+  "pass": true,
+  "reason": "Đạt: đúng/đủ, citation đúng trang",
+  "labeler": "agent",
+  "answer_grade": 2,
+  "citation_support": [
+   true,
+   true
+  ]
+ },
+ {
+  "query_id": "dv_mh3",
+  "group": "multihop",
+  "pass": true,
+  "reason": "Đạt: đúng/đủ, citation đúng trang",
+  "labeler": "agent",
+  "answer_grade": 2,
+  "citation_support": [
+   true,
+   true
+  ]
+ },
+ {
+  "query_id": "dv_tab1",
+  "group": "table",
+  "pass": true,
+  "reason": "Đạt: đúng/đủ, citation đúng trang",
+  "labeler": "agent",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ]
+ },
+ {
+  "query_id": "dv_tab2",
+  "group": "table",
+  "pass": true,
+  "reason": "Đạt: đúng/đủ, citation đúng trang",
+  "labeler": "agent",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ]
+ },
+ {
+  "query_id": "dv_tab3",
+  "group": "table",
+  "pass": true,
+  "reason": "Đạt: đúng/đủ, citation đúng trang",
+  "labeler": "agent",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ]
+ },
+ {
+  "query_id": "dv_tx1",
+  "group": "text",
+  "pass": true,
+  "reason": "Đạt: đúng/đủ, citation đúng trang",
+  "labeler": "agent",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ]
+ },
+ {
+  "query_id": "dv_tx2",
+  "group": "text",
+  "pass": true,
+  "reason": "Đạt: đúng/đủ, citation đúng trang",
+  "labeler": "agent",
+  "answer_grade": 2,
+  "citation_support": [
+   true,
+   true
+  ]
+ },
+ {
+  "query_id": "dv_tx3",
+  "group": "text",
+  "pass": true,
+  "reason": "Đạt: đúng/đủ, citation đúng trang",
+  "labeler": "agent",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ]
+ },
+ {
+  "query_id": "dv_tx4",
+  "group": "text",
+  "pass": true,
+  "reason": "Đạt: đúng/đủ, citation đúng trang",
+  "labeler": "agent",
+  "answer_grade": 2,
+  "citation_support": [
+   true,
+   true
+  ]
+ },
+ {
+  "query_id": "dv_un1",
+  "group": "unanswerable",
+  "pass": true,
+  "reason": "Từ chối hoặc nói rõ sách không có thông tin, không khẳng định thêm",
+  "labeler": "agent",
+  "abstention_correct": true,
+  "citation_support": []
+ },
+ {
+  "query_id": "dv_un2",
+  "group": "unanswerable",
+  "pass": true,
+  "reason": "Từ chối hoặc nói rõ sách không có thông tin, không khẳng định thêm",
+  "labeler": "agent",
+  "abstention_correct": true,
+  "citation_support": []
+ },
+ {
+  "query_id": "dv_un3",
+  "group": "unanswerable",
+  "pass": true,
+  "reason": "Từ chối hoặc nói rõ sách không có thông tin, không khẳng định thêm",
+  "labeler": "agent",
+  "abstention_correct": true,
+  "citation_support": []
+ },
+ {
+  "query_id": "dv_un4",
+  "group": "unanswerable",
+  "pass": true,
+  "reason": "Từ chối hoặc nói rõ sách không có thông tin, không khẳng định thêm",
+  "labeler": "agent",
+  "abstention_correct": true,
+  "citation_support": []
+ },
+ {
+  "query_id": "dv_un5",
+  "group": "unanswerable",
+  "pass": false,
+  "reason": "Không nói rõ sách không có con số tối đa (chỉ đưa lời khuyên)",
+  "labeler": "agent",
+  "abstention_correct": false,
+  "citation_support": [
+   true,
+   true
+  ]
+ }
+]

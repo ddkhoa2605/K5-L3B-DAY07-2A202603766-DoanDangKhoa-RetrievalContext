@@ -1,0 +1,97 @@
+{
+  "selection_rule": "Chốt trước khi chạy test: (1) số câu dev đạt (chấm tay), (2) chi phí dev thấp hơn, (3) median latency thấp hơn.",
+  "rows": [
+    {
+      "config": "dense",
+      "pass": "16/19",
+      "cost_usd": 0.0437,
+      "median_latency_s": 3.24,
+      "context_evidence_rate": "15/16",
+      "mean_retrieval_calls": 1.68
+    },
+    {
+      "config": "bm25",
+      "pass": "17/19",
+      "cost_usd": 0.0367,
+      "median_latency_s": 2.84,
+      "context_evidence_rate": "16/16",
+      "mean_retrieval_calls": 1.53
+    },
+    {
+      "config": "hybrid",
+      "pass": "18/19",
+      "cost_usd": 0.0421,
+      "median_latency_s": 2.88,
+      "context_evidence_rate": "16/16",
+      "mean_retrieval_calls": 1.68
+    },
+    {
+      "config": "hybrid_page",
+      "pass": "18/19",
+      "cost_usd": 0.0419,
+      "median_latency_s": 2.61,
+      "context_evidence_rate": "16/16",
+      "mean_retrieval_calls": 1.63
+    },
+    {
+      "config": "rerank_page",
+      "pass": "17/19",
+      "cost_usd": 0.08,
+      "median_latency_s": 4.71,
+      "context_evidence_rate": "16/16",
+      "mean_retrieval_calls": 1.58
+    },
+    {
+      "config": "dense_strict",
+      "pass": "17/19",
+      "cost_usd": 0.0463,
+      "median_latency_s": 2.59,
+      "context_evidence_rate": "15/16",
+      "mean_retrieval_calls": 1.63
+    },
+    {
+      "config": "hybrid_page_strict",
+      "pass": "18/19",
+      "cost_usd": 0.0473,
+      "median_latency_s": 2.65,
+      "context_evidence_rate": "16/16",
+      "mean_retrieval_calls": 1.68
+    },
+    {
+      "config": "rerank_page_strict",
+      "pass": "18/19",
+      "cost_usd": 0.0506,
+      "median_latency_s": 2.83,
+      "context_evidence_rate": "16/16",
+      "mean_retrieval_calls": 1.58
+    },
+    {
+      "config": "hybrid_page_strict_41",
+      "pass": "17/19",
+      "cost_usd": 0.7947,
+      "median_latency_s": 7.39,
+      "context_evidence_rate": "16/16",
+      "mean_retrieval_calls": 5.42
+    },
+    {
+      "config": "hybrid_page_verify",
+      "pass": "19/19",
+      "cost_usd": 0.0542,
+      "median_latency_s": 4.03,
+      "context_evidence_rate": "16/16",
+      "mean_retrieval_calls": 1.68
+    },
+    {
+      "config": "rerank_page_verify",
+      "pass": "19/19",
+      "cost_usd": 0.0651,
+      "median_latency_s": 5.1,
+      "context_evidence_rate": "16/16",
+      "mean_retrieval_calls": 1.63
+    }
+  ],
+  "selected": "hybrid_page_verify",
+  "baseline_for_test": "dense",
+  "reason": "19/19 dev (bằng rerank_page_verify) nhưng rẻ hơn ($0.054 vs $0.065) và nhanh hơn (4.0s vs 5.1s median).",
+  "frozen_at_utc": "2026-11-15T17:03:40+00:00"
+}
